@@ -1,0 +1,11 @@
+# ==================
+# Environment
+# ==================
+environment: development
+
+# ==================
+# Base
+# ==================
+title: Nic Chan
+description: > #
+    Alex Pate is a digital designer and front-end developer from London, currently looking for a full-time job!
