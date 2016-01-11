@@ -9,6 +9,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var autoprefixer = require('gulp-autoprefixer');
+var imagemin = require('gulp-imagemin');
 
 
 
@@ -28,6 +29,15 @@ gulp.task('scripts', function() {
         .pipe(rename('all.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('_assets/js'));
+});
+
+gulp.task('img', function() {
+    return gulp.src('_assets/img/src/*.*')
+        .pipe(imagemin({
+            progressive: true,
+            optimizationLevel: 4
+        }))
+    .pipe(gulp.dest('_assets/img'));
 });
 
 // Watch Files For Changes

@@ -6,6 +6,10 @@ environment: development
 # ==================
 # Base
 # ==================
-title: Nic Chan
+title: Nic Chan – Hong Kong Web Developer
 description: > #
-    Alex Pate is a digital designer and front-end developer from London, currently looking for a full-time job!
+    The personal website and portfolio of Hong Kong based Web Developer Nic Chan.
+safe: true
+source: https://github.com/nchan0154/nchan0154.github.io
+lsi: false
+pygments: true
