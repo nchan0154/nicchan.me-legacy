@@ -1,0 +1,52 @@
+.topbar {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.topbar__ul {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+    margin: $medium-margin;
+    text-align: center;
+}
+
+.topbar__li {
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 0.5em;
+}
+
+.topbar__a {
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.topbar--active {
+    opacity: 1;
+}
+
+
+@media #{$small} {
+    
+    .topbar {
+        left: auto;
+    }
+    
+    .topbar__ul {
+        text-align: left;
+    }
+    
+    .topbar__li {
+        padding: 0 1em;
+    }
+    
+    
+}

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<header class="projects-hero__wrapper" style="background-color: #{{ page.headColor }}">
+    <div class="projects-hero__overlay"></div>
+    <img class="projects-hero__img" src="/img/{{ page.imgSmall }}" srcset="/img/{{ page.img }} 1000w">
+</header>
+
+<main>
+    <div class="row">
+        <h1 class="projects-heading"><a class="projects-heading__link" href="{{ page.link }}">{{ page.title }}&nbsp;<span class="projects-heading__arrow">&rarr;</span></a></h1>
+    </div>
+    
+    <div class="row">
+        <section class="text-block tags__wrapper">
+            {% for technology in page.technology %}
+            <span class="tags__tag">{{ technology }}</span>
+            {% endfor %}
+        </section>
+    </div>
+    
+    <div class="row">
+        <section class="text-block">
+            <h2 class="subheading">The Brief</h2>
+            {{ page.brief }}
+            <h2 class="subheading">The Solution</h2>
+            {{ page.solution }}
+        </section>
+    </div>
+    
+    {{ content }}
+
+</main>

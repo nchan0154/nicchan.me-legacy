@@ -1,0 +1,34 @@
+.hero__wrapper{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero__img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.hero__overlay {
+    width: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.hero__description-wrapper {
+    width: 100%;
+    text-align: center;
+    padding: 0 $medium-margin;
+}
+
+@media #{$medium} {
+    
+    .hero__description-wrapper {
+        position: absolute;
+        bottom: 20%;
+        color: #fff;
+    }
+}

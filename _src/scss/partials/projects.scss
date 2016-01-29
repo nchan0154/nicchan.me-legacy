@@ -1,0 +1,135 @@
+.projects-hero__wrapper {
+    padding-top: $large-margin;
+    position: relative;
+}
+
+.projects-hero__overlay {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(167,82,147,0.5) 0%,rgba(250,250,250,1) 100%);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.projects-hero__overlay--scroll {
+    opacity: 1;
+}
+
+
+.projects-hero__img {
+    width: 100%;
+    box-shadow: none;
+}
+
+.projects-heading {
+    font-size: 250%;
+    text-decoration: none;
+    color: $dark-color;
+}
+
+.projects-heading__link {
+    display: inline-block;
+    text-decoration: none;
+    color: $dark-color;
+    position: relative;
+    transition: 0.3s color ease;
+
+    &:hover, &:focus {
+        color: $primary-color;
+    }    
+}
+
+
+.projects-heading__arrow {
+    font-family: 'Lato', Helvetica, Arial, san-serif;
+    font-style: normal;
+    color: $primary-color;
+}
+
+.projects__img-wrapper {
+    margin: $medium-margin 0;
+    position: relative;
+}
+
+.projects__img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    max-height: 700px;
+}
+
+.projects__caption {
+    position: absolute;
+    bottom: 0;
+    left: $medium-margin;
+    color: #fff;
+    opacity: 0.4;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 150%;
+    
+}
+
+.tags__wrapper {
+    text-align: center;
+    line-height: 2;
+    margin-bottom: $medium-margin;
+}
+
+.tags__tag {
+    background-color: $secondary-color;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+
+.projects__half + .projects__half{
+    margin-top: $large-margin;
+}
+
+@media #{$medium} {
+    
+    .projects__half {
+        lost-column: 1/2;
+    }
+    
+    .projects__half + .projects__half{
+        margin-top: 0;
+    }
+    
+    .projects__img-wrapper {
+        margin: $large-margin 0;
+    }
+
+}
+
+
+@media #{$large} {
+    
+    .projects-heading {
+        font-size: 400%;
+    }
+    
+    .projects-hero__wrapper {
+        padding-top: 0;
+    }
+    
+    .projects-heading__link::after {
+        margin-top: -10px;
+    }
+    
+}
+
+@media #{$xlarge} {
+    
+    .projects-heading {
+        font-size: 500%;
+    }
+    
+}

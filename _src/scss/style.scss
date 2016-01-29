@@ -1,0 +1,120 @@
+//Variables
+$small: "(min-width: 500px)";
+$medium: "(min-width: 750px)";
+$large: "(min-width: 1024px)";
+$xlarge: "(min-width: 1400px)";
+
+$medium-margin: 1.5em;
+$large-margin: 3em;
+
+@lost gutter 3em;
+
+$dark-color: #2C2B4B;
+$primary-color: #A75293;
+$secondary-color: darken(#9DDACB, 15%);
+$tertiary-color: #9C7A9D;
+$light-color: #F8DCB4;
+
+$body-copy: 'Lato', Helvetica, Arial, san-serif;
+
+
+//Globals
+* {
+    box-sizing: border-box; 
+} 
+
+html, body {
+    height: 100%;
+    font-size: 14px;
+    font-family: $body-copy;
+    line-height: 1.6;
+    color: $dark-color;
+    background-color: #fafafa;
+}
+
+main {
+    margin-bottom: $large-margin;
+}
+
+.row {
+    max-width: 72em;
+    lost-utility: clearfix;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 $medium-margin;
+}
+
+.full-width.row {
+    max-width: 100%;
+    padding: $large-margin;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+
+
+h1 { font-size: 400%; }
+h2 { font-size: 250%; }
+h3 { font-size: 200%; }
+h4 { font-size: 180%; }
+h5 { font-size: 130%; }
+
+.subheading {
+    font-family: $body-copy;
+    font-size: 100%;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $primary-color;
+    text-align: left;
+}
+
+p + .subheading {
+    margin-top: $large-margin;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media #{$small} {
+    
+    html, body {
+        font-size: 16px;
+    }
+    
+    .row {
+        padding: 0 $large-margin;
+    }
+    
+}
+
+
+@media #{$medium} {
+    
+    html, body {
+        font-size: 18px;
+    }
+    
+    .text-block {
+        max-width: 30em;
+        margin: 0 auto;
+    }
+    
+}
+
+
+
+
+
+@import 'partials/hero';
+@import 'partials/topbar';
+@import 'partials/portfolio';
+@import 'partials/projects';
+@import 'partials/testimonials';
+
+
