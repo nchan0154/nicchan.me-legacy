@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,7 +7,7 @@
     <meta name="description" content="The personal website and portfolio of Hong Kong based Web Developer Nic Chan.">
     <meta name="author" content="Nic Chan">
     
-    <title></title>
+    <title>Nic Chan – Hong Kong Web Developer</title>
 
 
     <link rel="shortcut icon" href="/img/favicon.png">
@@ -18,22 +19,21 @@
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 </head>
 
-
 <body class="home">
     <nav class="topbar">
     <ul class="topbar__ul">
         <li class="topbar__li"><a class="topbar__a" href="/">Web</a></li>
-        <li class="topbar__li"><a class="topbar__a" href="#">Illustration</a></li>
-        <li class="topbar__li"><a class="topbar__a" href="#">About</a></li>
+        <li class="topbar__li"><a class="topbar__a" href="/illustration/">Illustration</a></li>
+        <li class="topbar__li"><a class="topbar__a" href="/about/">About</a></li>
     </ul>
 </nav>
     <header class="hero__wrapper">
-    <img class="hero__img" src="http://placehold.it/2000x1000">
-    <img class="hero__overlay" src="http://placehold.it/1000x500">
-    <div class="hero__description-wrapper"><h2 class="hero__description">Nic Chan is a Hong Kong based web developer and designer.</h2></div>
+    <img class="hero__img" src="/img/main.png" alt="Self Portrait of Nic Chan">
+    <img class="hero__overlay" src="/img/main-overlay.png">
+    <div class="hero__description-wrapper"><h2 class="hero__description">Nic Chan is a Hong Kong based web developer and&nbsp;designer.</h2></div>
 </header>
 
-<main>
+<main id="page">
 <div class="portfolio__wrapper">
     <div class="row">
         <div class="portfolio__column portfolio__column--fix-height">
@@ -42,7 +42,7 @@
                 <figcaption class="portfolio__caption">
                    <h3 class="portfolio__title">Steven Myron Holl Foundation</h3>
                    <p class="portfolio__desc">HTML, CSS, Squarespace</p>
-                   <a href="#">More...</a>
+                   <a href="/steven-myron-holl-foundation/">More...</a>
                 </figcaption>
             </figure>
             <!--fussing about with the layout, will reposition later when I have more things!-->
@@ -59,7 +59,7 @@
                 <figcaption class="portfolio__caption">
                    <h3 class="portfolio__title">Artspiral</h3>
                    <p class="portfolio__desc">HTML, CSS, jQuery</p>
-                   <a href="#">More...</a>
+                   <a href="/artspiral/">More...</a>
                 </figcaption>
            </figure>   
         </div>
@@ -69,7 +69,7 @@
                 <figcaption class="portfolio__caption">
                    <h3 class="portfolio__title">Steven Holl Architects</h3>
                    <p class="portfolio__desc">Foundation, PHP, Laravel</p>
-                   <a href="/steven-holl-architects">More...</a>
+                   <a href="/steven-holl-architects/">More...</a>
                 </figcaption>
            </figure>
         </div>
@@ -80,7 +80,7 @@
             <figcaption class="portfolio__caption">
                <h3 class="portfolio__title">Hunters Point Community Library</h3>
                <p class="portfolio__desc">HTML, CSS, jQuery</p>
-               <a href="#">More...</a>
+               <a href="/hunters-point-community-library/">More...</a>
             </figcaption>
         </figure>
     </div>
@@ -91,27 +91,36 @@
     <!--            <figcaption class="portfolio__caption">-->
     <!--               <h3 class="portfolio__title">Steven Myron Holl Foundation</h3>-->
     <!--               <p class="portfolio__desc">HTML, CSS, Squarespace</p>-->
-    <!--               <a href="#">More...</a>-->
+    <!--               <a href="/steven-myron-holl-foundation/">More...</a>-->
     <!--            </figcaption>-->
     <!--        </figure>-->
     <!--    </div>-->
     <!--</div>    -->
 </div>
-
-<div class="row full-width testimonials__wrapper">
+<hr>
+<div class="row testimonials__wrapper">
     <section class="text-block">
-        <blockquote>
-            <p class="testimonials__text">WOW!</p>
-            <cite>
-                <span class="testimonials__author">- Me</span>        
-            </cite>
+        <h2 class="testimonials__header">Testimonials</h2>
+        
+        <blockquote class="testimonials__blockquote">
+            <p class="testimonials__text">I worked with Nic to completely re-design our organization's website and blog. She was a dream to work with, and always professional, communicated with me often, and responded to all my concerns and questions promptly. She was great at understanding my needs and talking me through the various options we had, as well as continually providing helpful advice and input... After the project's completion, she walked me through how to update the website and answered a few follow-up questions by email. Nic was a pleasure to work with and I'd recommend her to anyone wanting beautiful web work.
+</p>
+            <cite class="testimonials__author">– Senti Sojwal, Sakhi for South Asian Women</cite>
         </blockquote>
+        
+        <blockquote class="testimonials__blockquote">
+            <p class="testimonials__text">Nic has always provided the best, most insightful code, and has on numerous occasions saved a project with her creativity. There is no one I trust more with web work, no matter the scope or scale.
+</p>
+            <cite class="testimonials__author">– Luke Patrick, Owner of Router Chowder</cite>
+        </blockquote>
+        
     </section>
 </div>
-
-
 </main>
 
-    <script src="/js/all.min.js"></script>
-
-</body>    
+    <footer class="row full-width footer">
+    <h3><a href="/about#contact" class="contact__link">Like what you see? Reach out to me&nbsp;<span class="contact__arrow">&rarr;</span></a></h3>
+</footer>
+<script src="/js/all.min.js"></script>
+</body>
+</html>

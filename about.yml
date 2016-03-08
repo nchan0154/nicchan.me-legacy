@@ -1,0 +1,50 @@
+---
+layout: about
+permalink: about/
+about: Hi! I'm Nic. I build websites, draw pictures and eat lots of sushi, and would love to do any of those things for you. I'm based in Hong Kong and work with people across the world to build cool things! 
+experience:
+  - institution: <a href="http://routerchowder.com">Router Chowder</a>
+    date: Nov'15 – Now
+    title: Web Developer / "Chowder Batman"
+    link: 
+    description: 
+        - li: Created Wordpress themes and plugins for sale
+        - li: Researched and planned potential development solutions for client proposals.
+        - li: Designed and developed websites for a wide range of clients across different industries.
+  - institution: Asian American Art Centre
+    date: Jul'14 – Now
+    title: Web Consultant
+    link: /artspiral/
+    description: 
+        - li: Worked closely with the organization founder to redesign existing website, including restructuring and rewriting content; designing and developing interactive and responsive pages. 
+        - li: Updated existing CodeIgniter artist archive web application.        
+  - institution: Steven Holl Architects 
+    date: Nov'14 – Feb'16
+    title: Web Developer and Coordinator
+    link: /steven-holl-architects/
+    description: 
+        - li: Executed all aspects of design and development for Steven Holl Architects web properties, including the primary architectural portfolio website, temporary promotional micro-sites for exhibitions and other initiatives, and various cultural nonprofit organizations supported by the firm.
+        - li: Strategized and executed new content and marketing initiatives and UI improvements.
+skills: 
+  - Adobe CC
+  - HTML5
+  - CSS3
+  - SCSS
+  - LESS
+  - Bootstrap
+  - Foundation
+  - SEO
+  - Wordpress
+  - Squarespace
+  - Jekyll
+  - JavaScript
+  - jQuery
+  - PHP
+  - Laravel
+  - MySQL
+  - Git
+  - Gulp
+  - API integration
+
+---
+

@@ -1,0 +1,25 @@
+.tags__wrapper {
+    text-align: center;
+    line-height: 2;
+    margin-bottom: $medium-margin;
+}
+
+.tags__tag {
+    background-color: $secondary-color;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+.subheading + .tags__wrapper {
+    margin-top: $medium-margin;
+}
+
+@media #{$medium} {
+    
+    .tags__wrapper {
+        margin-bottom: $large-margin;
+    }
+
+}

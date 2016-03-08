@@ -1,0 +1,41 @@
+---
+body: illustration
+permalink: illustration/
+img: 
+  - link: /illustration/thesisfull-l.png
+    thumb:
+    desc: History Repeats Itself
+  - link: /illustration/katehelena-l.png
+    thumb: /illustration/katehelena-s.png
+    desc:  
+  - link: /illustration/donnakoryy-l.png
+    thumb:
+    desc: 
+  - link: /illustration/selinaaaa-l.png
+    thumb:
+    desc:     
+  - link: /illustration/hq-l.png
+    thumb: /illustration/hq-s.png
+    desc: 
+  - link: /illustration/jubess-l.png
+    desc: 
+  - link: /illustration/casss-l.png
+    thumb: /illustration/casss-s.png
+    desc:
+  - link: /illustration/sifl.png
+    desc: 
+  - link: /illustration/storm-l.png
+    desc: 
+  - link: /illustration/x23-l.png
+    desc:    
+  - link: /illustration/thesis4-l.png
+    thumb: /illustration/thesis4-s.png
+    desc: Ge Ming Xing   
+---
+<main class="gallery" id="page">
+    {% for img in page.img %}
+        <a data-lightbox="illustration" href="{{ img.link }}" data-title="{{ img.desc }}">
+            <img src="{% if img.thumb != null %}{{ img.thumb }}{% else %}{{ img.link }}{% endif %}">
+        </a>
+    {% endfor %}
+</main>

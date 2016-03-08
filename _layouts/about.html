@@ -1,0 +1,54 @@
+---
+layout: default
+body: about
+---
+<div id="page">
+<main class="no-hero">
+    <div class="row">
+        <section class="text-block">
+            <h1>About Me</h1>
+                {{ page.about }}
+            <hr>
+            <h2 class="about__heading">Resume</h2>
+            <h2 class="subheading">Related Experience</h2>
+            {% for exp in page.experience %}
+                <span class="resume__institution">{{ exp.institution }}</span> <span class="resume__bullet">&bull;</span>
+                <span class="resume__title"> {{ exp.title }}</span>
+                <span class="resume__bullet">&bull;</span> <span class="resume__date">{{ exp.date }}</span>
+                <ul class="resume__description">
+                {% for desc in exp.description %} 
+                    <li>{{ desc.li }}</li>
+                {% endfor %}
+                {% if exp.link != nil %}
+                    <li><a class="resume__link" href="{{ exp.link }}">View Related Case Study &rarr;</a></li>
+                {% endif %}    
+                </ul>
+            {% endfor %}
+            <h2 class="subheading">Education</h2>
+                <span class="resume__institution">Scripps College</span> <span class="resume__bullet">&bull;</span>
+                <span class="resume__title"> B.A. in Art, Minor in Chinese</span>
+                <span class="resume__bullet">&bull;</span> <span class="resume__date">May 2014</span>
+                <ul class="resume__description">
+                    <li>Graduated Magna Cum Laude</li>
+                    <li>Received the Class of ’42 Innovation Award for senior thesis exhibition, a digital poster campaign.</li>
+                </ul>    
+            <h2 class="subheading">Skills</h2>
+            <section class="tags__wrapper">
+                {% for skills in page.skills %}
+                <span class="tags__tag">{{ skills }}</span>
+                {% endfor %}
+            </section> 
+            <h2 class="subheading">Connect</h2>
+            <section class="social__wrapper">
+                <a href="https://github.com/nchan0154"><svg class="resume__social"role="img"   viewBox="0 0 16 16" ><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg></a>
+                <a href="#"><svg class="resume__social"role="img" viewBox="0 0 512 512"><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path></svg></a>
+            </section>
+            <a class="button" role="button" href="/img/20160203NicoleChan-resume.pdf" download>Download resume</a>
+            <hr>
+        </section>
+    </div>
+    <div id="contact">
+        {% include contact.html %}
+    </div>
+</main>
+</div>

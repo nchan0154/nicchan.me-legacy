@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $('.topbar__a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('topbar--active');
+    $('.topbar__a[href^="' + location.pathname + '"]:first').addClass('topbar--active');
     
     
     var homeHeader = $('.hero__overlay');
@@ -9,12 +9,18 @@ $(document).ready(function() {
     
     $(window).on('scroll', function () {
         var scrollTop = $(this).scrollTop();
-        var calc = (Math.sin(scrollTop/100) + 1) / 2 ;
+        var calc = (Math.sin(scrollTop/50 - 1.6) + 1) / 2 ;
+        console.log(calc);
         homeHeader.css({ 'opacity': calc });
-        if (scrollTop > 50) {
+        if (scrollTop > 100) {
             workOverlay.addClass('projects-hero__overlay--scroll');
         } else {
             workOverlay.removeClass('projects-hero__overlay--scroll');
         }
     });
 });
+
+lightbox.option({
+  'showImageNumberLabel': false,
+  'resizeDuration': 400
+})

@@ -1,0 +1,30 @@
+.footer {
+    background-color: $dark-color;
+    color: #fff;
+}
+
+.footer h3 {
+    margin: 0;
+}
+
+.contact__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact__arrow {
+    font-family: $body-copy;
+}
+
+
+.about .footer {
+    display: none;
+}
+
+@media #{$medium} {
+
+    .footer {
+        margin-top: $large-margin*2;
+    }
+    
+}

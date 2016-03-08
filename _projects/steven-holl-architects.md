@@ -1,9 +1,9 @@
 ---
 title: Steven Holl Architects
+date: 2015-11-01
 img: hero-sha.png
 imgSmall: hero-sha-s.png
-headColor: 207cca
-sectionColor: 63a4da
+color: 63a4da
 link: http://www.stevenholl.com
 technology:
     - HTML
@@ -27,8 +27,7 @@ solution: |
     <p>I opted for a complete overhaul of the backend with Laravel in order to utilize the full power of a MVC framework with proper routing, secure database queries and a robust templating engine. This not only provided a boost to search engine rankings, it also patched up some major security issues and made it easier for future developers to pick up where I left off.</p>
     
 ---
-<figure class="projects__img-wrapper">
-    <div class="row full-width" style="background-color: #{{ page.sectionColor }}">
+<figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
         <div class="projects__half">
             <img class="projects__img" src="{{ imgurl }}/img/sha-mob.png" alt="project page on Steven Holl website">
         </div>
@@ -38,7 +37,6 @@ solution: |
     <figcaption class="projects__caption">
     Mobile Views
     </figcaption>
-    </div>
 </figure>
 
 <div class="row">
@@ -49,15 +47,13 @@ solution: |
     </section>
 </div>
 
-<figure class="projects__img-wrapper">
-    <div class="row full-width" style="background-color: #{{ page.sectionColor }}">
+<figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
         <div class="projects__half">
             <img class="projects__img" src="{{ imgurl }}/img/sha-old-12.PNG" alt="Old version of Steven Holl website">
         </div>
         <div class="projects__half">
             <img class="projects__img" src="{{ imgurl }}/img/sha-background2.png" alt="New Version of Steven Holl website">
         </div>
-    </div>
     <figcaption class="projects__caption">
     Before and after
     </figcaption>
@@ -72,14 +68,12 @@ solution: |
 </div>
 
 
-<figure class="projects__img-wrapper">
-    <div class="row full-width" style="background-color: #{{ page.sectionColor }}">
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/sha-old11.png" alt="Old version of Steven Holl map">
-        </div>
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/sha-map.png" alt="New Version of Steven Holl map">
-        </div>
+<figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
+    <div class="projects__half">
+        <img class="projects__img" src="{{ imgurl }}/img/sha-old11.png" alt="Old version of Steven Holl map">
+    </div>
+    <div class="projects__half">
+        <img class="projects__img" src="{{ imgurl }}/img/sha-map.png" alt="New Version of Steven Holl map">
     </div>
     <figcaption class="projects__caption">
     Before and after
@@ -90,12 +84,11 @@ solution: |
     <section class="text-block">
         <h2 class="subheading">Maps</h2>
         <p>The map was another element of the site that didn't age well with time. On large screens, there was a lot of empty grey space, and on mobile, the tiny tap targets made it impossible to use.  I rewrote the map to utilize the google maps API, which allowed for automatic scaling and zooming for greater interactivity. The result was a 100% increase in the average time spent on the page.</p>
+        <h2 class="subheading">SEO Improvements</h2>
+        <p>I made use of semantic Schema.org markup and implemented the Open Graph protocol on key content pages - the result was a 200% increase in social traffic.</p>
         <h2 class="subheading">Performance Improvements</h2>
-        <p>Countless performance improvements were made over the course of rewriting the site.  The old site loaded 10 random background images on each page load to cut down on future loading times - but I found that our average viewer only looked at 2-3 backgrounds before viewing interior pages without backgrounds - the potential cache benefits weren't worth the heavy initial load time. I concatenated and minified resources, utilized Laravel's eager loading and optimized all images. The results of this effort can be seen on the home page speed scores - I lowered the page size from 2.7mb to a lean 325kb and reduced the load time from 3 seconds down to an average of 400 milliseconds. 
+        <p>Countless performance improvements were made over the course of rewriting the site.  The old site loaded 10 random background images on each page load to cut down on future loading times - but I found that our average viewer only looked at 2-3 backgrounds before viewing interior pages without backgrounds - the potential cache benefits weren't worth the heavy initial load time. I concatenated and minified resources, utilized Laravel's eager loading and optimized all images. The results of this effort can be seen on the home page speed scores - I lowered the page size from 2.7mb to a lean 325kb and reduced the load time from 3 seconds down to an average of 400 milliseconds, all while maintaining support for Internet Explorer 8.
         </p>
         <img src="{{ imgurl }}/img/speedtest4.png" alt="Speed test results for Steven Holl website">
     </section>
 </div>
-
-<!--Maps-->
-<!--Performance Improvements-->

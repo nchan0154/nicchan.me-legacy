@@ -32,7 +32,7 @@ gulp.task('scripts', function() {
     return gulp.src('_src/js/*.js')
         .pipe(concat('all.js'))
         .pipe(rename('all.min.js'))
-        .pipe(uglify())
+        .pipe(uglify({preserveComments: 'all'}))
         .pipe(gulp.dest('js'));
 });
 

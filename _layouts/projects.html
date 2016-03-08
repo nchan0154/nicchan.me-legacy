@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<header class="projects-hero__wrapper" style="background-color: #{{ page.headColor }}">
+<div id="page">
+<header class="projects-hero__wrapper" style="background-color: #{{ page.color }}">
     <div class="projects-hero__overlay"></div>
     <img class="projects-hero__img" src="/img/{{ page.imgSmall }}" srcset="/img/{{ page.img }} 1000w">
 </header>
@@ -30,4 +31,35 @@ layout: default
     
     {{ content }}
 
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+{% if page.collection %}
+    {% assign document = site[the_collection] | sort: "title"  %}
+{% endif %}
+
+{% for links in document %}
+    {% if links.title == page.title %}
+    {% if forloop.last %}
+        {% assign next = document[0] %}
+        {% assign nexturl = next.url %}
+        {% assign nexttitle = next.title %}
+    {% else %}
+        {% assign next = document[forloop.index] %}
+        {% assign nexturl = next.url %}
+        {% assign nexttitle = next.title %}
+    {% endif%}
+{% endif %}
+
+{% assign prev = links %}
+{% endfor %}
+
+    {% if nexturl %}
+    <div class="row">
+        <section class="text-block pagination">
+            {% if nexturl %}Next Project: <a href="{{nexturl}}" class="next"> {{nexttitle}}&nbsp;&rarr;</a>{% endif %}
+        </section>
+    </div>
+    {% endif %}
+
+
 </main>
+</div>

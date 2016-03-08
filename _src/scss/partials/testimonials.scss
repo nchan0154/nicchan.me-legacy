@@ -1,3 +1,40 @@
-.testimonials__wrapper {
-    margin: $large-margin auto;
+.testimonials__header {
+    margin-top: -20px;
+}
+
+.testimonials__text {
+    position: relative;
+    text-align: center;
+}
+
+.testimonials__text::before {
+    content: '\201C';
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    font-size: 500%;
+    font-family: $heading-copy;
+    font-style: italic;
+    color: $primary-color;
+    opacity: 0.5;
+}
+
+.testimonials__author {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
+    color: $primary-color;
+}
+
+.testimonials__blockquote + .testimonials__blockquote {
+    margin-top: $large-margin * 2;
+}
+
+@media #{$small} {
+
+    .testimonials__text::before{
+        left: -50px;
+    }
+ 
 }

@@ -1,12 +1,13 @@
 .hero__wrapper{
     width: 100%;
-    overflow: hidden;
-    position: relative;
+    padding-top: 50%;
 }
 
 .hero__img {
     max-width: 100%;
     min-width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .hero__overlay {
@@ -24,11 +25,29 @@
     padding: 0 $medium-margin;
 }
 
+.hero__description {
+    font-size: 200%;
+}
+
 @media #{$medium} {
     
+    .hero__wrapper {
+        overflow: hidden;
+        position: relative;
+        height: 0;
+    }
+        
     .hero__description-wrapper {
         position: absolute;
         bottom: 20%;
         color: #fff;
     }
+}
+
+@media #{$large} {
+ 
+    .hero__description  {
+        font-size: 230%;
+    }
+    
 }

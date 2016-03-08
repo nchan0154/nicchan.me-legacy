@@ -4,12 +4,12 @@ permalink: /
 ---
 
 <header class="hero__wrapper">
-    <img class="hero__img" src="http://placehold.it/2000x1000">
-    <img class="hero__overlay" src="http://placehold.it/1000x500">
-    <div class="hero__description-wrapper"><h2 class="hero__description">Nic Chan is a Hong Kong based web developer and designer.</h2></div>
+    <img class="hero__img" src="/img/main.png" alt="Self Portrait of Nic Chan">
+    <img class="hero__overlay" src="/img/main-overlay.png">
+    <div class="hero__description-wrapper"><h2 class="hero__description">Nic Chan is a Hong Kong based web developer and&nbsp;designer.</h2></div>
 </header>
 
-<main>
+<main id="page">
 <div class="portfolio__wrapper">
     <div class="row">
         <div class="portfolio__column portfolio__column--fix-height">
@@ -18,7 +18,7 @@ permalink: /
                 <figcaption class="portfolio__caption">
                    <h3 class="portfolio__title">Steven Myron Holl Foundation</h3>
                    <p class="portfolio__desc">HTML, CSS, Squarespace</p>
-                   <a href="#">More...</a>
+                   <a href="/steven-myron-holl-foundation/">More...</a>
                 </figcaption>
             </figure>
             <!--fussing about with the layout, will reposition later when I have more things!-->
@@ -35,7 +35,7 @@ permalink: /
                 <figcaption class="portfolio__caption">
                    <h3 class="portfolio__title">Artspiral</h3>
                    <p class="portfolio__desc">HTML, CSS, jQuery</p>
-                   <a href="#">More...</a>
+                   <a href="/artspiral/">More...</a>
                 </figcaption>
            </figure>   
         </div>
@@ -45,7 +45,7 @@ permalink: /
                 <figcaption class="portfolio__caption">
                    <h3 class="portfolio__title">Steven Holl Architects</h3>
                    <p class="portfolio__desc">Foundation, PHP, Laravel</p>
-                   <a href="/steven-holl-architects">More...</a>
+                   <a href="/steven-holl-architects/">More...</a>
                 </figcaption>
            </figure>
         </div>
@@ -56,7 +56,7 @@ permalink: /
             <figcaption class="portfolio__caption">
                <h3 class="portfolio__title">Hunters Point Community Library</h3>
                <p class="portfolio__desc">HTML, CSS, jQuery</p>
-               <a href="#">More...</a>
+               <a href="/hunters-point-community-library/">More...</a>
             </figcaption>
         </figure>
     </div>
@@ -67,23 +67,22 @@ permalink: /
     <!--            <figcaption class="portfolio__caption">-->
     <!--               <h3 class="portfolio__title">Steven Myron Holl Foundation</h3>-->
     <!--               <p class="portfolio__desc">HTML, CSS, Squarespace</p>-->
-    <!--               <a href="#">More...</a>-->
+    <!--               <a href="/steven-myron-holl-foundation/">More...</a>-->
     <!--            </figcaption>-->
     <!--        </figure>-->
     <!--    </div>-->
     <!--</div>    -->
 </div>
-
-<div class="row full-width testimonials__wrapper">
+<hr>
+<div class="row testimonials__wrapper">
     <section class="text-block">
-        <blockquote>
-            <p class="testimonials__text">WOW!</p>
-            <cite>
-                <span class="testimonials__author">- Me</span>        
-            </cite>
+        <h2 class="testimonials__header">Testimonials</h2>
+        {% for quote in site.data.testimonials %}
+        <blockquote class="testimonials__blockquote">
+            <p class="testimonials__text">{{ quote.quote }}</p>
+            <cite class="testimonials__author">– {{ quote.source }}</cite>
         </blockquote>
+        {% endfor %}
     </section>
 </div>
-
-
 </main>

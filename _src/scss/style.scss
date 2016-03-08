@@ -16,6 +16,8 @@ $tertiary-color: #9C7A9D;
 $light-color: #F8DCB4;
 
 $body-copy: 'Lato', Helvetica, Arial, san-serif;
+$heading-copy: 'Playfair Display', Georgia, serif;
+
 
 
 //Globals
@@ -46,40 +48,109 @@ main {
 
 .full-width.row {
     max-width: 100%;
-    padding: $large-margin;
+    padding: $medium-margin;
 }
 
 h1, h2, h3 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: $heading-copy;
     font-weight: 700;
     font-style: italic;
     text-align: center;
 }
 
 
-h1 { font-size: 400%; }
+h1 { font-size: 250%; }
 h2 { font-size: 250%; }
 h3 { font-size: 200%; }
 h4 { font-size: 180%; }
 h5 { font-size: 130%; }
 
+.uppercase {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
 .subheading {
     font-family: $body-copy;
     font-size: 100%;
     font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
     color: $primary-color;
     text-align: left;
+    margin-top: $large-margin;
+    @extend .uppercase;
 }
 
-p + .subheading {
-    margin-top: $large-margin;
+.subheading:first-child {
+    margin-top: 0;
 }
 
 img {
     max-width: 100%;
 }
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: $dark-color;
+    transition: 0.3s all ease;
+    
+    &:hover, &:focus{
+        color: $primary-color;
+    }
+}
+
+blockquote {
+    margin: 0;
+}
+
+hr {
+    border: none;
+    background-color: #ccc;
+    height: 1px;
+    width: 80%;
+    max-width: 700px;
+    margin: $large-margin auto;
+}
+
+.no-hero {
+    padding-top: $large-margin * 2;
+}
+
+::selection {
+    background-color: $secondary-color;
+    color: #fff;
+}
+
+.button {
+    display: block;
+    position: relative;
+    padding: 10px 30px;
+    margin: 30px auto 0;
+    background-color: $primary-color;
+    color: #fff;
+    max-width: 400px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 6px solid darken($primary-color, 15%);
+    transition: none;
+    @extend .uppercase;
+    
+    &:hover {
+        background-color: darken($primary-color, 5%);
+        color: #fff;
+    }
+    
+    &:active, &:focus {
+        margin-top: 34px;
+        border-bottom-width: 2px;
+        outline: none;
+        color: #fff;
+    }
+}
+
+
 
 @media #{$small} {
     
@@ -89,6 +160,10 @@ img {
     
     .row {
         padding: 0 $large-margin;
+    }
+    
+    .full-width.row {
+        padding: $large-margin;
     }
     
 }
@@ -101,14 +176,23 @@ img {
     }
     
     .text-block {
-        max-width: 30em;
+        max-width: 40em;
         margin: 0 auto;
     }
     
+    hr {
+        margin: $large-margin*2 auto;;
+    }
+    
+    
 }
 
+@media #{$large} {
 
-
+    h1 {
+        font-size: 400%;
+    }
+}
 
 
 @import 'partials/hero';
@@ -116,5 +200,9 @@ img {
 @import 'partials/portfolio';
 @import 'partials/projects';
 @import 'partials/testimonials';
-
-
+@import 'partials/footer';
+@import 'partials/contact';
+@import 'partials/about';
+@import 'partials/tags';
+@import 'partials/gallery';
+@import 'partials/transitions';

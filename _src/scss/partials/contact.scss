@@ -1,0 +1,39 @@
+.contact__form {
+    color: $primary-color;  
+}
+
+.contact__form label {
+    display: block;
+    font-weight: bold;
+    @extend .uppercase;
+}
+
+.contact__input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid $primary-color;
+    padding: 10px;
+    
+    &:focus {
+        border-color: $secondary-color;
+        outline-color: $secondary-color;
+    }
+}
+
+.contact__group {
+    margin-bottom: $medium-margin;
+}
+
+
+@media #{$medium} {
+
+    .contact__group {
+        width: 50%;
+        float: left;
+    }
+    
+    .contact__group:first-of-type {
+        padding-right: 30px;
+    }
+
+}

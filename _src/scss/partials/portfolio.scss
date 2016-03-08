@@ -57,7 +57,6 @@
 
 .portfolio__title {
     font-size: 150%;
-    font-style: normal;
     margin-top: 0;
     text-align: left;
     color: #fff;
@@ -67,13 +66,12 @@
 }
 
 .portfolio__desc {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
     color: rgba(255,255,255,0.8);
 	opacity: 0;
 	transform: translate3d(0,20px,0);
 	transition: opacity 0.2s, transform 0.35s ease-in-out;
 	transition-delay: 0.05s;
+	@extend .uppercase;
 }
 
 .portfolio__item:hover {

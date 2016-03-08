@@ -1,0 +1,49 @@
+.about__heading {
+    text-align: left;
+}
+
+.resume__description {
+    margin-bottom: $medium-margin;
+}
+
+.resume__institution, .resume__date {
+    font-size: 85%;
+    @extend .uppercase;
+}
+
+.resume__bullet {
+    display: none;
+}
+.resume__institution {
+    font-weight: 700;
+    color: $dark-color;
+    display: block;
+}
+
+.resume__date {
+    opacity: 0.6;
+    @extend .uppercase;
+}
+
+.social__wrapper {
+    //text-align: center;
+}
+
+.resume__social {
+    height: 50px;
+    width: 50px;
+    fill: $secondary-color;
+    margin-right: $medium-margin;
+    
+    &:hover, &:active {
+        fill: $primary-color;
+    }
+}
+
+@media #{$small} {
+    
+    
+    .resume__bullet, .resume__institution {
+        display: inline;
+    }
+}
