@@ -7,7 +7,7 @@ $xlarge: "(min-width: 1400px)";
 $medium-margin: 1.5em;
 $large-margin: 3em;
 
-@lost gutter 3em;
+@lost gutter 1.5em;
 
 $dark-color: #2C2B4B;
 $primary-color: #A75293;
@@ -180,9 +180,6 @@ hr {
         margin: 0 auto;
     }
     
-    hr {
-        margin: $large-margin*2 auto;;
-    }
     
     
 }

@@ -12,7 +12,7 @@ body: about
             <h2 class="about__heading">Resume</h2>
             <h2 class="subheading">Related Experience</h2>
             {% for exp in page.experience %}
-                <span class="resume__institution">{{ exp.institution }}</span> <span class="resume__bullet">&bull;</span>
+                <span class="resume__institution">{{ exp.institution }}</span>
                 <span class="resume__title"> {{ exp.title }}</span>
                 <span class="resume__bullet">&bull;</span> <span class="resume__date">{{ exp.date }}</span>
                 <ul class="resume__description">

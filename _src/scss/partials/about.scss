@@ -6,23 +6,24 @@
     margin-bottom: $medium-margin;
 }
 
-.resume__institution, .resume__date {
-    font-size: 85%;
+
+.resume__institution, .resume__date, .resume__title {
+    display: block;
     @extend .uppercase;
 }
 
 .resume__bullet {
     display: none;
 }
+
 .resume__institution {
     font-weight: 700;
     color: $dark-color;
     display: block;
 }
 
-.resume__date {
-    opacity: 0.6;
-    @extend .uppercase;
+.resume__date,  {
+    opacity: 0.7;
 }
 
 .social__wrapper {
@@ -43,7 +44,11 @@
 @media #{$small} {
     
     
-    .resume__bullet, .resume__institution {
+    .resume__institution, .resume__date, .resume__title {
+        font-size: 85%;
+    }
+    
+    .resume__date, .resume__title, .resume__bullet {
         display: inline;
     }
 }

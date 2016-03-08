@@ -5,6 +5,7 @@ img: hero-sha.png
 imgSmall: hero-sha-s.png
 color: 63a4da
 link: http://www.stevenholl.com
+stack: Foundation, PHP, Laravel
 technology:
     - HTML
     - SCSS

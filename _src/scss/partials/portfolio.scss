@@ -1,26 +1,17 @@
 .portfolio__wrapper {
     //background: #fff;
+    lost-utility: clearfix;    
 }
 
-.portfolio__column {
-    min-height: 300px;
-    overflow: hidden;
-}
 
 .portfolio__item {
     overflow: hidden;
     position: relative;
     margin: 0;
-    margin-top: $medium-margin;
-}
-
-.portfolio__item--tall {
-    max-height: 600px;
 }
 
 .portfolio__img {
     max-width: 100%;
-    min-height: 100%;
     display: block;
 }
 
@@ -89,25 +80,10 @@
 
 @media #{$medium} {
     
-    .portfolio__column {
-        lost-column: 1/2;
-    }
-    
-    .portfolio__column--fix-height {
-        height: 700px;
-    }
-    
     .portfolio__item {
-        margin-top: $large-margin;
+        lost-column: 1/2 2 0;
     }
     
-    .portfolio__item--tall {
-        max-height: none;
-    }
-    
-    .portfolio__item--half {
-        lost-row: 1/2;
-    }
     
 }
 

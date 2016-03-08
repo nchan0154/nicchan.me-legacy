@@ -5,6 +5,7 @@ img: hero-artspiral.png
 imgSmall: hero-artspiral-s.png
 color: AD97CA
 link: http://artspiral.org
+stack: HTML, CSS
 technology:
     - HTML
     - CSS

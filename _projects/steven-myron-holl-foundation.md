@@ -5,6 +5,7 @@ img: hero-smhf.png
 imgSmall: hero-smhf-s.png
 color: 6cbccd
 link: http://stevenmyronhollfoundation.org/
+stack: HTML, LESS, Squarespace
 technology:
     - HTML
     - LESS

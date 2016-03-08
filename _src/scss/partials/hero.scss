@@ -39,13 +39,17 @@
         
     .hero__description-wrapper {
         position: absolute;
-        bottom: 20%;
+        bottom: 10%;
         color: #fff;
     }
 }
 
 @media #{$large} {
  
+    .hero__description-wrapper {
+        bottom: 20%;
+    } 
+     
     .hero__description  {
         font-size: 230%;
     }

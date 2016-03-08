@@ -1,5 +1,5 @@
-.testimonials__header {
-    margin-top: -20px;
+.testimonials__wrapper {
+    padding-top: $medium-margin;
 }
 
 .testimonials__text {
@@ -28,7 +28,7 @@
 }
 
 .testimonials__blockquote + .testimonials__blockquote {
-    margin-top: $large-margin * 2;
+    margin-top: $large-margin * 1.5;
 }
 
 @media #{$small} {

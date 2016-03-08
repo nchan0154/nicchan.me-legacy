@@ -20,11 +20,3 @@
 .about .footer {
     display: none;
 }
-
-@media #{$medium} {
-
-    .footer {
-        margin-top: $large-margin*2;
-    }
-    
-}
