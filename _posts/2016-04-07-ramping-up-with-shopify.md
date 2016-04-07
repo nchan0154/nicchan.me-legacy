@@ -6,10 +6,10 @@ title: Ramping up with Shopify
 Just recently, I had the opportunity to build my first Shopify theme, and I had to learn to get productive quickly. Here are a few of the things that those who are coming from other platforms might want to take note of.
 
 
-#####Setting up a development environment
+##### Setting up a development environment
 Because Shopify doesn't let you download their software, what I recommend doing is signing up for a [Partner Account](https://www.shopify.com/partners), which lets you create unlimited test stores (as well as pick up a percentage of profits if you refer customers to the platform). Rather than manually upload your theme files to your test store every time, you can either use the [Shopify Theme Gem](https://github.com/Shopify/shopify_theme) or the [Mac Only Desktop Theme Editor](https://apps.shopify.com/desktop-theme-editor) to sync all your theme code directly to the test store. I chose the gem - the set up instructions included in the repository were very straightforward and it didn't take long before I was up and running.
 
-#####Picking a starter theme
+##### Picking a starter theme
 Once your `theme watch` is up and running, you can choose to go with an existing Shopify starter theme to help speed up your development process. [Skeleton](http://shopify.github.io/skeleton-theme/) is the more minimal of Shopify's two official themes, with the bare minimum amount of boilerplate to get you started. [Timber](http://shopify.github.io/Timber/) is the one I ended up using, it includes a helper class based grid system, an AJAX based interactive cart and responsive menus. If you'd prefer to roll with the more popular Foundation or Bootstrap, it might be wiser to go with the skeleton theme.
 
 A shopify theme has the following folders:
@@ -57,7 +57,7 @@ And my style.scss.liquid looked something like this:
 
 This way, you get to structure your scss however you are used to doing it. Crisis averted!
 
-#####Creating your own settings
+##### Creating your own settings
 
 Those of you coming from Wordpress will be pleased to know that adding new settings to Shopify is as easy as changing the `config/settings_schema.json` file. Below is a snippet from mine.
 
@@ -80,6 +80,6 @@ Those of you coming from Wordpress will be pleased to know that adding new setti
       
 This setting can be accessed in your .scss.liquid files just as easily, like so `{% raw %}{{settings.tnb_color_bg}}{% endraw %}` .    
 
-#####Final observations
+##### Final observations
 
 While I found developing for Shopify to be a breath of fresh air compared to working with Wordpress (figuring out how to handle theme settings + SCSS in Wordpress is just plain shitty), I have a few caveats. Shopify doesn't let you customize the checkout.liquid template (the template that handles the checkout process) unless you are a Shopify Plus customer. It also doesn't make it particularly easy to filter by product variants, which is the standard way to assign things like colors and sizes to a product.  Those who might want complete control over the entire user experience or offer complicated product filtering without resorting to workarounds like manually managing tags should seek out a more robust platform, but if ease to use is a priority, I definitely wholeheartedly recommend Shopify.
