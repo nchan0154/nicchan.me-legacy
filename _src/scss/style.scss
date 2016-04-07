@@ -103,6 +103,10 @@ blockquote {
     margin: 0;
 }
 
+code, pre {
+    background-color: #d0a6cc;
+}
+
 hr {
     border: none;
     background-color: #ccc;
@@ -202,4 +206,5 @@ hr {
 @import 'partials/about';
 @import 'partials/tags';
 @import 'partials/gallery';
+@import 'partials/post';
 @import 'partials/transitions';

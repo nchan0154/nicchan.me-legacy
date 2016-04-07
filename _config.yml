@@ -25,6 +25,8 @@ collections:
 
 imgurl: 
 
+permalink: /blog/:title
+
 
 defaults:
   -

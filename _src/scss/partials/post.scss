@@ -1,0 +1,23 @@
+.post__title {
+    margin-bottom: 0;
+}
+
+.post__date {
+    display: block;
+    margin-top: 0;
+    text-align: center;
+}
+
+.post__content {
+    margin-top: $medium-margin;
+}
+
+.post h5 {
+    margin-top: 1.67em;
+    margin-bottom: 0;
+    
+}
+
+.blog main, .post main {
+    margin-bottom: $large-margin * 2;
+}
