@@ -1,5 +1,6 @@
 ---
 title: Steven Holl Architects
+permalink: projects/steven-holl-architects/
 date: 2015-11-01
 img: hero-sha.png
 imgSmall: hero-sha-s.png
@@ -22,10 +23,11 @@ technology:
     - Git
     
 brief: | 
-    <p>Steven Holl Architects were happy with overall look and feel of their website, but the design wasn't optimized for mobile and had issues on larger screens. The repetitive, procedural PHP backend hurt their search engine rankings and limited their ability to make changes without breaking the site. </p>
+    Steven Holl Architects were happy with overall look and feel of their website, but the design wasn't optimized for mobile and had issues on larger screens. The repetitive, procedural PHP backend hurt their search engine rankings and limited their ability to make changes without breaking the site. </p>
 solution: |
-    <p>I rewrote the site from the ground up, creating responsive mobile and tablet versions while maintaining the existing visual branding. I combed over every single detail, keeping key elements and making UI improvements to maximise legibility, functionality and performance.</p> 
-    <p>I opted for a complete overhaul of the backend with Laravel in order to utilize the full power of a MVC framework with proper routing, secure database queries and a robust templating engine. This not only provided a boost to search engine rankings, it also patched up some major security issues and made it easier for future developers to pick up where I left off.</p>
+    I rewrote the site from the ground up, creating responsive mobile and tablet versions while maintaining the existing visual branding. I combed over every single detail, keeping key elements and making UI improvements to maximise legibility, functionality and performance.
+    
+    I opted for a complete overhaul of the backend with Laravel in order to utilize the full power of a MVC framework with proper routing, secure database queries and a robust templating engine. This not only provided a boost to search engine rankings, it also patched up some major security issues and made it easier for future developers to pick up where I left off.
     
 ---
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">

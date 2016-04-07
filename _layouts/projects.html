@@ -2,64 +2,64 @@
 layout: default
 ---
 <div id="page">
-<header class="projects-hero__wrapper" style="background-color: #{{ page.color }}">
-    <div class="projects-hero__overlay"></div>
-    <img class="projects-hero__img" src="/img/{{ page.imgSmall }}" srcset="/img/{{ page.img }} 1000w">
-</header>
-
-<main>
-    <div class="row">
-        <h1 class="projects-heading"><a class="projects-heading__link" href="{{ page.link }}">{{ page.title }}&nbsp;<span class="projects-heading__arrow">&rarr;</span></a></h1>
-    </div>
+    <header class="projects-hero__wrapper" style="background-color: #{{ page.color }}">
+        <div class="projects-hero__overlay"></div>
+        <img class="projects-hero__img" src="/img/{{ page.imgSmall }}" srcset="/img/{{ page.img }} 1000w">
+    </header>
     
-    <div class="row">
-        <section class="text-block tags__wrapper">
-            {% for technology in page.technology %}
-            <span class="tags__tag">{{ technology }}</span>
-            {% endfor %}
-        </section>
-    </div>
+    <main>
+        <div class="row">
+            <h1 class="projects-heading"><a class="projects-heading__link" href="{{ page.link }}">{{ page.title }}&nbsp;<span class="projects-heading__arrow">&rarr;</span></a></h1>
+        </div>
+        
+        <div class="row">
+            <section class="text-block tags__wrapper">
+                {% for technology in page.technology %}
+                <span class="tags__tag">{{ technology }}</span>
+                {% endfor %}
+            </section>
+        </div>
+        
+        <div class="row">
+            <section class="text-block">
+                <h2 class="subheading">The Brief</h2>
+                {{ page.brief }}
+                <h2 class="subheading">The Solution</h2>
+                {{ page.solution }}
+            </section>
+        </div>
+        
+        {{ content }}
     
-    <div class="row">
-        <section class="text-block">
-            <h2 class="subheading">The Brief</h2>
-            {{ page.brief }}
-            <h2 class="subheading">The Solution</h2>
-            {{ page.solution }}
-        </section>
-    </div>
-    
-    {{ content }}
-
-{% capture the_collection %}{{page.collection}}{% endcapture %}
-{% if page.collection %}
-    {% assign document = site[the_collection] | sort: "title"  %}
-{% endif %}
-
-{% for links in document %}
-    {% if links.title == page.title %}
-    {% if forloop.last %}
-        {% assign next = document[0] %}
-        {% assign nexturl = next.url %}
-        {% assign nexttitle = next.title %}
-    {% else %}
-        {% assign next = document[forloop.index] %}
-        {% assign nexturl = next.url %}
-        {% assign nexttitle = next.title %}
-    {% endif%}
-{% endif %}
-
-{% assign prev = links %}
-{% endfor %}
-
-    {% if nexturl %}
-    <div class="row">
-        <section class="text-block pagination">
-            {% if nexturl %}Next Project: <a href="{{nexturl}}" class="next"> {{nexttitle}}&nbsp;&rarr;</a>{% endif %}
-        </section>
-    </div>
+    {% capture the_collection %}{{page.collection}}{% endcapture %}
+    {% if page.collection %}
+        {% assign document = site[the_collection] | sort: "title"  %}
     {% endif %}
-
-
-</main>
+    
+    {% for links in document %}
+        {% if links.title == page.title %}
+        {% if forloop.last %}
+            {% assign next = document[0] %}
+            {% assign nexturl = next.url %}
+            {% assign nexttitle = next.title %}
+        {% else %}
+            {% assign next = document[forloop.index] %}
+            {% assign nexturl = next.url %}
+            {% assign nexttitle = next.title %}
+        {% endif%}
+    {% endif %}
+    
+    {% assign prev = links %}
+    {% endfor %}
+    
+        {% if nexturl %}
+        <div class="row">
+            <section class="text-block pagination">
+                {% if nexturl %}Next Project: <a href="{{nexturl}}" class="next"> {{nexttitle}}&nbsp;&rarr;</a>{% endif %}
+            </section>
+        </div>
+        {% endif %}
+    
+    
+    </main>
 </div>

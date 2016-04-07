@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: about/
-about: Hi! I'm Nic. I build websites, draw pictures and eat lots of sushi, and would love to do any of those things for you. I'm based in Hong Kong and work with people across the world to build cool things! Currently, I'm working on a logbook app that uses Ember CLI with a Rails API back end.
+about: Hi! I'm Nic. I build websites, draw pictures and eat lots of sushi, and would love to do any of those things for you. I'm based in Hong Kong and work with people across the world to build cool things! Currently, I'm working on a Shopify store.
 experience:
   - institution: <a href="http://routerchowder.com">Router Chowder</a>
     date: Nov'15 – Now
@@ -12,7 +12,7 @@ experience:
         - li: Researched and planned potential development solutions for client proposals.
         - li: Designed and developed websites for a wide range of clients across different industries.
   - institution: Asian American Art Centre
-    date: Jul'14 – Now
+    date: Jul'14 – Feb'16
     title: Web Consultant
     link: /artspiral/
     description: 
@@ -42,6 +42,7 @@ skills:
   - PHP
   - Laravel
   - MySQL
+  - Shopify
   - Git
   - Gulp
   - API integration

@@ -22,7 +22,6 @@ permalink: pretty
 collections:
     projects:
         output: true
-        permalink: /:path/
 
 imgurl: 
 

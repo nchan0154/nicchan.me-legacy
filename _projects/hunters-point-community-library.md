@@ -1,5 +1,6 @@
 ---
 title: Hunters Point Library Exhibition
+permalink: projects/hunters-point-community-library/
 date: 2015-05-19
 img: hero-exhibition.png
 imgSmall: hero-exhibition-s.png
@@ -14,9 +15,9 @@ technology:
     - Git
     
 brief: | 
-    <p>The Sculpture Center, in collaboration with Steven Holl Architects, was hosting an exhibition chronicling the design process for the new Hunters Point Community Library. As physical exhibition space was limited, the client decided that they wanted an accompanying digital exhibition to supplement the physical exhibition.</p>
+    The Sculpture Center, in collaboration with Steven Holl Architects, was hosting an exhibition chronicling the design process for the new Hunters Point Community Library. As physical exhibition space was limited, the client decided that they wanted an accompanying digital exhibition to supplement the physical exhibition.
 solution: |
-    <p>Anticipating a higher amount of mobile traffic than usual, I designed a minimalist static site that prioritized performance. The design I came up with was based around the idea of on concrete and glass - two key materials in Steven Holl's buildings.</p> 
+    Anticipating a higher amount of mobile traffic than usual, I designed a minimalist static site that prioritized performance. The design I came up with was based around the idea of on concrete and glass - two key materials in Steven Holl's buildings.
 ---
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
         <div class="projects__half">
