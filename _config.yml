@@ -1,7 +1,7 @@
 # ==================
 # Environment
 # ==================
-environment: development
+environment: production
 
 # ==================
 # Base
