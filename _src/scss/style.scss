@@ -104,7 +104,7 @@ blockquote {
 }
 
 code, pre {
-    background-color: #d0a6cc;
+    background-color: lighten(#d0a6cc, 20%);
 }
 
 hr {

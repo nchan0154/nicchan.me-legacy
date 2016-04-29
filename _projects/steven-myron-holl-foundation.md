@@ -17,7 +17,7 @@ technology:
 brief: | 
     <p>Steven Holl had recently established a new foundation in order to promote his various side projects, including 32BNY, a digital publication; 'T' Space, an art gallery and the firm's extensive model and watercolor archive.</p>
 solution: |
-    <p>Rather than reproducing all the information on each project's individual website, I worked with Steven himself to design a simple landing page which provided a brief introduction to each project. I developed the branding in a way that complimented the existing firm/project branding, incorporating the strict grids and blue from Steven Holl Architects and the image link styling of 32BNY. I also integrated Stripe in order to provide potential donors with an easier way to pay.</p> 
+    <p>Rather than reproducing all the information on each project’s individual website, I worked with Steven himself to design a simple landing page which provided a brief introduction to each project. I developed the branding in a way that complimented the existing firm/project branding, incorporating the strict grids and blue from Steven Holl Architects and the image link styling of 32BNY. I also integrated Stripe in order to provide potential donors with an easier way to pay.</p> 
 ---
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
         <div class="projects__half">

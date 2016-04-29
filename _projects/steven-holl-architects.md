@@ -1,7 +1,7 @@
 ---
 title: Steven Holl Architects
 permalink: projects/steven-holl-architects/
-date: 2015-11-01
+date: 2015-12-01
 img: hero-sha.png
 imgSmall: hero-sha-s.png
 color: 63a4da
@@ -23,7 +23,7 @@ technology:
     - Git
     
 brief: | 
-    Steven Holl Architects were happy with overall look and feel of their website, but the design wasn't optimized for mobile and had issues on larger screens. The repetitive, procedural PHP backend hurt their search engine rankings and limited their ability to make changes without breaking the site. </p>
+    Steven Holl Architects were happy with overall look and feel of their website, but the design wasn’t optimized for mobile and had issues on larger screens. The repetitive, procedural PHP backend hurt their search engine rankings and limited their ability to make changes without breaking the site. </p>
 solution: |
     I rewrote the site from the ground up, creating responsive mobile and tablet versions while maintaining the existing visual branding. I combed over every single detail, keeping key elements and making UI improvements to maximise legibility, functionality and performance.
     
@@ -86,11 +86,11 @@ solution: |
 <div class="row">
     <section class="text-block">
         <h2 class="subheading">Maps</h2>
-        <p>The map was another element of the site that didn't age well with time. On large screens, there was a lot of empty grey space, and on mobile, the tiny tap targets made it impossible to use.  I rewrote the map to utilize the google maps API, which allowed for automatic scaling and zooming for greater interactivity. The result was a 100% increase in the average time spent on the page.</p>
+        <p>The map was another element of the site that didn’t age well with time. On large screens, there was a lot of empty grey space, and on mobile, the tiny tap targets made it impossible to use.  I rewrote the map to utilize the google maps API, which allowed for automatic scaling and zooming for greater interactivity. The result was a 100% increase in the average time spent on the page.</p>
         <h2 class="subheading">SEO Improvements</h2>
         <p>I made use of semantic Schema.org markup and implemented the Open Graph protocol on key content pages - the result was a 200% increase in social traffic.</p>
         <h2 class="subheading">Performance Improvements</h2>
-        <p>Countless performance improvements were made over the course of rewriting the site.  The old site loaded 10 random background images on each page load to cut down on future loading times - but I found that our average viewer only looked at 2-3 backgrounds before viewing interior pages without backgrounds - the potential cache benefits weren't worth the heavy initial load time. I concatenated and minified resources, utilized Laravel's eager loading and optimized all images. The results of this effort can be seen on the home page speed scores - I lowered the page size from 2.7mb to a lean 325kb and reduced the load time from 3 seconds down to an average of 400 milliseconds, all while maintaining support for Internet Explorer 8.
+        <p>Countless performance improvements were made over the course of rewriting the site.  The old site loaded 10 random background images on each page load to cut down on future loading times - but I found that our average viewer only looked at 2-3 backgrounds before viewing interior pages without backgrounds - the potential cache benefits weren’t worth the heavy initial load time. I concatenated and minified resources, utilized Laravel's eager loading and optimized all images. The results of this effort can be seen on the home page speed scores - I lowered the page size from 2.7mb to a lean 325kb and reduced the load time from 3 seconds down to an average of 400 milliseconds, all while maintaining support for Internet Explorer 8.
         </p>
         <img src="{{ imgurl }}/img/speedtest4.png" alt="Speed test results for Steven Holl website">
     </section>

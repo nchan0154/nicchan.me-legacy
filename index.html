@@ -11,7 +11,8 @@ permalink: /
 
 <main id="page">
 <div class="portfolio__wrapper">
-        {% for project in site.projects %}
+    {% assign projects = site.projects | sort: 'date' | reverse %}
+        {% for project in projects %}
         <figure class="portfolio__item">
             <img class="portfolio__img" src="/img/{{ project.imgSmall }}" alt="{{ project.title }} Website">
             <figcaption class="portfolio__caption">
