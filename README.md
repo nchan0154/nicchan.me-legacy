@@ -1,18 +1,10 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+        /|    / /            
+       //|   / / ( )  ___    
+      // |  / / / / //   ) ) 
+     //  | / / / / //        
+    //   |/ / / / ((____     
 
 
-Hi there! Welcome to Cloud9 IDE!
+Hi! This is the repository for [my portfolio](nicchan.me), a Jekyll based site with an image gallery and a blog. Feel free to use it as a reference. 
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+Shoutout to [Alex Pate](https://github.com/alexpate/alexpate.uk), whose own portfolio repo was a great help in learning how to structure my own. 
