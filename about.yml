@@ -1,6 +1,6 @@
 ---
 layout: about
-permalink: about/
+permalink: /about/
 about: Hi! I'm Nic. I build websites, draw pictures and eat lots of sushi, and would love to do any of those things for you. I'm based in Hong Kong and work with people across the world to build cool things! Currently, I'm working on an application in the MEAN stack.
 experience:
   - institution: <a href="http://www.wonderkiln.com">Wonderkiln</a>
