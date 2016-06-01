@@ -1,6 +1,6 @@
 ---
 title: Steven Myron Holl Foundation
-permalink: projects/steven-myron-holl-foundation/
+permalink: /projects/steven-myron-holl-foundation/
 date: 2015-09-01
 img: hero-smhf.png
 imgSmall: hero-smhf-s.png

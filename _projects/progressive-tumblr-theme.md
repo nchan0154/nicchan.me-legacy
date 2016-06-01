@@ -1,6 +1,6 @@
 ---
 title: Progressive Tumblr Theme
-permalink: projects/progressive-theme/
+permalink: /projects/progressive-tumblr-theme/
 date: 2016-05-30
 img: hero-progressive.png
 imgSmall: hero-progressive-s.png
@@ -18,7 +18,7 @@ brief: |
     I was frustrated with many of the existing Tumblr themes out there; most themes had tiny text, a lack of contrast and were not responsive at all. I knew that many people on Tumblr cared about accessibility, but most of the themes in the theme store failed to implement accessibility in any meaningful way. Time to do something about it!
     
 solution: |
-    Progressive is a Tumblr theme built with the idea of “progressive enhancement” in mind. Progressive enhancement is a web development concept that promotes the idea that everyone should be able to access basic content and functionality, regardless of what device you are using. In response to my own frustrating experience trying to navigate Tumblr blogs, I created a Tumblr theme that focused on accessibility without sacrificing aesthetics or functionality, and it reached <strong>70 installs</strong> within the first 3 days of launch. Below is a list of base features the theme offers:
+    Progressive is a Tumblr theme built with the idea of “progressive enhancement” in mind. Progressive enhancement is a web development concept that promotes the idea that everyone should be able to access basic content and functionality, regardless of what device you are using. In response to my own frustrating experience trying to navigate Tumbl blogs, I created a Tumblr theme that focused on accessibility without sacrificing aesthetics or functionality, and it reached <strong>70 installs</strong> within the first 3 days of launch. Below is a list of base features the theme offers:
     <ul>
     <li>Custom avatar, upload any size and it will crop to fit</li>
     <li>Choice between custom gradient background or custom image background</li>

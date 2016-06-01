@@ -1,6 +1,6 @@
 ---
 title: Hunters Point Library Exhibition
-permalink: projects/hunters-point-community-library/
+permalink: /projects/hunters-point-community-library/
 date: 2015-05-19
 img: hero-exhibition.png
 imgSmall: hero-exhibition-s.png

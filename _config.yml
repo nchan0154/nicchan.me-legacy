@@ -21,11 +21,13 @@ exclude:
 collections:
     projects:
         output: true
+        perliank: /projects/:title/
+    posts:
+        output: true
+        permalink: /blog/:title/
+
 
 imgurl: 
-
-permalink: /blog/:title
-
 
 defaults:
   -
