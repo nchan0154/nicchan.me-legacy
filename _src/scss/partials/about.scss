@@ -32,8 +32,8 @@
 }
 
 .resume__social {
-    height: 50px;
-    width: 50px;
+    height: 3rem;
+    width: 3rem;
     fill: $secondary-color;
     margin-right: $medium-margin;
     
@@ -46,10 +46,16 @@
     
     
     .resume__institution, .resume__date, .resume__title {
-        font-size: 85%;
+        font-size: 0.875rem;
     }
     
     .resume__date, .resume__title, .resume__bullet {
         display: inline;
+    }
+    
+    .resume__bullet {
+        font-size: 0.75rem;
+        vertical-align: middle;
+        padding: 0 0.5rem;
     }
 }

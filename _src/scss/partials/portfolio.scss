@@ -47,7 +47,7 @@
 }
 
 .portfolio__title {
-    font-size: 150%;
+    font-size: 1.75rem;
     margin-top: 0;
     text-align: left;
     color: #fff;
@@ -78,16 +78,12 @@
 
 }
 
-@media #{$medium} {
+
+@media #{$large} {
     
     .portfolio__item {
         lost-column: 1/2 2 0;
     }
-    
-    
-}
-
-@media #{$large} {
     
     .portfolio__caption {
         padding: $large-margin;

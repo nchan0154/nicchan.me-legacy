@@ -10,11 +10,10 @@
 .testimonials__text::before {
     content: '\201C';
     position: absolute;
-    top: -50px;
-    left: -20px;
-    font-size: 500%;
+    top: -4rem;
+    left: -1rem;
+    font-size: 5rem;
     font-family: $heading-copy;
-    font-style: italic;
     color: $primary-color;
     opacity: 0.5;
 }
@@ -34,7 +33,7 @@
 @media #{$small} {
 
     .testimonials__text::before{
-        left: -50px;
+        left: -2rem;
     }
  
 }

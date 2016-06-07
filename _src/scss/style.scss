@@ -27,9 +27,9 @@ $heading-copy: 'Playfair Display', Georgia, serif;
 
 html, body {
     height: 100%;
-    font-size: 14px;
+    font-size: 100%;
     font-family: $body-copy;
-    line-height: 1.6;
+    line-height: 2;
     color: $dark-color;
     background-color: #fafafa;
 }
@@ -53,17 +53,16 @@ main {
 
 h1, h2, h3 {
     font-family: $heading-copy;
-    font-weight: 700;
-    font-style: italic;
+    font-weight: 400;
     text-align: center;
 }
 
 
-h1 { font-size: 250%; }
-h2 { font-size: 250%; }
-h3 { font-size: 200%; }
-h4 { font-size: 180%; }
-h5 { font-size: 130%; }
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2.5rem; }
+h3 { font-size: 2rem; }
+h4 { font-size: 1.75rem; }
+h5 { font-size: 1.250rem; }
 
 .uppercase {
     text-transform: uppercase;
@@ -128,11 +127,11 @@ hr {
 .button {
     display: block;
     position: relative;
-    padding: 10px 30px;
+    padding: 0.75rem 2rem;
     margin: 30px auto 0;
     background-color: $primary-color;
     color: #fff;
-    max-width: 400px;
+    max-width: 25rem;
     font-weight: 400;
     text-align: center;
     border-radius: 5px;
@@ -156,10 +155,6 @@ hr {
 
 @media #{$small} {
     
-    html, body {
-        font-size: 16px;
-    }
-    
     .row {
         padding: 0 $large-margin;
     }
@@ -174,7 +169,7 @@ hr {
 @media #{$medium} {
     
     html, body {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     
     .text-block {
