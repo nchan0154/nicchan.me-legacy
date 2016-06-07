@@ -1,6 +1,8 @@
 .hero__wrapper{
     width: 100%;
     padding-top: 50%;
+    position: relative;
+    margin-top: 2rem;
 }
 
 .hero__img {
@@ -23,11 +25,24 @@
     width: 100%;
     text-align: center;
     padding: 0 $medium-margin;
+
 }
 
 .hero__description {
-    font-size: 200%;
+    font-size: 1.5rem;
 }
+
+@media #{$small} {
+    
+    .hero__wrapper {
+        margin-top: 0;
+    }
+    
+    .hero__description {
+        font-size: 2rem;
+    }
+}
+
 
 @media #{$medium} {
     
@@ -39,19 +54,41 @@
         
     .hero__description-wrapper {
         position: absolute;
-        bottom: 10%;
+        bottom: 2rem;
         color: #fff;
+        padding: 0;
+    }
+    
+    .hero__description-container {
+        position: relative;
+        &::after {
+            content: '';
+            display: block;
+            height: 2px;
+            position: absolute;
+            width: 100%;
+            opacity: 0;
+            background: white;
+            animation: 0.5s ease-out 1s forwards widthOpacity;
+        }
+    }
+    
+    .hero__description {
+        margin: 0;
+        font-size: 1.5rem;
+        opacity: 0;
+        animation: 0.5s ease-out 1.4s forwards fadeInUp;
     }
 }
 
 @media #{$large} {
  
     .hero__description-wrapper {
-        bottom: 2rem;
+        bottom: 4rem;
     } 
-     *
-    .hero__description  {
-        font-size: 230%;
+    
+    .hero__description {
+        font-size: 2rem;
     }
     
 }

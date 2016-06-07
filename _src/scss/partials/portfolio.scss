@@ -8,6 +8,7 @@
     overflow: hidden;
     position: relative;
     margin: 0;
+    line-height: 1.6;
 }
 
 .portfolio__img {
@@ -47,7 +48,7 @@
 }
 
 .portfolio__title {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     margin-top: 0;
     text-align: left;
     color: #fff;
@@ -76,6 +77,16 @@
         opacity: 1;
     }
 
+}
+
+
+
+@media #{$medium} {
+    
+    .portfolio__title {
+        font-size: 1.75rem;
+    }
+    
 }
 
 
