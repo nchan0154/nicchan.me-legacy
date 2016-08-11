@@ -14,28 +14,30 @@ permalink: /
 </header>
 
 <main id="page">
-<div class="portfolio__wrapper">
-    {% assign projects = site.projects | sort: 'date' | reverse %}
+    <div class="portfolio__wrapper">
+        {% assign projects = site.projects | sort: 'date' | reverse %}
         {% for project in projects %}
-        <figure class="portfolio__item">
-            <img class="portfolio__img" src="/img/{{ project.imgSmall }}" alt="{{ project.title }} Website">
-            <figcaption class="portfolio__caption">
-               <h3 class="portfolio__title">{{ project.title }}</h3>
-               <p class="portfolio__desc">{{ project.stack }}</p>
-               <a href="{{ project.permalink }}">More...</a>
-            </figcaption>
-        </figure>
+            {% if project.featured %}
+                <figure class="portfolio__item">
+                    <img class="portfolio__img" src="/img/{{ project.imgSmall }}" alt="{{ project.title }} Website">
+                    <figcaption class="portfolio__caption">
+                       <h3 class="portfolio__title">{{ project.title }}</h3>
+                       <p class="portfolio__desc">{{ project.stack }}</p>
+                       <a href="{{ project.permalink }}">More...</a>
+                    </figcaption>
+                </figure>
+            {% endif %}    
         {% endfor %}
-</div>        
-<div class="row testimonials__wrapper">
-    <section class="text-block">
-        <h2 class="testimonials__header">Testimonials</h2>
-        {% for quote in site.data.testimonials %}
-        <blockquote class="testimonials__blockquote">
-            <p class="testimonials__text">{{ quote.quote }}</p>
-            <cite class="testimonials__author">– {{ quote.source }}</cite>
-        </blockquote>
-        {% endfor %}
-    </section>
-</div>
+    </div>        
+    <div class="row testimonials__wrapper">
+        <section class="text-block">
+            <h2 class="testimonials__header">Testimonials</h2>
+            {% for quote in site.data.testimonials %}
+            <blockquote class="testimonials__blockquote">
+                <p class="testimonials__text">{{ quote.quote }}</p>
+                <cite class="testimonials__author">– {{ quote.source }}</cite>
+            </blockquote>
+            {% endfor %}
+        </section>
+    </div>
 </main>

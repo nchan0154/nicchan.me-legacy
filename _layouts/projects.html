@@ -9,7 +9,11 @@ layout: default
     
     <main>
         <div class="row">
-            <h1 class="projects-heading"><a class="projects-heading__link" href="{{ page.link }}">{{ page.title }}&nbsp;<span class="projects-heading__arrow">&rarr;</span></a></h1>
+            {% if page.link %}
+                <h1 class="projects-heading"><a class="projects-heading__link" href="{{ page.link }}">{{ page.title }}&nbsp;<span class="projects-heading__arrow">&rarr;</span></a></h1>
+            {% else %}
+                <h1 class="projects-heading">{{ page.title }}</h1>
+            {% endif %}
         </div>
         
         <div class="row">

@@ -1,12 +1,13 @@
 ---
 title: Tag N' Brag Apparel
-permalink: projects/tnb-apparel/
+permalink: /projects/tnb-apparel/
 date: 2016-04-07
-img: hero-sha.png
-imgSmall: hero-sha-s.png
-color: f58320
-link: http://www.stevenholl.com
+img: hero-tnb.png
+imgSmall: hero-tnb-s.png
+color: f79c4d
+link: http://tnbapparel.com
 stack: Shopify, SCSS
+featured: true
 technology:
     - HTML
     - Liquid
@@ -25,13 +26,13 @@ solution: |
 ---
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
         <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/sha-mob.png" alt="project page on Steven Holl website">
+            <img class="projects__img" src="{{ imgurl }}/img/tnb-cart.png" alt="TNB Apparel shopping cart">
         </div>
         <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/sha-mob-2.png" alt="menu and news page on Steven Holl website">
+            <img class="projects__img" src="{{ imgurl }}/img/tnb-product.png" alt="TNB Apparel product page">
         </div>
     <figcaption class="projects__caption">
-    Mobile Views
+        Cart and Product views
     </figcaption>
 </figure>
 
@@ -47,15 +48,15 @@ solution: |
 
 
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
-    <img class="projects__img" src="{{ imgurl }}/img/sha-map.png" alt="New Version of Steven Holl map">
+    <img class="projects__img" src="{{ imgurl }}/img/tnb-blog.png" alt="TNB Apparel blog page">
     <figcaption class="projects__caption">
-    Before and after
+        Blog View
     </figcaption>
 </figure>
 
 <div class="row">
     <section class="text-block">
         <h2 class="subheading">Blog</h2>
-        <p>Having an active blog can be a fantastic way to gain traffic. For TNB Apparel’s blog, I used CSS list columns to achieve a masonry-like effect without having to wait for Javascript to sort the items.</p>
+        <p>Having an active blog can be a fantastic way to gain traffic. For TNB Apparel’s blog, I used CSS list columns to achieve a masonry-like effect without having to load any additional javascript.</p>
     </section>
 </div>

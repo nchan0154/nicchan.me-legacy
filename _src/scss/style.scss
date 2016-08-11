@@ -36,6 +36,10 @@ html, body {
 
 main {
     margin-bottom: $large-margin;
+    
+    &.no-margin {
+        margin-bottom: 0;
+    }
 }
 
 .row {
@@ -55,6 +59,7 @@ h1, h2, h3 {
     font-family: $heading-copy;
     font-weight: 400;
     text-align: center;
+    line-height: 1.3;
 }
 
 

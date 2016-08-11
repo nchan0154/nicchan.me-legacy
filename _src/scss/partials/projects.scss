@@ -102,15 +102,6 @@
 }
 
 
-@media #{$large} {
-
-    .projects-heading__link::after {
-        margin-top: -10px;
-    }
-    
-}
-
-
 @media #{$xlarge} {
     
     .projects-hero__wrapper {
