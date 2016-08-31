@@ -3,8 +3,8 @@
     lost-utility: clearfix;    
 }
 
-
 .portfolio__item {
+    display: block;
     overflow: hidden;
     position: relative;
     margin: 0;
@@ -37,16 +37,6 @@
     transition: all 0.35s;
 }
 
-.portfolio__item a {
-    position: absolute;
-    top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1000;
-	opacity: 0;
-}
-
 .portfolio__title {
     font-size: 1.25rem;
     margin-top: 0;
@@ -66,17 +56,21 @@
 	@extend .uppercase;
 }
 
-.portfolio__item:hover {
+.portfolio__item {
     
-    .portfolio__desc, .portfolio__caption::before {
-        opacity: 1;
+    &:hover, &:active, &:focus {
+        
+        .portfolio__desc, .portfolio__caption::before {
+            opacity: 1;
+        }
+        
+        .portfolio__title, .portfolio__desc {
+            transform: translate3d(0,0,0);
+            opacity: 1;
+        }
+        
     }
     
-    .portfolio__title, .portfolio__desc {
-        transform: translate3d(0,0,0);
-        opacity: 1;
-    }
-
 }
 
 

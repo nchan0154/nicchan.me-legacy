@@ -9,14 +9,13 @@ permalink: /web/
     <div class="portfolio__wrapper">
         {% assign projects = site.projects | sort: 'date' | reverse %}
         {% for project in projects %}
-            <figure class="portfolio__item">
+            <a class="portfolio__item" href="{{ project.permalink }}">
                 <img class="portfolio__img" src="/img/{{ project.imgSmall }}" alt="{{ project.title }} Website">
-                <figcaption class="portfolio__caption">
+                <div class="portfolio__caption">
                    <h3 class="portfolio__title">{{ project.title }}</h3>
                    <p class="portfolio__desc">{{ project.stack }}</p>
-                   <a href="{{ project.permalink }}">More...</a>
-                </figcaption>
-            </figure>
+                </div>
+            </a>
         {% endfor %}
     </div>      
 </main>    
