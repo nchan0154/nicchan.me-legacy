@@ -48,8 +48,7 @@ gulp.task('img', function() {
 // Watch Files For Changes
 gulp.task('watch', function() {
     gulp.watch('_src/js/*.js', ['scripts']);
-    gulp.watch('_src/scss/*.scss', ['sass']);
-    gulp.watch('_src/scss/partials/*.scss', ['sass']);
+    gulp.watch('_src/scss/**/*.scss', ['sass']);
 });
 
 // Default Task

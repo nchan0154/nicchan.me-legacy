@@ -49,7 +49,7 @@ solution: |
         <h2 class="subheading">Accessibility Features</h2>
         <ul>
             <li>“Skip to content” link so that users with screen readers can choose to skip the header text to the blog content</li>
-            <li>Uses relative font sizing (rem units), which respects the users preference while keeping a legible base-font-size</i>
+            <li>Uses relative font sizing (rem units), which respects the users preference while keeping a legible base-font-size</li>
             <li>100% responsive, will adjust itself to look decent on any screen size</li>
             <li>Focus styles so that keyboard only users can easily find their position on the page</li>
             <li>Semantic HTML5 elements and elements with proper ARIA roles that allow for screen reader users to better navigate the page</li>
