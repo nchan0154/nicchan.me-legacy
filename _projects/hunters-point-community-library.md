@@ -20,12 +20,12 @@ solution: |
     Anticipating a higher amount of mobile traffic than usual, I designed a minimalist static site that prioritized performance. The design I came up with was based around the idea of on concrete and glass - two key materials in Steven Holl’s buildings.
 ---
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/exhibition-interior.png" alt="Team page for Hunters Point Library Exhibition">
-        </div>
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/slider.png" alt="Slideshow page for Hunters Point Library Exhibition">
-        </div>
+    <div class="projects__col--half">
+        <img class="projects__img" src="{{ imgurl }}/img/exhibition-interior.png" alt="Team page for Hunters Point Library Exhibition">
+    </div>
+    <div class="projects__col--half">
+        <img class="projects__img" src="{{ imgurl }}/img/slider.png" alt="Slideshow page for Hunters Point Library Exhibition">
+    </div>
     <figcaption class="projects__caption">
     Concrete & Glass
     </figcaption>
@@ -41,10 +41,10 @@ solution: |
 </div>
 
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
-        <div class="projects__half">
+        <div class="projects__col--half">
             <img class="projects__img" src="{{ imgurl }}/img/exhibition-mobile-interior2.png" alt="Squarespace backend for Steven Myron Holl Foundation">
         </div>
-        <div class="projects__half">
+        <div class="projects__col--half">
             <img class="projects__img" src="{{ imgurl }}/img/exhibition-mobile.png" alt="Squarespace backend for Steven Myron Holl Foundation">
         </div>
     <figcaption class="projects__caption">

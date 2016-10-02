@@ -26,8 +26,10 @@ layout: default
         
         <div class="row">
             <section class="text-block">
-                <h2 class="subheading">The Brief</h2>
-                {{ page.brief }}
+                {% if page.brief %}
+                    <h2 class="subheading">The Brief</h2>
+                    {{ page.brief }}
+                {% endif %}
                 <h2 class="subheading">The Solution</h2>
                 {{ page.solution }}
             </section>
@@ -37,7 +39,7 @@ layout: default
     
     {% capture the_collection %}{{page.collection}}{% endcapture %}
     {% if page.collection %}
-        {% assign document = site[the_collection] | sort: "title"  %}
+        {% assign document = site[the_collection] | sort: 'date' | reverse %}
     {% endif %}
     
     {% for links in document %}

@@ -25,12 +25,12 @@ solution: |
     
 ---
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/tnb-cart.png" alt="TNB Apparel shopping cart">
-        </div>
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/tnb-product.png" alt="TNB Apparel product page">
-        </div>
+    <div class="projects__col--half">
+        <img class="projects__img" src="{{ imgurl }}/img/tnb-cart.png" alt="TNB Apparel shopping cart">
+    </div>
+    <div class="projects__col--half">
+        <img class="projects__img" src="{{ imgurl }}/img/tnb-product.png" alt="TNB Apparel product page">
+    </div>
     <figcaption class="projects__caption">
         Cart and Product views
     </figcaption>

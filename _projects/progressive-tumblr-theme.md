@@ -35,12 +35,12 @@ solution: |
 
 ---
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/progressive-1.png" alt="Alternate color scheme for Progressive theme">
-        </div>
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/progressive-3.png" alt="Customizer option for Progressive theme">
-        </div>
+    <div class="projects__col--half">
+        <img class="projects__img" src="{{ imgurl }}/img/progressive-1.png" alt="Alternate color scheme for Progressive theme">
+    </div>
+    <div class="projects__col--half">
+        <img class="projects__img" src="{{ imgurl }}/img/progressive-3.png" alt="Customizer option for Progressive theme">
+    </div>
 </figure>
 
 <div class="row">

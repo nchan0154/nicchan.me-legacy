@@ -7,7 +7,6 @@ imgSmall: hero-artspiral-s.png
 color: AD97CA
 link: http://artspiral.org
 stack: Design, HTML, CSS
-featured: true
 technology:
     - HTML
     - CSS
@@ -20,12 +19,12 @@ solution: |
     As the Arts Centre had shifted towards using social media to update its audience, I chose to build a responsive, mostly static site that focused on the major accomplishments in the organization’s history. I worked with the organization’s executive director to rewrite the content and designed several unique templates to fit the wide variety of content. The results of the redesign were immediate - the average pages per session and session length doubled and the bounce rate dropped from 70% to 40%.
 ---
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/artspiral-isotope.png" alt="Tiananmen exhibition image page">
-        </div>
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/artspiral-tiananmentimeline2.png" alt="Tiananmen exhibition timeline page">
-        </div>
+    <div class="projects__col--half">
+        <img class="projects__img" src="{{ imgurl }}/img/artspiral-isotope.png" alt="Tiananmen exhibition image page">
+    </div>
+    <div class="projects__col--half">
+        <img class="projects__img" src="{{ imgurl }}/img/artspiral-tiananmentimeline2.png" alt="Tiananmen exhibition timeline page">
+    </div>
     <figcaption class="projects__caption">
     CHINA: June 4 Exhibition
     </figcaption>

@@ -7,7 +7,6 @@ imgSmall: hero-sha-s.png
 color: 63a4da
 link: http://www.stevenholl.com
 stack: Foundation, PHP, Laravel
-featured: true
 technology:
     - HTML
     - SCSS
@@ -32,12 +31,12 @@ solution: |
     
 ---
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/sha-mob.png" alt="project page on Steven Holl website">
-        </div>
-        <div class="projects__half">
-            <img class="projects__img" src="{{ imgurl }}/img/sha-mob-2.png" alt="menu and news page on Steven Holl website">
-        </div>
+    <div class="projects__col--half">
+        <img class="projects__img" src="{{ imgurl }}/img/sha-mob.png" alt="project page on Steven Holl website">
+    </div>
+    <div class="projects__col--half">
+        <img class="projects__img" src="{{ imgurl }}/img/sha-mob-2.png" alt="menu and news page on Steven Holl website">
+    </div>
     <figcaption class="projects__caption">
     Mobile Views
     </figcaption>
@@ -52,10 +51,10 @@ solution: |
 </div>
 
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
-        <div class="projects__half">
+        <div class="projects__col--half">
             <img class="projects__img" src="{{ imgurl }}/img/sha-old-12.PNG" alt="Old version of Steven Holl website">
         </div>
-        <div class="projects__half">
+        <div class="projects__col--half">
             <img class="projects__img" src="{{ imgurl }}/img/sha-background2.png" alt="New Version of Steven Holl website">
         </div>
     <figcaption class="projects__caption">
@@ -73,10 +72,10 @@ solution: |
 
 
 <figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
-    <div class="projects__half">
+    <div class="projects__col--half">
         <img class="projects__img" src="{{ imgurl }}/img/sha-old11.png" alt="Old version of Steven Holl map">
     </div>
-    <div class="projects__half">
+    <div class="projects__col--half">
         <img class="projects__img" src="{{ imgurl }}/img/sha-map.png" alt="New Version of Steven Holl map">
     </div>
     <figcaption class="projects__caption">
