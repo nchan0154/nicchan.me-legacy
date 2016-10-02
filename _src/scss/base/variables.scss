@@ -1,0 +1,18 @@
+$small: "(min-width: 500px)";
+$medium: "(min-width: 768px)";
+$large: "(min-width: 1024px)";
+$xlarge: "(min-width: 1400px)";
+
+$medium-margin: 1.5em;
+$large-margin: 3em;
+
+@lost gutter 1.5em;
+
+$dark-color: #2C2B4B;
+$primary-color: #A75293;
+$secondary-color: darken(#9DDACB, 15%);
+$tertiary-color: #9C7A9D;
+$light-color: #F8DCB4;
+
+$body-copy: 'Lato', Helvetica, Arial, san-serif;
+$heading-copy: 'Playfair Display', Georgia, serif;

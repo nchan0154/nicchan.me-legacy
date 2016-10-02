@@ -6,7 +6,7 @@ img: hero-exhibition.png
 imgSmall: hero-exhibition-s.png
 color: f38d90
 link: http://www.stevenholl.com/online-exhibition
-stack: HTML, CSS, jQuery
+stack: Design, HTML, CSS, jQuery
 technology:
     - HTML
     - CSS

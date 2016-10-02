@@ -6,7 +6,10 @@
     right: 0;
     top: 0;
     z-index: 2;
-    background: $dark-color;
+    
+    .home & {
+        background: $dark-color;
+    }
 }
 
 .topbar__ul {
@@ -55,6 +58,10 @@
     .topbar {
         left: auto;
         background: none;
+        
+        .home & {
+            background: none;
+        }
     }
     
     .topbar__ul {

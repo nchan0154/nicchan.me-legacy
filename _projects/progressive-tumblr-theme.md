@@ -6,7 +6,7 @@ img: hero-progressive.png
 imgSmall: hero-progressive-s.png
 color: e4b0af
 link: http://www.progressivetheme.tumblr.com
-stack: Tumblr, SCSS, Javascript
+stack: Design, Tumblr, SCSS, Javascript
 featured: true
 technology:
     - HTML

@@ -90,6 +90,10 @@
         lost-column: 1/2 2 0;
     }
     
+}
+
+@media #{$xlarge} {
+    
     .portfolio__caption {
         padding: $large-margin;
     }

@@ -1,0 +1,46 @@
+main {
+    margin-bottom: $large-margin;
+    
+    &.no-margin {
+        margin-bottom: 0;
+    }
+}
+
+.row {
+    max-width: 72em;
+    lost-utility: clearfix;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 $medium-margin;
+}
+
+.full-width.row {
+    max-width: 100%;
+    padding: $medium-margin;
+}
+
+.no-hero {
+    padding-top: $large-margin * 2;
+}
+
+@media #{$small} {
+    
+    .row {
+        padding: 0 $large-margin;
+    }
+    
+    .full-width.row {
+        padding: $large-margin;
+    }
+    
+}
+
+
+@media #{$medium} {
+    
+    .text-block {
+        max-width: 40em;
+        margin: 0 auto;
+    }
+    
+}
