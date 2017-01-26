@@ -2,9 +2,8 @@
 title: FUEL Akron Landing Page
 permalink: /projects/fuel-akron/
 date: 2016-09-01
-img: hero-fuel.png
-imgSmall: hero-fuel-s.png
-color: fddc9b
+img: featured-fuel.png
+color: 8766ac
 link: http://www.fuelakron.com/
 stack: Design, HTML, SCSS
 featured: true

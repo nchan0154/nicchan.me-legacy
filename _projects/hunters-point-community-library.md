@@ -2,8 +2,7 @@
 title: Hunters Point Library Exhibition
 permalink: /projects/hunters-point-community-library/
 date: 2015-05-19
-img: hero-exhibition.png
-imgSmall: hero-exhibition-s.png
+img: featured-exhibition.png
 color: f38d90
 link: http://www.stevenholl.com/online-exhibition
 stack: Design, HTML, CSS, jQuery

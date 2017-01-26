@@ -2,8 +2,7 @@
 title: Aircheck One
 permalink: /projects/aircheck-one/
 date: 2016-08-01
-img: hero-aircheck.png
-imgSmall: hero-aircheck-s.png
+img: featured-aircheck.png
 color: 41c38a
 link: https://aircheckone.com/
 stack: Laravel, PHP, SCSS

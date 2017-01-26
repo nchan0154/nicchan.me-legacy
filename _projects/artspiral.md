@@ -2,8 +2,7 @@
 title: Artspiral
 permalink: /projects/artspiral/
 date: 2015-10-10
-img: hero-artspiral.png
-imgSmall: hero-artspiral-s.png
+img: featured-artspiral.png
 color: AD97CA
 link: http://artspiral.org
 stack: Design, HTML, CSS

@@ -2,8 +2,7 @@
 title: Progressive Tumblr Theme
 permalink: /projects/progressive-tumblr-theme/
 date: 2016-05-30
-img: hero-progressive.png
-imgSmall: hero-progressive-s.png
+img: featured-progressive.png
 color: e4b0af
 link: http://www.progressivetheme.tumblr.com
 stack: Design, Tumblr, SCSS, Javascript

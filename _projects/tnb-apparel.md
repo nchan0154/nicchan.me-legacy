@@ -2,8 +2,7 @@
 title: Tag N' Brag Apparel
 permalink: /projects/tnb-apparel/
 date: 2016-04-07
-img: hero-tnb.png
-imgSmall: hero-tnb-s.png
+img: featured-tnb.png
 color: f79c4d
 link: http://tnbapparel.com
 stack: Shopify, SCSS

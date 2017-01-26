@@ -2,8 +2,7 @@
 title: Hexxel Landing Page
 permalink: /projects/hexxel/
 date: 2016-09-08
-img: hero-hexxel.png
-imgSmall: hero-hexxel-s.png
+img: featured-hexxel.png
 color: 3399cc
 link: https://hexxel.com/
 stack: Design, HTML, SCSS

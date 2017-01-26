@@ -2,8 +2,7 @@
 title: Steven Holl Architects
 permalink: /projects/steven-holl-architects/
 date: 2015-12-01
-img: hero-sha.png
-imgSmall: hero-sha-s.png
+img: featured-sha.png
 color: 63a4da
 link: http://www.stevenholl.com
 stack: Foundation, PHP, Laravel
