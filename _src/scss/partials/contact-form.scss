@@ -1,14 +1,14 @@
-.contact__form {
+.contact-form {
     color: $primary-color;  
 }
 
-.contact__form label {
+.contact-form__label {
     display: block;
     font-weight: bold;
     @extend .uppercase;
 }
 
-.contact__input {
+.contact-form__input {
     width: 100%;
     border-radius: 5px;
     border: 1px solid $primary-color;
@@ -20,19 +20,19 @@
     }
 }
 
-.contact__group {
+.contact-form__group {
     margin-bottom: $medium-margin;
 }
 
 
 @media #{$medium} {
 
-    .contact__group {
+    .contact-form__group {
         width: 50%;
         float: left;
     }
     
-    .contact__group:first-of-type {
+    .contact-form__group:first-of-type {
         padding-right: 2rem;
     }
 

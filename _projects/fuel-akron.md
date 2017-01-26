@@ -13,11 +13,12 @@ technology:
     - CSS
     - MeteorJS
     - jQuery
+    - EventBrite integration
     
 solution: |
     As a part of <a href="http://wonderkiln.com">Wonderkiln</a>, I designed and implemented responsive landing page for FUEL Akron, based on a poster design. The site makes heavy use of SVG and CSS graphics as well as scroll animation.
 ---
-<figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
+<figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
     <div class="projects__col--two-thirds">
         <img class="projects__img projects__img--full" src="{{ imgurl }}/img/fuel-landing.png" alt="Large screen version of the Fuel landing page">
     </div>

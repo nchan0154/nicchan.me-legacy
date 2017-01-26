@@ -17,7 +17,7 @@ solution: |
     As a part of <a href="http://wonderkiln.com">Wonderkiln</a>, I designed and implemented a quick yet responsive landing page for Hexxel to introduce their upcoming product. There are quite a few subtle animations not accurately conveyed in a static mockup, I encourage you to check out the page in it's full glory!
 
 ---
-<figure class="projects__img-wrapper row full-width" style="background-color: #{{ page.color }}">
+<figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
     <div class="projects__col--two-thirds">
         <img class="projects__img projects__img--full" src="{{ imgurl }}/img/hexxel-landing.png" alt="Large screen version of the Hexxel landing page">
     </div>

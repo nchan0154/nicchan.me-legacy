@@ -1,16 +1,16 @@
 <div class="row">
     <section class="text-block">
-        <form class="contact__form" action="//formspree.io/nic@nicchan.me" method="POST">
-            <div class="contact__group">
-                <label for="name">Name</label>
-                <input type="text" class=    "contact__input" name="name" id="name">
+        <form class="contact-form" action="//formspree.io/nic@nicchan.me" method="POST">
+            <div class="contact-form__group">
+                <label class="contact-form__label" for="name">Name</label>
+                <input type="text" class="contact__input" name="name" id="name">
             </div>
-            <div class="contact__group">
-                <label for="email">Email</label>
-                <input type="email" class="contact__input" name="_replyto" id="email">
+            <div class="contact-form__group">
+                <label class="contact-form__label" for="email">Email</label>
+                <input type="email" class="contact-form__input" name="_replyto" id="email">
             </div>    
-            <label for="message">Message</label>
-            <textarea name="message" id="message" class="contact__input" placeholder="Your message"></textarea>
+            <label class="contact-form__label" for="message">Message</label>
+            <textarea name="message" id="message" class="contact-form__input" placeholder="Your message"></textarea>
             <input type="text" name="_gotcha" style="display:none" />
             <input type="hidden" name="_next" value="/" />
             <input class="button" role="button" type="submit" value="Send">
