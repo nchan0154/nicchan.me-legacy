@@ -45,6 +45,14 @@ body: about
         </section>
         <a class="button" role="button" href="/img/20160203NicoleChan-resume.pdf" download>Download resume</a>
         <hr>
+        <h2 class="testimonials__header">Testimonials</h2>
+        {% for quote in site.data.testimonials %}
+        <blockquote class="testimonials__blockquote">
+          <p class="testimonials__text">{{ quote.quote }}</p>
+          <cite class="testimonials__author">– {{ quote.source }}</cite>
+        </blockquote>
+        {% endfor %}
+        <hr>
       </section>
     </div>
     <div id="contact">
