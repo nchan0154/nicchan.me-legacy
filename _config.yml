@@ -21,7 +21,8 @@ exclude:
 collections:
   projects:
     output: true
-    perliank: /projects/:title/
+  archived:
+    output: true
   posts:
     output: true
     permalink: /blog/:title/
@@ -41,3 +42,9 @@ defaults:
     values:
       layout: "projects" 
       body: "projects"
+  -
+    scope:
+      type: "archived" 
+    values:
+      layout: "projects" 
+      body: "projects"    
