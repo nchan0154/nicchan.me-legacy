@@ -30,28 +30,33 @@
 .topbar__a {
   text-decoration: none;
   color: $primary-color;
-  opacity: 0.8;
   @include uppercase;
   
-  &:hover, &:focus {
-    color: $primary-color;
-    opacity: 1;
+  &:hover, &:active, &:focus {
+    color: $dark-color;
   }
 }
 
 .topbar--active {
-  opacity: 1;
+  color: $dark-color;
 }
 
 
-.home .topbar__a, .projects .topbar__a {
-  color: #fff;  
+.projects .topbar__a,
+.home .topbar__a {
+  color: #fff; 
+  opacity: 0.8;
   
-  &:hover, &:focus {
+  &:hover, &:active, &:focus {
     color: #fff;
     opacity: 1;
   }
+  
+  &--active {
+    opacity: 1;
+  }
 }
+
 
 @media #{$small} {
   
@@ -66,13 +71,28 @@
   
   .topbar__ul {
     text-align: left;
-    margin: $medium-margin;
+    margin: 1rem 0.7rem 1rem 0;
     font-size: 1rem;
   }
   
   .topbar__li {
     padding: 0 1rem;
   }
+}
+
+
+@media (min-width: 66em){
   
+ .home .topbar__a {
+    color: $primary-color; 
+    opacity: 1;
+    
+    &:hover, &:active, &:focus {
+      color: $dark-color;
+    }
+  }
   
+  .topbar--active {
+    color: $dark-color;
+  }
 }

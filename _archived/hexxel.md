@@ -5,10 +5,10 @@ date: 2016-09-08
 img: featured-hexxel.png
 color: 3399cc
 link: https://hexxel.com/
-stack: Design, HTML, SCSS
 featured: false
 technology:
-  - HTML
+  - Design
+  - Jade/Pug
   - SCSS
   - MeteorJS
   

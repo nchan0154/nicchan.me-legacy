@@ -15,8 +15,9 @@ technology:
   - jQuery
   - Shopify
   - Gulp
-  - Git
   
+blurb: An easy to use shopping solution for a small business.
+
 brief: | 
   Tag N’ Brag wanted to expand their e-commerce operations. Their existing shop, a small part of their main website, lacked the features they needed to expand and was cumbersome to update and maintain.
 solution: |

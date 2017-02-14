@@ -3,12 +3,12 @@
 } 
 
 html, body {
-  height: 100%;
   font-size: 100%;
   font-family: $body-copy;
   line-height: 2;
   color: $dark-color;
   background-color: #fafafa;
+  overflow-x: hidden;
 }
 
 img {

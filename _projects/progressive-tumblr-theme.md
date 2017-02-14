@@ -8,11 +8,14 @@ link: http://www.progressivetheme.tumblr.com
 stack: Design, Tumblr, SCSS, Javascript
 featured: true
 technology:
+  - Design
   - HTML
   - SCSS
-  - Javascript
+  - jQuery
   - Gulp
-  - Git
+  - Tumblr
+
+blurb: One tumblr theme to rule them all.
   
 brief: | 
   I was frustrated with many of the existing Tumblr themes out there; most themes had tiny text, a lack of contrast and were not responsive at all. I knew that many people on Tumblr cared about accessibility, but most of the themes in the theme store failed to implement accessibility in any meaningful way. Time to do something about it!

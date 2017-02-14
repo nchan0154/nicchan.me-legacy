@@ -19,7 +19,8 @@ technology:
   - Google Maps API
   - Vimeo API
   - Gulp
-  - Git
+
+blurb: A complete code overhaul for a world famous architecture firm.
   
 brief: | 
   Steven Holl Architects were happy with overall look and feel of their website, but the design wasn’t optimized for mobile and had issues on larger screens. The repetitive, procedural PHP backend hurt their search engine rankings and limited their ability to make changes without breaking the site. </p>

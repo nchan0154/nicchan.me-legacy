@@ -14,7 +14,9 @@ technology:
   - AngularJS
   - Stripe API
   - Gulp
-  
+
+blurb: A shopping cart solution for a leading Texan air quality company.
+
 brief: | 
   Aircheck One's existing site was primarily informational, serving as a brochure to attract clients, who would then place an order by calling them up on a phone. There was great potential to transform the website into an integrated e-commerce and reporting experience.
   

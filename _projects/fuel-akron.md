@@ -8,12 +8,15 @@ link: http://www.fuelakron.com/
 stack: Design, HTML, SCSS
 featured: true
 technology:
-  - HTML
-  - CSS
+  - Design
+  - Jade/Pug
+  - SCSS
   - MeteorJS
   - jQuery
   - EventBrite integration
   
+blurb: A landing page for a startup smackdown.
+
 solution: |
   As a part of <a href="http://wonderkiln.com">Wonderkiln</a>, I designed and implemented responsive landing page for FUEL Akron, based on a poster design. The site makes heavy use of SVG and CSS graphics as well as scroll animation.
 ---

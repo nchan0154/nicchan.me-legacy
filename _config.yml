@@ -28,7 +28,7 @@ collections:
     permalink: /blog/:title/
 
 
-imgurl: 
+imgurl: /img/
 
 defaults:
   -
