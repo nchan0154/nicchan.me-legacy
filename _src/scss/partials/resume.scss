@@ -1,57 +1,57 @@
 .resume__heading {
-    text-align: left;
+  text-align: left;
 }
 
 .resume__description {
-    margin-bottom: $large-margin;
-    margin-top: 0;
+  margin-bottom: $large-margin;
+  margin-top: 0;
 }
 
 
 .resume__institution, .resume__date, .resume__title {
-    display: block;
-    @extend .uppercase;
+  display: block;
+  @include uppercase;
 }
 
 .resume__bullet {
-    display: none;
+  display: none;
 }
 
 .resume__institution {
-    font-weight: 700;
-    color: $dark-color;
-    display: block;
+  font-weight: 700;
+  color: $dark-color;
+  display: block;
 }
 
 .resume__date,  {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .resume__social {
-    height: 3rem;
-    width: 3rem;
-    fill: $secondary-color;
-    margin-right: $medium-margin;
-    
-    &:hover, &:active {
-        fill: $primary-color;
-    }
+  height: 3rem;
+  width: 3rem;
+  fill: $secondary-color;
+  margin-right: $medium-margin;
+  
+  &:hover, &:active {
+    fill: $primary-color;
+  }
 }
 
 @media #{$small} {
-    
-    
-    .resume__institution, .resume__date, .resume__title {
-        font-size: 0.875rem;
-    }
-    
-    .resume__date, .resume__title, .resume__bullet {
-        display: inline;
-    }
-    
-    .resume__bullet {
-        font-size: 0.75rem;
-        vertical-align: middle;
-        padding: 0 0.5rem;
-    }
+  
+  
+  .resume__institution, .resume__date, .resume__title {
+    font-size: 0.875rem;
+  }
+  
+  .resume__date, .resume__title, .resume__bullet {
+    display: inline;
+  }
+  
+  .resume__bullet {
+    font-size: 0.75rem;
+    vertical-align: middle;
+    padding: 0 0.5rem;
+  }
 }

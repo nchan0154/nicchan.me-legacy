@@ -1,78 +1,78 @@
 .topbar {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 2;
-    
-    .home & {
-        background: $dark-color;
-    }
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  
+  .home & {
+    background: $dark-color;
+  }
 }
 
 .topbar__ul {
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-padding-start: 0;
-    margin: 0.25rem;
-    text-align: center;
-    font-size: 0.875rem;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+  margin: 0.25rem;
+  text-align: center;
+  font-size: 0.875rem;
 }
 
 .topbar__li {
-    display: inline;
-    font-weight: 700;
-    padding: 0 0.5em;
+  display: inline;
+  font-weight: 700;
+  padding: 0 0.5em;
 }
 
 .topbar__a {
-    text-decoration: none;
+  text-decoration: none;
+  color: $primary-color;
+  opacity: 0.8;
+  @include uppercase;
+  
+  &:hover, &:focus {
     color: $primary-color;
-    opacity: 0.5;
-    @extend .uppercase;
-    
-    &:hover, &:focus {
-        color: $primary-color;
-        opacity: 1;
-    }
+    opacity: 1;
+  }
 }
 
 .topbar--active {
-    opacity: 1;
+  opacity: 1;
 }
 
 
 .home .topbar__a, .projects .topbar__a {
-    color: #fff;  
-    
-    &:hover, &:focus {
-        color: #fff;
-        opacity: 1;
-    }
+  color: #fff;  
+  
+  &:hover, &:focus {
+    color: #fff;
+    opacity: 1;
+  }
 }
 
 @media #{$small} {
+  
+  .topbar {
+    left: auto;
+    background: none;
     
-    .topbar {
-        left: auto;
-        background: none;
-        
-        .home & {
-            background: none;
-        }
+    .home & {
+      background: none;
     }
-    
-    .topbar__ul {
-        text-align: left;
-        margin: $medium-margin;
-        font-size: 1rem;
-    }
-    
-    .topbar__li {
-        padding: 0 1rem;
-    }
-    
-    
+  }
+  
+  .topbar__ul {
+    text-align: left;
+    margin: $medium-margin;
+    font-size: 1rem;
+  }
+  
+  .topbar__li {
+    padding: 0 1rem;
+  }
+  
+  
 }

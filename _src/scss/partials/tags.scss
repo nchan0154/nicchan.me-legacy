@@ -1,25 +1,25 @@
 .tags__wrapper {
-    text-align: center;
-    line-height: 2;
-    margin-bottom: $medium-margin;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: $medium-margin;
 }
 
 .tags__tag {
-    background-color: $secondary-color;
-    color: #fff;
-    border-radius: 1.5rem;
-    padding: 0.4rem 0.8rem;
-    white-space: nowrap;
+  background-color: $secondary-color;
+  color: #fff;
+  border-radius: 1.5rem;
+  padding: 0.4rem 0.8rem;
+  white-space: nowrap;
 }
 
 .subheading + .tags__wrapper {
-    margin-top: $medium-margin;
+  margin-top: $medium-margin;
 }
 
 @media #{$medium} {
-    
-    .tags__wrapper {
-        margin-bottom: $large-margin;
-    }
+  
+  .tags__wrapper {
+    margin-bottom: $large-margin;
+  }
 
 }

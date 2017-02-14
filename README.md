@@ -1,8 +1,8 @@
-        /|    / /            
-       //|   / / ( )  ___    
-      // |  / / / / //   ) ) 
-     //  | / / / / //        
-    //   |/ / / / ((____     
+    /|  / /      
+     //|   / / ( )  ___  
+    // |  / / / / //   ) ) 
+   //  | / / / / //    
+  //   |/ / / / ((____   
 
 
 Hi! This is the repository for [my portfolio](nicchan.me), a Jekyll based site with an image gallery and a blog. Feel free to use it as a reference. 

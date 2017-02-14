@@ -1,39 +1,39 @@
 * {
-    box-sizing: border-box; 
+  box-sizing: border-box; 
 } 
 
 html, body {
-    height: 100%;
-    font-size: 100%;
-    font-family: $body-copy;
-    line-height: 2;
-    color: $dark-color;
-    background-color: #fafafa;
+  height: 100%;
+  font-size: 100%;
+  font-family: $body-copy;
+  line-height: 2;
+  color: $dark-color;
+  background-color: #fafafa;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 hr {
-    border: none;
-    background-color: #ccc;
-    height: 1px;
-    width: 80%;
-    max-width: 700px;
-    margin: $large-margin*1.5 auto;
+  border: none;
+  background-color: #ccc;
+  height: 1px;
+  width: 80%;
+  max-width: 700px;
+  margin: $large-margin*1.5 auto;
 }
 
 ::selection {
-    background-color: $secondary-color;
-    color: #fff;
+  background-color: $secondary-color;
+  color: #fff;
 }
 
 
 @media #{$medium} {
-    
-    html, body {
-        font-size: 1.125rem;
-    }
+  
+  html, body {
+    font-size: 1.125rem;
+  }
 
 }

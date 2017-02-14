@@ -1,101 +1,101 @@
 .portfolio__wrapper {
-    background: $primary-color;
-    lost-utility: clearfix;    
+  background: $primary-color;
+  lost-utility: clearfix;  
 }
 
 .portfolio__item {
-    display: block;
-    overflow: hidden;
-    position: relative;
-    margin: 0;
-    line-height: 1.6;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  line-height: 1.6;
 }
 
 .portfolio__img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 .portfolio__caption {
-    padding: $medium-margin;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  padding: $medium-margin;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .portfolio__caption::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:  linear-gradient(135deg, rgba(167,82,147,1) 0%,rgba(157,218,203,0.7) 100%);
-    opacity: 0.1;
-    transition: all 0.35s;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:  linear-gradient(135deg, rgba(167,82,147,1) 0%,rgba(157,218,203,0.7) 100%);
+  opacity: 0.1;
+  transition: all 0.35s;
 }
 
 .portfolio__title {
-    font-size: 1.25rem;
-    margin-top: 0;
-    text-align: left;
-    color: #fff;
-    transition: all 0.35s;
-    opacity: 0;
-    transform: translate3d(0,10px,0) scale(1.1);
+  font-size: 1.25rem;
+  margin-top: 0;
+  text-align: left;
+  color: #fff;
+  transition: all 0.35s;
+  opacity: 0;
+  transform: translate3d(0,10px,0) scale(1.1);
 }
 
 .portfolio__desc {
-    color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.8);
 	opacity: 0;
 	transform: translate3d(0,20px,0);
 	transition: opacity 0.2s, transform 0.35s ease-in-out;
 	transition-delay: 0.05s;
-	@extend .uppercase;
+	@include uppercase;
 }
 
 .portfolio__item {
+  
+  &:hover, &:active, &:focus {
     
-    &:hover, &:active, &:focus {
-        
-        .portfolio__desc, .portfolio__caption::before {
-            opacity: 1;
-        }
-        
-        .portfolio__title, .portfolio__desc {
-            transform: translate3d(0,0,0);
-            opacity: 1;
-        }
-        
+    .portfolio__desc, .portfolio__caption::before {
+      opacity: 1;
     }
     
+    .portfolio__title, .portfolio__desc {
+      transform: translate3d(0,0,0);
+      opacity: 1;
+    }
+    
+  }
+  
 }
 
 
 
 @media #{$medium} {
-    
-    .portfolio__title {
-        font-size: 1.75rem;
-    }
-    
+  
+  .portfolio__title {
+    font-size: 1.75rem;
+  }
+  
 }
 
 
 @media #{$large} {
-    
-    .portfolio__item {
-        lost-column: 1/2 2 0;
-    }
-    
+  
+  .portfolio__item {
+    lost-column: 1/2 2 0;
+  }
+  
 }
 
 @media #{$xlarge} {
-    
-    .portfolio__caption {
-        padding: $large-margin;
-    }
-    
+  
+  .portfolio__caption {
+    padding: $large-margin;
+  }
+  
 }
