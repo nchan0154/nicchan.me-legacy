@@ -30,5 +30,9 @@
     display: inline-block;
     margin-top: 0;
     padding: 0.25rem 1rem;
+    
+    &:active, &:focus {
+      margin-top: 4px;
+    }
   }
 }

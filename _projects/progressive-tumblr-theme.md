@@ -5,7 +5,6 @@ date: 2016-05-30
 img: featured-progressive.png
 color: e4b0af
 link: http://www.progressivetheme.tumblr.com
-stack: Design, Tumblr, SCSS, Javascript
 featured: true
 technology:
   - Design
@@ -38,10 +37,10 @@ solution: |
 ---
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/progressive-1.png" alt="Alternate color scheme for Progressive theme">
+    <img class="projects__img" src="{{ site.imgurl }}progressive-1.png" alt="Alternate color scheme for Progressive theme">
   </div>
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/progressive-3.png" alt="Customizer option for Progressive theme">
+    <img class="projects__img" src="{{ site.imgurl }}progressive-3.png" alt="Customizer option for Progressive theme">
   </div>
 </figure>
 

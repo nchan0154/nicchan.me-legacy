@@ -19,10 +19,10 @@ solution: |
 ---
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/artspiral-isotope.png" alt="Tiananmen exhibition image page">
+    <img class="projects__img" src="{{ site.imgurl }}artspiral-isotope.png" alt="Tiananmen exhibition image page">
   </div>
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/artspiral-tiananmentimeline2.png" alt="Tiananmen exhibition timeline page">
+    <img class="projects__img" src="{{ site.imgurl }}artspiral-tiananmentimeline2.png" alt="Tiananmen exhibition timeline page">
   </div>
   <figcaption class="projects__caption">
   CHINA: June 4 Exhibition

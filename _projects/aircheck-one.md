@@ -5,11 +5,11 @@ date: 2016-08-01
 img: featured-aircheck.png
 color: 41c38a
 link: https://aircheckone.com/
-stack: Laravel, PHP, SCSS
 featured: true
 technology:
   - HTML
   - SCSS
+  - PHP
   - Laravel
   - AngularJS
   - Stripe API
@@ -25,5 +25,5 @@ solution: |
 
 ---
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
-  <img class="projects__img" src="{{ imgurl }}/img/aircheck-checkout.png" alt="Checkout Modal on Aircheck Website">
+  <img class="projects__img" src="{{ site.imgurl }}aircheck-checkout.png" alt="Checkout Modal on Aircheck Website">
 </figure>

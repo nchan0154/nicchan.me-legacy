@@ -20,10 +20,10 @@ solution: |
 ---
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/exhibition-interior.png" alt="Team page for Hunters Point Library Exhibition">
+    <img class="projects__img" src="{{ site.imgurl }}exhibition-interior.png" alt="Team page for Hunters Point Library Exhibition">
   </div>
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/slider.png" alt="Slideshow page for Hunters Point Library Exhibition">
+    <img class="projects__img" src="{{ site.imgurl }}slider.png" alt="Slideshow page for Hunters Point Library Exhibition">
   </div>
   <figcaption class="projects__caption">
   Concrete & Glass
@@ -41,10 +41,10 @@ solution: |
 
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
     <div class="projects__col--half">
-      <img class="projects__img" src="{{ imgurl }}/img/exhibition-mobile-interior2.png" alt="Squarespace backend for Steven Myron Holl Foundation">
+      <img class="projects__img" src="{{ site.imgurl }}exhibition-mobile-interior2.png" alt="Squarespace backend for Steven Myron Holl Foundation">
     </div>
     <div class="projects__col--half">
-      <img class="projects__img" src="{{ imgurl }}/img/exhibition-mobile.png" alt="Squarespace backend for Steven Myron Holl Foundation">
+      <img class="projects__img" src="{{ site.imgurl }}exhibition-mobile.png" alt="Squarespace backend for Steven Myron Holl Foundation">
     </div>
   <figcaption class="projects__caption">
   Mobile Views

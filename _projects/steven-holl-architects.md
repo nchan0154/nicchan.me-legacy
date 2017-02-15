@@ -5,7 +5,6 @@ date: 2015-12-01
 img: featured-sha.png
 color: 63a4da
 link: http://www.stevenholl.com
-stack: Foundation, PHP, Laravel
 technology:
   - HTML
   - SCSS
@@ -32,10 +31,10 @@ solution: |
 ---
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/sha-mob.png" alt="project page on Steven Holl website">
+    <img class="projects__img" src="{{ site.imgurl }}sha-mob.png" alt="project page on Steven Holl website">
   </div>
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/sha-mob-2.png" alt="menu and news page on Steven Holl website">
+    <img class="projects__img" src="{{ site.imgurl }}sha-mob-2.png" alt="menu and news page on Steven Holl website">
   </div>
   <figcaption class="projects__caption">
   Mobile Views
@@ -52,10 +51,10 @@ solution: |
 
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
     <div class="projects__col--half">
-      <img class="projects__img" src="{{ imgurl }}/img/sha-old-12.PNG" alt="Old version of Steven Holl website">
+      <img class="projects__img" src="{{ site.imgurl }}sha-old-12.PNG" alt="Old version of Steven Holl website">
     </div>
     <div class="projects__col--half">
-      <img class="projects__img" src="{{ imgurl }}/img/sha-background2.png" alt="New Version of Steven Holl website">
+      <img class="projects__img" src="{{ site.imgurl }}sha-background2.png" alt="New Version of Steven Holl website">
     </div>
   <figcaption class="projects__caption">
   Before and after
@@ -73,10 +72,10 @@ solution: |
 
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/sha-old11.png" alt="Old version of Steven Holl map">
+    <img class="projects__img" src="{{ site.imgurl }}sha-old11.png" alt="Old version of Steven Holl map">
   </div>
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/sha-map.png" alt="New Version of Steven Holl map">
+    <img class="projects__img" src="{{ site.imgurl }}sha-map.png" alt="New Version of Steven Holl map">
   </div>
   <figcaption class="projects__caption">
   Before and after
@@ -92,6 +91,6 @@ solution: |
     <h2 class="subheading">Performance Improvements</h2>
     <p>Countless performance improvements were made over the course of rewriting the site.  The old site loaded 10 random background images on each page load to cut down on future loading times - but I found that our average viewer only looked at 2-3 backgrounds before viewing interior pages without backgrounds - the potential cache benefits weren’t worth the heavy initial load time. I concatenated and minified resources, utilized Laravel's eager loading and optimized all images. The results of this effort can be seen on the home page speed scores - I lowered the page size from 2.7mb to a lean 325kb and reduced the load time from 3 seconds down to an average of 400 milliseconds, all while maintaining support for Internet Explorer 8.
     </p>
-    <img src="{{ imgurl }}/img/speedtest4.png" alt="Speed test results for Steven Holl website">
+    <img src="{{ site.imgurl }}speedtest4.png" alt="Speed test results for Steven Holl website">
   </section>
 </div>

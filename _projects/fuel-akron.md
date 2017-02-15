@@ -22,9 +22,9 @@ solution: |
 ---
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--two-thirds">
-    <img class="projects__img projects__img--full" src="{{ imgurl }}/img/fuel-landing.png" alt="Large screen version of the Fuel landing page">
+    <img class="projects__img projects__img--full" src="{{ site.imgurl }}fuel-landing.png" alt="Large screen version of the Fuel landing page">
   </div>
   <div class="projects__col--one-third">
-    <img class="projects__img projects__img--full" src="{{ imgurl }}/img/fuel-mobile.png" alt="Mobile version of the Fuel landing page">
+    <img class="projects__img projects__img--full" src="{{ site.imgurl }}fuel-mobile.png" alt="Mobile version of the Fuel landing page">
   </div>
 </figure>

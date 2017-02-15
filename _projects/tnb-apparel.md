@@ -5,7 +5,6 @@ date: 2016-04-07
 img: featured-tnb.png
 color: f79c4d
 link: http://tnbapparel.com
-stack: Shopify, SCSS
 featured: true
 technology:
   - HTML
@@ -26,10 +25,10 @@ solution: |
 ---
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/tnb-cart.png" alt="TNB Apparel shopping cart">
+    <img class="projects__img" src="{{ site.imgurl }}tnb-cart.png" alt="TNB Apparel shopping cart">
   </div>
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/tnb-product.png" alt="TNB Apparel product page">
+    <img class="projects__img" src="{{ site.imgurl }}tnb-product.png" alt="TNB Apparel product page">
   </div>
   <figcaption class="projects__caption">
     Cart and Product views
@@ -48,7 +47,7 @@ solution: |
 
 
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
-  <img class="projects__img" src="{{ imgurl }}/img/tnb-blog.png" alt="TNB Apparel blog page">
+  <img class="projects__img" src="{{ site.imgurl }}tnb-blog.png" alt="TNB Apparel blog page">
   <figcaption class="projects__caption">
     Blog View
   </figcaption>

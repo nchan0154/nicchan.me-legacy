@@ -20,10 +20,10 @@ solution: |
 ---
 <figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/smhf-squarespace.PNG" alt="Squarespace backend for Steven Myron Holl Foundation">
+    <img class="projects__img" src="{{ site.imgurl }}smhf-squarespace.PNG" alt="Squarespace backend for Steven Myron Holl Foundation">
   </div>
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ imgurl }}/img/smhf-squarespace-2.PNG" alt="Squarespace backend for Steven Myron Holl Foundation">
+    <img class="projects__img" src="{{ site.imgurl }}smhf-squarespace-2.PNG" alt="Squarespace backend for Steven Myron Holl Foundation">
   </div>
   <figcaption class="projects__caption">
   Powered by Squarespace

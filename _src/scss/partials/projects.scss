@@ -29,6 +29,12 @@
     background-image: linear-gradient(to bottom, transparentize($primary-color, 1), transparentize($primary-color, 0.2));
     z-index: 0;
   }
+  
+  &--video {
+    @media (max-width: 48em){
+      display: none;
+    }
+  }
 }
 
 .projects__img {
