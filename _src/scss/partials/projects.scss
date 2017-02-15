@@ -14,7 +14,7 @@
   color: $primary-color;
 }
 
-.projects__img-wrapper {
+.projects__image-wrapper {
   position: relative;
   margin: $medium-margin 0;
 
@@ -37,7 +37,7 @@
   }
 }
 
-.projects__img {
+.projects__image {
   position: relative;
   max-width: 100%;
   display: block;
@@ -99,7 +99,7 @@
     margin-top: 0;
   }
   
-  .projects__img-wrapper {
+  .projects__image-wrapper {
     margin: $large-margin 0;
   }
   

@@ -23,12 +23,12 @@ solution: |
   I worked with the talented designers at <a href="http://www.wonderkiln.com">WonderKiln</a> and expanded on existing desktop designs to come up with mobile designs and handled the complete integration into the Shopify platform. Built into the theme are featured homepage collections to show off particular products, a fully functional blog and an user account system.
   
 ---
-<figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
+<figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ site.imgurl }}tnb-cart.png" alt="TNB Apparel shopping cart">
+    <img class="projects__image" src="{{ site.imgurl }}tnb-cart.png" alt="TNB Apparel shopping cart">
   </div>
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ site.imgurl }}tnb-product.png" alt="TNB Apparel product page">
+    <img class="projects__image" src="{{ site.imgurl }}tnb-product.png" alt="TNB Apparel product page">
   </div>
   <figcaption class="projects__caption">
     Cart and Product views
@@ -46,8 +46,8 @@ solution: |
 </div>
 
 
-<figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
-  <img class="projects__img" src="{{ site.imgurl }}tnb-blog.png" alt="TNB Apparel blog page">
+<figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
+  <img class="projects__image" src="{{ site.imgurl }}tnb-blog.png" alt="TNB Apparel blog page">
   <figcaption class="projects__caption">
     Blog View
   </figcaption>

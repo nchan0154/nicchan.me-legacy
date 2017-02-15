@@ -29,12 +29,12 @@ solution: |
   I opted for a complete overhaul of the backend with Laravel in order to utilize the full power of a MVC framework with proper routing, secure database queries and a robust templating engine. This not only provided a boost to search engine rankings, it also patched up some major security issues and made it easier for future developers to pick up where I left off.
   
 ---
-<figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
+<figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ site.imgurl }}sha-mob.png" alt="project page on Steven Holl website">
+    <img class="projects__image" src="{{ site.imgurl }}sha-mob.png" alt="project page on Steven Holl website">
   </div>
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ site.imgurl }}sha-mob-2.png" alt="menu and news page on Steven Holl website">
+    <img class="projects__image" src="{{ site.imgurl }}sha-mob-2.png" alt="menu and news page on Steven Holl website">
   </div>
   <figcaption class="projects__caption">
   Mobile Views
@@ -49,12 +49,12 @@ solution: |
   </section>
 </div>
 
-<figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
+<figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
     <div class="projects__col--half">
-      <img class="projects__img" src="{{ site.imgurl }}sha-old-12.PNG" alt="Old version of Steven Holl website">
+      <img class="projects__image" src="{{ site.imgurl }}sha-old-12.PNG" alt="Old version of Steven Holl website">
     </div>
     <div class="projects__col--half">
-      <img class="projects__img" src="{{ site.imgurl }}sha-background2.png" alt="New Version of Steven Holl website">
+      <img class="projects__image" src="{{ site.imgurl }}sha-background2.png" alt="New Version of Steven Holl website">
     </div>
   <figcaption class="projects__caption">
   Before and after
@@ -70,12 +70,12 @@ solution: |
 </div>
 
 
-<figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
+<figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ site.imgurl }}sha-old11.png" alt="Old version of Steven Holl map">
+    <img class="projects__image" src="{{ site.imgurl }}sha-old11.png" alt="Old version of Steven Holl map">
   </div>
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ site.imgurl }}sha-map.png" alt="New Version of Steven Holl map">
+    <img class="projects__image" src="{{ site.imgurl }}sha-map.png" alt="New Version of Steven Holl map">
   </div>
   <figcaption class="projects__caption">
   Before and after

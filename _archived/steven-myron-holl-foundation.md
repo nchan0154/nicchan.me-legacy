@@ -18,12 +18,12 @@ brief: |
 solution: |
   <p>Rather than reproducing all the information on each project’s individual website, I worked with Steven himself to design a simple landing page which provided a brief introduction to each project. I developed the branding in a way that complimented the existing firm/project branding, incorporating the strict grids and blue from Steven Holl Architects and the image link styling of 32BNY. I also integrated Stripe in order to provide potential donors with an easier way to pay.</p> 
 ---
-<figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
+<figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ site.imgurl }}smhf-squarespace.PNG" alt="Squarespace backend for Steven Myron Holl Foundation">
+    <img class="projects__image" src="{{ site.imgurl }}smhf-squarespace.PNG" alt="Squarespace backend for Steven Myron Holl Foundation">
   </div>
   <div class="projects__col--half">
-    <img class="projects__img" src="{{ site.imgurl }}smhf-squarespace-2.PNG" alt="Squarespace backend for Steven Myron Holl Foundation">
+    <img class="projects__image" src="{{ site.imgurl }}smhf-squarespace-2.PNG" alt="Squarespace backend for Steven Myron Holl Foundation">
   </div>
   <figcaption class="projects__caption">
   Powered by Squarespace

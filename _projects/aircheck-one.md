@@ -24,6 +24,6 @@ solution: |
   Router Chowder's revamp for the site included a complete redesign of the front end site. The site now has a quiz to help customers decide on the type of inspection needed and a seamless transition into a Stripe powered checkout. Once an inspection is purchased, an account is automatically created for the customer to log into the reporting back end, where the inspector can upload CSV files that are then translated into human readable results for the customer to view. My contribution to the project included building out the public facing site using Laravel, working on the AngularJS quiz, creating an AJAX based shopping cart and integrating the Stripe API for payments.
 
 ---
-<figure class="projects__img-wrapper row row--full" style="background-color: #{{ page.color }}">
-  <img class="projects__img" src="{{ site.imgurl }}aircheck-checkout.png" alt="Checkout Modal on Aircheck Website">
+<figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
+  <img class="projects__image" src="{{ site.imgurl }}aircheck-checkout.png" alt="Checkout Modal on Aircheck Website">
 </figure>
