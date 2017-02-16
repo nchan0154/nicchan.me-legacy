@@ -3,8 +3,9 @@ layout: post
 title: Dual booting Ubuntu with Windows 10 on a Dell XPS 15 (9560)
 ---
 
-Just recently, I had the opportunity to build my first Shopify theme, and I had to learn to get productive quickly. Here are a few of the things that those who are coming from other platforms might want to take note of.
+I just received a brand new Dell XPS in the mail, whoo! In order to have a slightly less painful experience developing native apps, I decided to dual boot Windows 10 and Ubuntu. Sounds pretty easy right? Wrong! There were a lot of hangups that nobody told me about, and I had to figure it all out by frantically googling while explosions were happening. This one is for all of you out there who want to avoid that headache.
 
+Note, I am not smart enough to have figured any of this out on my own, and I make no promises that this will work perfectly on your machine. It's just what worked for my machine. All sources are linked.
 
 ##### Preparing a bootable version of Linux
 Before we begin, it's advisable to prepare a backup version of Windows, especially if you have any data on there that might be of value. Because I was using a brand new machine and I live on the edge (not the Microsoft Edge, geddit?), I chose to forgo this step.
