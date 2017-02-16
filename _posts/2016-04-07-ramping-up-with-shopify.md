@@ -23,6 +23,7 @@ A shopify theme has the following folders:
   
 If you poke around the assets folder, you might notice that all the styling is done in one giant .scss.liquid file, which Shopify compiles on its own servers. If you're used to a modern, modularized CSS workflow, the ban against `@import` will seem like a nightmare. Running your own SCSS processor and uploading the compiled CSS is an option, but doing so won't let you use liquid variables (aka Shopify settings you might want to include like colors and font sizes) within your SCSS. What I ended up doing was running a gulp task that watched a newly created scss folder. Upon detecting changes to the contents of that folder, it would use `gulp-cssimport` to string my stylesheets together into one giant .scss.liquid file that it then dumped into the assets directory. Below is my Gulpfile.
 
+```
   var gulp = require('gulp');
   var cssimport = require("gulp-cssimport");
   
@@ -44,8 +45,11 @@ If you poke around the assets folder, you might notice that all the styling is d
   
   // Default task
   gulp.task('default', ['watch']);
+``` 
 
 And my style.scss.liquid looked something like this:
+
+```
 
   @import url('_variables.scss.liquid');
   
@@ -54,6 +58,7 @@ And my style.scss.liquid looked something like this:
   
   @import url('components/_header.scss.liquid');
   ...
+```  
 
 This way, you get to structure your scss however you are used to doing it. Crisis averted!
 
