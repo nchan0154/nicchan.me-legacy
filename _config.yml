@@ -19,15 +19,16 @@ exclude:
   
 
 collections:
-    projects:
-        output: true
-        perliank: /projects/:title/
-    posts:
-        output: true
-        permalink: /blog/:title/
+  projects:
+    output: true
+  archived:
+    output: true
+  posts:
+    output: true
+    permalink: /blog/:title/
 
 
-imgurl: 
+imgurl: /img/
 
 defaults:
   -
@@ -41,3 +42,9 @@ defaults:
     values:
       layout: "projects" 
       body: "projects"
+  -
+    scope:
+      type: "archived" 
+    values:
+      layout: "projects" 
+      body: "projects"    

@@ -1,11 +1,11 @@
 @keyframes fade {
 	from {
-	    opacity: 0.3;
+	  opacity: 0.3;
 	}
 }
 
 #page {
-    animation: fade 1s ease both;
+  animation: fade 1s ease both;
 }
 
 @keyframes widthOpacity {

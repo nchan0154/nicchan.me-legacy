@@ -1,39 +1,39 @@
 .contact-form {
-    color: $primary-color;  
+  color: $primary-color;  
 }
 
 .contact-form__label {
-    display: block;
-    font-weight: bold;
-    @extend .uppercase;
+  display: block;
+  font-weight: bold;
+  @include uppercase;
 }
 
 .contact-form__input {
-    width: 100%;
-    border-radius: 5px;
-    border: 1px solid $primary-color;
-    padding: 0.75rem;
-    
-    &:focus {
-        border-color: $secondary-color;
-        outline-color: $secondary-color;
-    }
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid $primary-color;
+  padding: 0.75rem;
+  
+  &:focus {
+    border-color: $secondary-color;
+    outline-color: $secondary-color;
+  }
 }
 
 .contact-form__group {
-    margin-bottom: $medium-margin;
+  margin-bottom: $medium-margin;
 }
 
 
 @media #{$medium} {
 
-    .contact-form__group {
-        width: 50%;
-        float: left;
-    }
-    
-    .contact-form__group:first-of-type {
-        padding-right: 2rem;
-    }
+  .contact-form__group {
+    width: 50%;
+    float: left;
+  }
+  
+  .contact-form__group:first-of-type {
+    padding-right: 2rem;
+  }
 
 }

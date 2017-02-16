@@ -1,24 +1,32 @@
 $(document).ready(function() {
 
-    $('.topbar__a[href^="' + location.pathname + '"]:first').addClass('topbar--active');
-    
-    
-    var homeHeader = $('.hero__overlay');
-    var workOverlay = $('.projects-hero__overlay');
-    var workImg = $('.projects-hero__img');
-    
-    $(window).on('scroll', function () {
-        var scrollTop = $(this).scrollTop();
-        var calc = ((Math.sin(scrollTop/50 - 1.6) + 1) / 2 ).toFixed(2);
-        if (scrollTop < 1500){
-            homeHeader.css({ 'opacity': calc });
-        }
-        if (scrollTop > 100) {
-            workOverlay.addClass('projects-hero__overlay--scroll');
-        } else {
-            workOverlay.removeClass('projects-hero__overlay--scroll');
-        }
-    });
+  $('.topbar__a[href^="' + location.pathname + '"]:first').addClass('topbar--active');
+  
+  var waypoints = $('.showcase__section').waypoint({
+    handler: function handler(direction) {
+      var currentElement;
+      if (direction === 'up'){
+        currentElement = this.previous().element
+      } else {
+        currentElement = this.element
+      }
+      var currentImage = $(currentElement).find('.showcase__image-wrapper');
+      currentImage.addClass('showcase__image-wrapper--active')
+      $('.showcase__image-wrapper').not(currentImage).removeClass('showcase__image-wrapper--active')
+    },
+    offset: '50%',
+  });
+
+   var footerInView = new Waypoint.Inview({
+    element: $('.footer'),
+    enter: function(direction) {
+      $('.showcase__image-wrapper').addClass('showcase__image-wrapper--stuck');
+    },
+    exited: function(direction) {
+      $('.showcase__image-wrapper').removeClass('showcase__image-wrapper--stuck');
+    },
+  })
+  
 });
 
 lightbox.option({

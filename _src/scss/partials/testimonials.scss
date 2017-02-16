@@ -1,39 +1,39 @@
 .testimonials__wrapper {
-    padding-top: $medium-margin;
+  padding-top: $medium-margin;
 }
 
 .testimonials__text {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .testimonials__text::before {
-    content: '\201C';
-    position: absolute;
-    top: -4rem;
-    left: -1rem;
-    font-size: 5rem;
-    font-family: $heading-copy;
-    color: $primary-color;
-    opacity: 0.5;
+  content: '\201C';
+  position: absolute;
+  top: -4rem;
+  left: -1rem;
+  font-size: 5rem;
+  font-family: $heading-copy;
+  color: $primary-color;
+  opacity: 0.5;
 }
 
 .testimonials__author {
-    display: block;
-    font-style: normal;
-    font-weight: 700;
-    text-align: right;
-    color: $primary-color;
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  text-align: right;
+  color: $primary-color;
 }
 
 .testimonials__blockquote + .testimonials__blockquote {
-    margin-top: $large-margin * 1.5;
+  margin-top: $large-margin * 1.5;
 }
 
 @media #{$small} {
 
-    .testimonials__text::before{
-        left: -2rem;
-    }
+  .testimonials__text::before{
+    left: -2rem;
+  }
  
 }

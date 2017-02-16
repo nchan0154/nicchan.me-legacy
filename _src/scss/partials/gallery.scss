@@ -1,29 +1,29 @@
 .gallery {
-    margin-top: $large-margin * 2;
-    line-height: 0;
-    column-count: 1;
-    column-gap: $medium-margin;
-    padding: 0 $medium-margin;
-    margin-bottom: 0;
+  margin-top: $large-margin * 2;
+  line-height: 0;
+  column-count: 1;
+  column-gap: $medium-margin;
+  padding: 0 $medium-margin;
+  margin-bottom: 0;
 }
 
 .gallery img {
-    max-width: 100%;
-    margin-bottom: $medium-margin;
+  max-width: 100%;
+  margin-bottom: $medium-margin;
 }
 
 @media #{$medium} {
-    
-    .gallery {
-        column-count: 2;
-    }
+  
+  .gallery {
+    column-count: 2;
+  }
 
 }
 
 @media #{$large} {
-    
-    .gallery {
-        column-count: 3;
-    }
+  
+  .gallery {
+    column-count: 3;
+  }
 
 }

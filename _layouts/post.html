@@ -3,37 +3,37 @@ layout: default
 body: post
 ---
 <div id="page">
-    <main class="no-hero">
-        <div class="row">
-            <div class="text-block">
-                <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
-                    <h2 class="post__title" itemprop="name headline">
-                        {{ page.title }}
-                    </h2>
-                    <span class="post__date subheading"><time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time></span>
-                    <div class="post__content">{{ content }}</div>
-                </article>
-                    <hr>
-                      {% if site.environment == 'production' %}
-                    <div id="disqus_thread"></div>
-                        <script>
-                        var disqus_config = function () {
-                        this.page.identifier = '{{ page.url  }}'; 
-                        };
-                        (function() { 
-                        var d = document, s = d.createElement('script');
-                        
-                        s.src = '//nicchan.disqus.com/embed.js';
-                        
-                        s.setAttribute('data-timestamp', +new Date());
-                        (d.head || d.body).appendChild(s);
-                        })();
-                        </script>
-                        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-                {% endif %}
-            </div>
-        </div>
-    </main>
+  <main class="no-hero">
+    <div class="row">
+      <div class="text-block">
+        <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+          <h2 class="post__title" itemprop="name headline">
+            {{ page.title }}
+          </h2>
+          <span class="post__date subheading"><time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time></span>
+          <div class="post__content">{{ content }}</div>
+        </article>
+          <hr>
+            {% if site.environment == 'production' %}
+          <div id="disqus_thread"></div>
+            <script>
+            var disqus_config = function () {
+            this.page.identifier = '{{ page.url  }}'; 
+            };
+            (function() { 
+            var d = document, s = d.createElement('script');
+            
+            s.src = '//nicchan.disqus.com/embed.js';
+            
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        {% endif %}
+      </div>
+    </div>
+  </main>
 </div>
-            
-            
+      
+      

@@ -13,15 +13,15 @@ img:
   - link: /illustration/storm-l.png
     desc: 
   - link: /illustration/x23-l.png
-    desc:    
+    desc:  
   - link: /illustration/thesis4-l.png
     thumb: /illustration/thesis4-s.png
     desc: Ge Ming Xing   
 ---
 <main class="gallery" id="page">
-    {% for img in page.img %}
-        <a data-lightbox="illustration" href="{{ img.link }}" data-title="{{ img.desc }}">
-            <img src="{% if img.thumb != null %}{{ img.thumb }}{% else %}{{ img.link }}{% endif %}">
-        </a>
-    {% endfor %}
+  {% for img in page.img %}
+    <a data-lightbox="illustration" href="{{ img.link }}" data-title="{{ img.desc }}">
+      <img src="{% if img.thumb != null %}{{ img.thumb }}{% else %}{{ img.link }}{% endif %}">
+    </a>
+  {% endfor %}
 </main>

@@ -3,40 +3,43 @@ body: home
 permalink: /
 ---
 
-<header class="hero__wrapper">
-    <img class="hero__img" src="/img/main-2.png" alt="Self Portrait of Nic Chan">
-    <img class="hero__overlay" src="/img/main-overlay.png">
-    <div class="hero__description-wrapper">
-        <div class="hero__description-container">
-            <h2 class="hero__description">Nic Chan is a Hong Kong based web developer and&nbsp;designer.</h2>
-        </div>
+<main id="page" class="showcase no-margin">
+  <section class="showcase__section">
+    <div class="showcase__image-wrapper showcase__image-wrapper--intro" style="background-image: url({{site.imgurl}}main.png">
     </div>
-</header>
-
-<main id="page">
-    <div class="portfolio__wrapper">
-        {% assign projects = site.projects | sort: 'date' | reverse %}
-        {% for project in projects %}
-            {% if project.featured %}
-                <a class="portfolio__item" href="{{ project.permalink }}">
-                    <img class="portfolio__img" src="/img/{{ project.imgSmall }}" alt="{{ project.title }} Website">
-                    <div class="portfolio__caption">
-                       <h3 class="portfolio__title">{{ project.title }}</h3>
-                       <p class="portfolio__desc">{{ project.stack }}</p>
-                    </div>
-                </a>
-            {% endif %}    
-        {% endfor %}
-    </div>        
-    <div class="row testimonials__wrapper">
-        <section class="text-block">
-            <h2 class="testimonials__header">Testimonials</h2>
-            {% for quote in site.data.testimonials %}
-            <blockquote class="testimonials__blockquote">
-                <p class="testimonials__text">{{ quote.quote }}</p>
-                <cite class="testimonials__author">– {{ quote.source }}</cite>
-            </blockquote>
+    <div class="showcase__text-wrapper">
+      <div class="row">
+        <h2 class="showcase__intro">
+          Nic Chan is a Hong Kong based web developer and designer.
+        </h2>
+      </div>
+    </div>
+  </section>
+  {% assign projects = site.projects | sort: 'date' | reverse %}
+  {% for project in projects %}
+    <section class="showcase__section">
+      <div class="showcase__image-wrapper" style="background-color: #{{ project.color }}">
+        <img class="showcase__image" src="{{ site.imgurl }}{{ project.img }}" alt="{{ project.title }} website" />
+      </div>
+      <div class="showcase__text-wrapper">
+        <div class="row">
+          <a href="{{ project.permalink }}">
+            <h2 class="showcase__title">{{ project.title }}</h2>
+          </a>
+          <p class="showcase__blurb">
+            {{ project.blurb }}
+          </p>
+          <div class=" tags__wrapper">
+            {% for technology in project.technology %}
+            <span class="tags__tag">{{ technology }}</span>
             {% endfor %}
-        </section>
-    </div>
+          </div>
+          <a class="button button--small" href="{{ project.permalink }}">
+            Read Case Study &rarr;
+          </a>
+          
+        </div>
+      </div>
+    </section>
+  {% endfor %}
 </main>

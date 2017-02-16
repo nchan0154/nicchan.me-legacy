@@ -1,28 +1,38 @@
 .button {
-    display: block;
-    position: relative;
-    padding: 0.75rem 2rem;
-    margin: 30px auto 0;
-    background-color: $primary-color;
+  display: block;
+  position: relative;
+  padding: 0.75rem 2rem;
+  margin: 30px auto 0;
+  background-color: $primary-color;
+  color: #fff;
+  max-width: 25rem;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 6px solid darken($primary-color, 15%);
+  transition: none;
+  @include uppercase;
+  
+  &:hover {
+    background-color: darken($primary-color, 5%);
     color: #fff;
-    max-width: 25rem;
-    font-weight: 400;
-    text-align: center;
-    border-radius: 5px;
-    border: none;
-    border-bottom: 6px solid darken($primary-color, 15%);
-    transition: none;
-    @extend .uppercase;
-    
-    &:hover {
-        background-color: darken($primary-color, 5%);
-        color: #fff;
-    }
+  }
+  
+  &:active, &:focus {
+    margin-top: 34px;
+    border-bottom-width: 2px;
+    outline: none;
+    color: #fff;
+  }
+  
+  &--small {
+    display: inline-block;
+    margin-top: 0;
+    padding: 0.25rem 1rem;
     
     &:active, &:focus {
-        margin-top: 34px;
-        border-bottom-width: 2px;
-        outline: none;
-        color: #fff;
+      margin-top: 4px;
     }
+  }
 }
