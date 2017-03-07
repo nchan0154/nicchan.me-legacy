@@ -4,7 +4,6 @@ permalink: /projects/progressive-tumblr-theme/
 date: 2016-05-30
 img: featured-progressive.png
 color: e4b0af
-link: http://www.progressivetheme.tumblr.com
 featured: true
 technology:
   - Design
