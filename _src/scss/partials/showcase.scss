@@ -56,14 +56,23 @@
   }
   
   .showcase__image-wrapper {
-    position: fixed;
+    position: absolute;
     width: 50%;
     height: 100vh;
     top: 0;
     left: 0;
     bottom: 0;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.5s ease;
+    
+    &--intro {
+      background-color: $dark-color;
+    }
+    
+    &--js-enabled {
+      position: fixed;
+      opacity: 0;
+    }
     
     &--active {
       opacity: 1;

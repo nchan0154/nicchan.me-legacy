@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $('.topbar__a[href^="' + location.pathname + '"]:first').addClass('topbar--active');
-  
+
   var waypoints = $('.showcase__section').waypoint({
     handler: function handler(direction) {
       var currentElement;
@@ -17,7 +17,7 @@ $(document).ready(function() {
     offset: '50%',
   });
 
-   var footerInView = new Waypoint.Inview({
+  var footerInView = new Waypoint.Inview({
     element: $('.footer'),
     enter: function(direction) {
       $('.showcase__image-wrapper').addClass('showcase__image-wrapper--stuck');
@@ -25,7 +25,9 @@ $(document).ready(function() {
     exited: function(direction) {
       $('.showcase__image-wrapper').removeClass('showcase__image-wrapper--stuck');
     },
-  })
+  });
+  
+  $('.showcase__image-wrapper').addClass('showcase__image-wrapper--js-enabled');
   
 });
 
