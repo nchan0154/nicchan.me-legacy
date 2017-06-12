@@ -63,16 +63,18 @@
     left: 0;
     bottom: 0;
     opacity: 1;
-    transition: opacity 0.5s ease;
     transform: translateZ(0);
+    transition: opacity 0.5s ease;
     
     &--intro {
       background-color: $dark-color;
+      z-index: 1;
     }
     
     &--js-enabled {
       position: fixed;
       opacity: 0;
+      z-index: -1;
     }
     
     &--active {
