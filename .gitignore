@@ -2,5 +2,3 @@ _site/
 .sass-cache/
 .c9
 node_modules/
-_config.yml
-_config.dev.yml

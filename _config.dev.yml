@@ -1,7 +1,7 @@
 # ==================
 # Environment
 # ==================
-environment: production
+environment: development
 
 # ==================
 # Base
@@ -9,7 +9,6 @@ environment: production
 title: Nic Chan – Hong Kong Web Developer
 description: The personal website and portfolio of Hong Kong based Web Developer Nic Chan.
 safe: true
-source: https://github.com/nchan0154/nchan0154.github.io
 exclude:
   - "node_modules"
   - "package.json"
