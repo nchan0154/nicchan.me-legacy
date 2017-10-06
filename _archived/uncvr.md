@@ -1,5 +1,5 @@
 ---
-title: UNCVR Clothing
+title: UNCVR
 permalink: /projects/uncvr/
 date: 2017-08-01
 img: featured-uncvr.png
@@ -16,16 +16,16 @@ technology:
 blurb: Improving the ecommerce experience for storeowner and customers alike.
   
 brief: | 
-  UNCVR Clothing had a strong sense of branding and design already, but many parts of the site had been poorly integrated with Shopify's content editing system, which made it near impossible for them to make edits to the site on their own. Furthermore, the site hadn't been coded with a mobile first approach, causing visual bugs on smaller screen sizes.</p>
+  UNCVR had a strong sense of branding and design already, but many parts of the site weren't well integrated with Shopify's content editing system, which made it near impossible for them to make edits to the site on their own. Furthermore, the site hadn't been coded with a mobile first approach, causing visual bugs on smaller screen sizes.</p>
 solution: |
   For this project, we took an incremental, milestone based approach. This allowed us to swap out parts of the site individually over a period of time, rather than launching a single major revamp. By using gulp to join our SCSS files together <a href="http://www.nicchan.me/blog/ramping-up-with-shopify/">(described here)</a>, I built out several reuseable, modular components that were fully integrated into Shopify's new section feature, as oppopsed to being hardcoded like before. UNCVR could then build out endless fully customized variations of their landing page, based on their current needs. 
 ---
 <figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--two-thirds">
-    <img class="projects__image" src="{{ site.imgurl }}uncvr-quiz.png" alt="UNCVR Clothing quiz built in Vue.JS">
+    <img class="projects__image" src="{{ site.imgurl }}uncvr-quiz.png" alt="UNCVR quiz built in Vue.JS">
   </div>
   <div class="projects__col--one-third">
-    <img class="projects__image" src="{{ site.imgurl }}uncvr-quiz-mobile.png" alt="UNCVR Clothing quiz mobile view">
+    <img class="projects__image" src="{{ site.imgurl }}uncvr-quiz-mobile.png" alt="UNCVR quiz mobile view">
   </div>
 </figure>
 
@@ -38,7 +38,7 @@ solution: |
 </div>
 
 <figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
-  <img class="projects__image" src="{{ site.imgurl }}uncvr-journal-2.jpg" alt="UNCVR Clothing Journal">
+  <img class="projects__image" src="{{ site.imgurl }}uncvr-journal-2.jpg" alt="UNCVR Journal">
   <figcaption class="projects__caption">
     Quiz
   </figcaption>
