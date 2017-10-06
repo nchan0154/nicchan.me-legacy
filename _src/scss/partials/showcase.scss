@@ -21,6 +21,7 @@
 
 
 .showcase__image {
+  width: 100%;
   max-width: 90%;
   max-height: 90%;
   @include boxshadow;
@@ -45,7 +46,6 @@
   
   .showcase__text-wrapper {
     lost-column: 1/2 2 0 flex;
-    lost-move: 1/2;
     display: flex;
     align-items: center;
     padding: 5rem 0;
