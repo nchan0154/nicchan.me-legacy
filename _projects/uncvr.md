@@ -40,7 +40,7 @@ solution: |
 <figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
   <img class="projects__image" src="{{ site.imgurl }}uncvr-journal-2.jpg" alt="UNCVR Journal">
   <figcaption class="projects__caption">
-    Quiz
+    Journal
   </figcaption>
 </figure>
 

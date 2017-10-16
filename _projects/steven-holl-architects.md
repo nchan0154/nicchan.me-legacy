@@ -4,7 +4,7 @@ permalink: /projects/steven-holl-architects/
 date: 2015-12-01
 img: featured-sha.png
 color: 63a4da
-link: http://www.stevenholl.com
+link: https://web.archive.org/web/20160113083119/http://www.stevenholl.com/
 technology:
   - HTML
   - SCSS
