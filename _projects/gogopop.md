@@ -1,10 +1,10 @@
 ---
-title: Flurgle
-permalink: /projects/flurgle
+title: GoGoPop
+permalink: /projects/gogopop
 date: 2017-01-20
-img: featured-flurgle.png
+img: featured-gogopop.png
 color: ff4444
-link: http://www.flurgleapp.com/
+link: https://gogopop.social/
 featured: true
 technology:
   - ReactJS
@@ -14,7 +14,7 @@ technology:
 blurb: A website build-out for an up-and-coming app.
 
 solution: |
-  As a part of <a href="http://wonderkiln.com">Wonderkiln</a>, I built out the public site for Flurgle using ReactJS. The site is fully responsive and features stunning CSS and Javascript based animations to draw the viewer's attention. Check 'em out at the live site!
+  As a part of <a href="http://wonderkiln.com">Wonderkiln</a>, I built out the public site for GoGoPop using ReactJS. The site is fully responsive and features stunning CSS and Javascript based animations to draw the viewer's attention. Check 'em out at the live site!
 ---
 <figure class="projects__image-wrapper projects__image-wrapper--video row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--two-thirds">
