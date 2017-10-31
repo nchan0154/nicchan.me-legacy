@@ -10,6 +10,7 @@ technology:
   - ReactJS
   - Meteor
   - SCSS
+  - Animation
   
 blurb: A website and portal for a startup incubator.
 

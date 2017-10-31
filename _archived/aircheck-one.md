@@ -4,7 +4,7 @@ permalink: /projects/aircheck-one/
 date: 2016-08-01
 img: featured-aircheck.png
 color: 41c38a
-link: https://aircheckone.com/
+link:
 featured: true
 technology:
   - HTML

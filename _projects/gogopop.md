@@ -10,6 +10,7 @@ technology:
   - ReactJS
   - SCSS
   - GSAP
+  - Animation
   
 blurb: A website build-out for an up-and-coming app.
 
