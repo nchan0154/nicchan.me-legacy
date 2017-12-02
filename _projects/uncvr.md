@@ -2,7 +2,7 @@
 title: UNCVR
 permalink: /projects/uncvr/
 date: 2017-08-01
-img: featured-uncvr.png
+img: featured-uncvr.jpg
 color: 555
 link: https://www.uncvrclothing.com
 technology:

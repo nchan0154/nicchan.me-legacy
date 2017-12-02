@@ -19,9 +19,7 @@
   }
 }
 
-
 .showcase__image {
-  width: 100%;
   max-width: 90%;
   max-height: 90%;
   @include boxshadow;
@@ -65,10 +63,11 @@
     opacity: 1;
     transform: translateZ(0);
     transition: opacity 0.5s ease;
+    z-index: -1;
     
     &--intro {
       background-color: $dark-color;
-      z-index: 1;
+      z-index: 1000;
     }
     
     &--js-enabled {
@@ -86,6 +85,9 @@
       opacity: 1;
     }
   }
-  
+
+  .showcase__image {
+    width: 100%;
+  }
   
 }
