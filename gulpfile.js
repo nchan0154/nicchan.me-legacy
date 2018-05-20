@@ -1,8 +1,8 @@
 // Include gulp
-var gulp = require('gulp'); 
+var gulp = require('gulp');
 
 // Include Our Plugins
-
+var gutil = require('gulp-util');
 var sass = require('gulp-sass');
 var postcss = require('gulp-postcss');
 var concat = require('gulp-concat');
@@ -31,7 +31,8 @@ gulp.task('scripts', function() {
   return gulp.src('_src/js/*.js')
     .pipe(concat('all.js'))
     .pipe(rename('all.min.js'))
-    .pipe(uglify({preserveComments: 'all'}))
+    .pipe(uglify())
+    .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
     .pipe(gulp.dest('js'));
 });
 

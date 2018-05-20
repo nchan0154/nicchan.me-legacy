@@ -1,5 +1,5 @@
 .projects__heading {
-  margin: $large-margin 0;
+  margin: $large-margin 0 $medium-margin;
 }
 
 .projects__heading-link {
@@ -29,12 +29,6 @@
     background-image: linear-gradient(to bottom, transparentize($primary-color, 1), transparentize($primary-color, 0.2));
     z-index: 0;
   }
-  
-  &--video {
-    @media (max-width: 48em){
-      display: none;
-    }
-  }
 }
 
 .projects__image {
@@ -45,7 +39,7 @@
   @include boxshadow;
   max-height: 90vh;
   z-index: 1;
-  
+
   &--full {
     max-height: none;
   }
@@ -61,7 +55,7 @@
   font-size: 1.5rem;
   @include uppercase;
   display: none;
-  
+
 }
 
 [class^="projects__col"] + [class^="projects__col"] {
@@ -75,34 +69,34 @@
 
 
 @media #{$small} {
-  
+
   .projects__caption {
     display: block;
   }
 }
 
 @media #{$medium} {
-  
+
   .projects__col--half {
     lost-column: 1/2;
   }
-  
+
   .projects__col--two-thirds {
     lost-column: 2/3
   }
-  
+
   .projects__col--one-third {
     lost-column: 1/3
   }
-  
+
   [class^="projects__col"]  + [class^="projects__col"] {
     margin-top: 0;
   }
-  
-  .projects__image-wrapper {
+
+  .projects__image-wrapper, .projects__heading {
     margin: $large-margin 0;
   }
-  
+
   .pagination {
     margin-top: $large-margin * 2;
   }
