@@ -1,14 +1,16 @@
 .tags__wrapper {
   text-align: center;
   line-height: 2;
-  margin-bottom: $medium-margin;
+  margin-bottom: $medium-margin - 0.25rem;
 }
 
 .tags__tag {
+  display: inline-block;
+  margin-bottom: 0.25rem;
   background-color: $secondary-color;
   color: #fff;
   border-radius: 1.5rem;
-  padding: 0.4rem 0.8rem;
+  padding: 0.1rem 0.8rem;
   white-space: nowrap;
 }
 
@@ -17,7 +19,7 @@
 }
 
 @media #{$medium} {
-  
+
   .tags__wrapper {
     margin-bottom: $large-margin;
   }
