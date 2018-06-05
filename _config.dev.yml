@@ -15,7 +15,7 @@ exclude:
   - "gulpfile.js"
   - "Gemfile"
   - "Gemfile.lock"
-  
+
 
 collections:
   projects:
@@ -37,13 +37,13 @@ defaults:
       layout: "default"
   -
     scope:
-      type: "projects" 
+      type: "projects"
     values:
-      layout: "projects" 
+      layout: "projects"
       body: "projects"
   -
     scope:
-      type: "archived" 
+      type: "archived"
     values:
-      layout: "projects" 
-      body: "projects"    
+      layout: "projects"
+      body: "projects"
