@@ -1,29 +1,38 @@
 ---
 body: illustration
 permalink: /illustration/
-img: 
+img:
   - link: /illustration/thesisfull-l.png
     thumb:
     desc: History Repeats Itself
   - link: /illustration/donnakoryy-l.png
     thumb:
-    desc: 
+    desc:
   - link: /illustration/jubess-l.png
-    desc: 
+    desc:
   - link: /illustration/solange-l.png
-    desc: Cranes in the Sky  
+    desc: Cranes in the Sky
   - link: /illustration/storm-l.png
-    desc: 
+    desc:
   - link: /illustration/x23-l.png
-    desc:  
+    desc:
   - link: /illustration/thesis4-l.png
     thumb: /illustration/thesis4-s.png
-    desc: Ge Ming Xing   
+    desc: Ge Ming Xing
 ---
-<main class="gallery" id="page">
+
+<main class="gallery" id="main" tabindex="-1">
   {% for img in page.img %}
-    <a data-lightbox="illustration" href="{{ img.link }}" data-title="{{ img.desc }}">
-      <img src="{% if img.thumb != null %}{{ img.thumb }}{% else %}{{ img.link }}{% endif %}">
-    </a>
+  <a
+    data-lightbox="illustration"
+    href="{{ img.link }}"
+    data-title="{{ img.desc }}"
+  >
+    <img
+      src="{% if img.thumb != null %}{{ img.thumb }}{% else %}{{
+        img.link
+      }}{% endif %}"
+    />
+  </a>
   {% endfor %}
 </main>

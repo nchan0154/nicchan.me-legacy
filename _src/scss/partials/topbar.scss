@@ -1,98 +1,72 @@
 .topbar {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  top: 0;
+  background-color: $offwhite;
   z-index: 2;
-  
-  .home & {
-    background: $dark-color;
-  }
 }
 
-.topbar__ul {
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-padding-start: 0;
-  margin: 0.25rem;
+.topbar__list {
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem 2.5%;
   text-align: center;
   font-size: 0.875rem;
 }
 
-.topbar__li {
-  display: inline;
+.topbar__item {
+  display: inline-block;
+  padding: 0.25rem 1rem;
   font-weight: 700;
-  padding: 0 0.5em;
 }
 
-.topbar__a {
+.topbar__link {
+  display: inline-block;
+  position: relative;
   text-decoration: none;
   color: $primary-color;
   @include uppercase;
-  
-  &:hover, &:active, &:focus {
-    color: $dark-color;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    height: 2px;
+    background-color: $dark-color;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
   }
-}
 
-.topbar--active {
-  color: $dark-color;
-}
-
-
-.projects .topbar__a,
-.home .topbar__a {
-  color: #fff; 
-  opacity: 0.8;
-  
-  &:hover, &:active, &:focus {
-    color: #fff;
-    opacity: 1;
-  }
-  
+  &:hover,
+  &:active,
+  &:focus,
   &--active {
-    opacity: 1;
-  }
-}
-
-
-@media #{$small} {
-  
-  .topbar {
-    left: auto;
-    background: none;
-    
-    .home & {
-      background: none;
-    }
-  }
-  
-  .topbar__ul {
-    text-align: left;
-    margin: 1rem 0.7rem 1rem 0;
-    font-size: 1rem;
-  }
-  
-  .topbar__li {
-    padding: 0 1rem;
-  }
-}
-
-
-@media (min-width: 66em){
-  
- .home .topbar__a {
-    color: $primary-color; 
-    opacity: 1;
-    
-    &:hover, &:active, &:focus {
-      color: $dark-color;
-    }
-  }
-  
-  .topbar--active {
     color: $dark-color;
+
+    &::after {
+      transform: scaleX(1);
+    }
+  }
+}
+
+@media (min-width: 66em) {
+  .topbar {
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+
+    .home & {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 0;
+    }
+  }
+
+  .topbar__list {
+    text-align: right;
+    font-size: 1rem;
+    padding-right: calc(2.5% - 1rem);
   }
 }

@@ -8,7 +8,7 @@
   display: inline-block;
   margin-bottom: 0.25rem;
   background-color: $secondary-color;
-  color: #fff;
+  color: $dark-color;
   border-radius: 1.5rem;
   padding: 0.1rem 0.8rem;
   white-space: nowrap;
@@ -19,9 +19,7 @@
 }
 
 @media #{$medium} {
-
   .tags__wrapper {
     margin-bottom: $large-margin;
   }
-
 }

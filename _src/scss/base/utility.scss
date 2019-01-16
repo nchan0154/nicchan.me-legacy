@@ -1,0 +1,32 @@
+#main {
+  &:focus {
+    outline: none;
+  }
+}
+
+.screenreader {
+  clip: rect(1px 1px 1px 1px); /* IE 6/7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; /* added line */
+  width: 1px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: $offwhite;
+  color: $dark-color;
+  opacity: 0;
+  z-index: 100;
+  pointer-events: none;
+
+  &:focus {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

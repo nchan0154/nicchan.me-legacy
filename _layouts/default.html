@@ -1,5 +1,8 @@
 {% include head.html %}
-<body class="{{ page.body }}" id="page">
+<body id="page" class="{{ page.body }}">
+  <a class="skip-link" href="#main">Skip to Main Content</a>
   {% include nav.html %}
   {{ content }}
   {% include footer.html %}
+</body>
+</html>

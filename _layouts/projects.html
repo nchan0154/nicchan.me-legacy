@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
-<header class="projects-hero__wrapper" style="background-color: #{{ page.color }}">
+
+<header
+  id="main"
+  tabindex="-1"
+  class="projects-hero__wrapper"
+  style="background-color: #{{ page.color }}"
+>
   <div class="row">
-    <img class="projects-hero__img" src="/img/{{ page.img }}">
+    <img class="projects-hero__img" src="/img/{{ page.img }}" />
   </div>
   <div class="projects-hero__overlay"></div>
 </header>
@@ -11,26 +17,30 @@ layout: default
 <main>
   <div class="row">
     {% if page.link %}
-      <h1 class="projects__heading"><a class="projects__heading-link" href="{{ page.link }}">{{ page.title }}&nbsp;<span class="projects__heading-arrow">&rarr;</span></a></h1>
+    <h1 class="projects__heading">
+      <a class="projects__heading-link" href="{{ page.link }}"
+        >{{ page.title }}&nbsp;<span class="projects__heading-arrow"
+          >&rarr;</span
+        ></a
+      >
+    </h1>
     {% else %}
-      <h1 class="projects__heading">{{ page.title }}</h1>
+    <h1 class="projects__heading">{{ page.title }}</h1>
     {% endif %}
   </div>
 
   <div class="row">
     <section class="text-block tags__wrapper">
       {% for technology in page.technology %}
-      <span class="tags__tag">{{ technology }}</span>
-      {% endfor %}
+      <span class="tags__tag">{{ technology }}</span> {% endfor %}
     </section>
   </div>
 
   <div class="row">
     <section class="text-block">
       {% if page.brief %}
-        <h2 class="subheading">The Brief</h2>
-        {{ page.brief }}
-      {% endif %}
+      <h2 class="subheading">The Brief</h2>
+      {{ page.brief }} {% endif %}
       <h2 class="subheading">The Solution</h2>
       {{ page.solution }}
     </section>
@@ -38,34 +48,20 @@ layout: default
 
   {{ content }}
 
-{% capture the_collection %}{{page.collection}}{% endcapture %}
-{% if page.collection %}
-  {% assign document = site[the_collection] | sort: 'date' | reverse %}
-{% endif %}
-
-{% for links in document %}
-  {% if links.title == page.title %}
-  {% if forloop.last %}
-    {% assign next = document[0] %}
-    {% assign nexturl = next.url %}
-    {% assign nexttitle = next.title %}
-  {% else %}
-    {% assign next = document[forloop.index] %}
-    {% assign nexturl = next.url %}
-    {% assign nexttitle = next.title %}
-  {% endif%}
-{% endif %}
-
-{% assign prev = links %}
-{% endfor %}
-
-{% if nexturl %}
-<div class="row">
-  <section class="text-block pagination">
-    {% if nexturl %}Next Project: <a href="{{nexturl}}" class="next"> {{nexttitle}}&nbsp;&rarr;</a>{% endif %}
-  </section>
-</div>
-{% endif %}
-
-
+  {% capture the_collection %}{{ page.collection }}{% endcapture %} {% if
+  page.collection %} {% assign document = site[the_collection] | sort: 'date' |
+  reverse %} {% endif %} {% for links in document %} {% if links.title ==
+  page.title %} {% if forloop.last %} {% assign next = document[0] %} {% assign
+  nexturl = next.url %} {% assign nexttitle = next.title %} {% else %} {% assign
+  next = document[forloop.index] %} {% assign nexturl = next.url %} {% assign
+  nexttitle = next.title %} {% endif%} {% endif %} {% assign prev = links %} {%
+  endfor %} {% if nexturl %}
+  <div class="row">
+    <section class="text-block pagination">
+      {% if nexturl %}Next Project:
+      <a href="{{ nexturl }}" class="next"> {{ nexttitle }}&nbsp;&rarr;</a>{%
+      endif %}
+    </section>
+  </div>
+  {% endif %}
 </main>

@@ -16,7 +16,6 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 
-
 collections:
   projects:
     output: true
@@ -26,23 +25,19 @@ collections:
     output: true
     permalink: /blog/:title/
 
-
 imgurl: /img/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       type: "projects"
     values:
       layout: "projects"
       body: "projects"
-  -
-    scope:
+  - scope:
       type: "archived"
     values:
       layout: "projects"
