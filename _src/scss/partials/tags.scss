@@ -1,7 +1,9 @@
 .tags__wrapper {
   text-align: center;
   line-height: 2;
-  margin-bottom: $medium-margin - 0.25rem;
+  margin: 0 0 $medium-margin - 0.25rem;
+  padding: 0;
+  list-style: none;
 }
 
 .tags__tag {

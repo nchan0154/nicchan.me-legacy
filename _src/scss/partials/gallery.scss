@@ -1,5 +1,4 @@
 .gallery {
-  margin-top: $large-margin * 2;
   line-height: 0;
   column-count: 1;
   column-gap: $medium-margin;
@@ -13,17 +12,13 @@
 }
 
 @media #{$medium} {
-  
   .gallery {
     column-count: 2;
   }
-
 }
 
 @media #{$large} {
-  
   .gallery {
     column-count: 3;
   }
-
 }

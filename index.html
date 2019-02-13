@@ -36,12 +36,13 @@ permalink: /
           <h2 class="showcase__title">{{ project.title }}</h2>
         </a>
         <p class="showcase__blurb">{{ project.blurb }}</p>
-        <div class=" tags__wrapper">
+        <ul class="tags__wrapper">
           {% for technology in project.technology %}
-          <span class="tags__tag">{{ technology }}</span> {% endfor %}
-        </div>
+            <li class="tags__tag">{{ technology }}</li>
+          {% endfor %}
+        </ul>
         <a class="button button--small" href="{{ project.permalink }}">
-          Read Case Study &rarr;
+          Read <span class="screenreader">{{ project.title }}</span> Case Study &rarr;
         </a>
       </div>
     </div>
