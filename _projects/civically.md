@@ -4,14 +4,13 @@ permalink: /projects/civically/
 date: 2017-10-21
 img: featured-civically.png
 color: FE542D
-link: http://www.civically.us/
 featured: true
 technology:
   - MeteorJS
   - React
   - Javascript
   - SCSS
-  
+
 blurb: A complex web portal with multiple roles.
 
 solution: |
@@ -26,13 +25,10 @@ solution: |
   </div>
 </figure>
 
-<div class="row">
-  <section class="text-block">
-    <h2>Highlights</h2>
-    <h2 class="subheading">Graphs</h2>
-    <p>I built out graphs using Recharts, a React and D3 based library in order to track important metrics.</p>
-    <h2 class="subheading">Live Updates</h2>
-    <p>Meteor's DDP in conjunction with React allows for a completely reactive experience - any changes in the database are immediately reflected in the client.</p>
-  </section>
-</div>
-
+<section class="row row--small">
+  <h2>Highlights</h2>
+  <h2 class="subheading">Graphs</h2>
+  <p>I built out graphs using Recharts, a React and D3 based library in order to track important metrics.</p>
+  <h2 class="subheading">Live Updates</h2>
+  <p>Meteor's DDP in conjunction with React allows for a completely reactive experience - any changes in the database are immediately reflected in the client.</p>
+</section>

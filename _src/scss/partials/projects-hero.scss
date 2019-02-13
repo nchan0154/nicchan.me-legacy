@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   position: relative;
-  padding: 6rem 0 $large-margin;
+  padding: $large-margin 0;
   min-height: 100vh;
-  
+
   &::before {
     content: '';
     display: block;
@@ -15,6 +15,11 @@
     bottom: 0;
     background-image: linear-gradient(to bottom, transparentize($primary-color, 1), transparentize($primary-color, 0.2));
     z-index: 0;
+  }
+
+  @media (min-width: 66em) {
+    // Hack: Magic number for top bar height
+    min-height: calc(100vh - 4rem)
   }
 }
 

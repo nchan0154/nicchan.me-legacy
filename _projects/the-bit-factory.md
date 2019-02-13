@@ -4,14 +4,13 @@ permalink: /projects/the-bit-factory
 date: 2017-04-16
 img: featured-tbf.jpg
 color: 07b3e7
-link: https://www.thebitfactory.com/
 featured: true
 technology:
   - ReactJS
   - Meteor
   - SCSS
   - Animation
-  
+
 blurb: A website and portal for a startup incubator.
 
 solution: |
@@ -29,13 +28,11 @@ solution: |
   </figcaption>
 </figure>
 
-<div class="row">
-  <section class="text-block">
-    <h2>Highlights</h2>
-    <h2 class="subheading">Animations</h2>
-    <p>The public site makes heavy use of CSS animations in order to provide visual delight to the users. CSS3 animations are powerful and flexible, and are perfect in cases where jQuery would be overkill.</p>
-  </section>
-</div>
+<section class="row row--small">
+  <h2>Highlights</h2>
+  <h3 class="subheading">Animations</h3>
+  <p>The public site makes heavy use of CSS animations in order to provide visual delight to the users. CSS3 animations are powerful and flexible, and are perfect in cases where jQuery would be overkill.</p>
+</section>
 
 <figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
@@ -49,12 +46,10 @@ solution: |
   </figcaption>
 </figure>
 
-<div class="row">
-  <section class="text-block">
-    <h2 class="subheading">A full featured portal</h2>
-    <p>The portal contains views to manage incoming applications to The Bit Factory, as a well as a variety of media types. Each form leverages the power of Meteor's simple schema package with a full set of validation rules.</p>
-  </section>
-</div>
+<section class="row row--small">
+  <h2 class="subheading">A full featured portal</h2>
+  <p>The portal contains views to manage incoming applications to The Bit Factory, as a well as a variety of media types. Each form leverages the power of Meteor's simple schema package with a full set of validation rules.</p>
+</section>
 
 <figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
   <img class="projects__image" src="{{ site.imgurl }}tbf-portal-edit.png" alt="The Bit Factory edit form">

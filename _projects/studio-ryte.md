@@ -28,14 +28,11 @@ solution: |
   </div>
 </figure>
 
-
-<div class="row">
-  <section class="text-block">
-    <h2>Highlights</h2>
-    <h3 class="subheading">Blog and Project Pages</h3>
-    <p>The project page was built up out of a modular system of blocks so Studio RYTE could customize each case study as needed. The blog page features an instagram integration to pull all latest posts.</p>
-  </section>
-</div>
+<section class="row row--small">
+  <h2>Highlights</h2>
+  <h3 class="subheading">Blog and Project Pages</h3>
+  <p>The project page was built up out of a modular system of blocks so Studio RYTE could customize each case study as needed. The blog page features an instagram integration to pull all latest posts.</p>
+</section>
 
 <figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
   <video class="projects__image" controls width="100%">
@@ -47,9 +44,7 @@ solution: |
 </figure>
 
 
-<div class="row">
-  <section class="text-block">
-    <h3 class="subheading">Menu</h3>
-    <p>The creative nature of Studio RYTE allowed for a little more experimentation when it came to designing the site menu. The animations served to reinforce the RYTE/LEVT brand and offered a way for users to preview projects they were interested in.</p>
-  </section>
-</div>
+<section class="row row--small">
+  <h3 class="subheading">Menu</h3>
+  <p>The creative nature of Studio RYTE allowed for a little more experimentation when it came to designing the site menu. The animations served to reinforce the RYTE/LEVT brand and offered a way for users to preview projects they were interested in.</p>
+</section>

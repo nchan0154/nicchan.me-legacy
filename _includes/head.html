@@ -9,6 +9,9 @@
   <meta name="author" content="Nic Chan">
   <meta name="google-site-verification" content="jmCzVbLU_ewmPKKSbG8xhK5aXxvaHzkTT6KBDL8lnSc" />
   <meta name="theme-color" content="#a75293" />
+  {% if page.hidden %}
+    <meta name="robots" content="noindex">
+  {% endif %}
 
   <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 

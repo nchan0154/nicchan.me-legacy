@@ -8,7 +8,6 @@ environment: production
 # ==================
 title: Nic Chan – Hong Kong Web Developer
 description: The personal website and portfolio of Hong Kong based Web Developer Nic Chan.
-safe: true
 source: https://github.com/nchan0154/nchan0154.github.io
 exclude:
   - "node_modules"
@@ -16,7 +15,7 @@ exclude:
   - "gulpfile.js"
   - "Gemfile"
   - "Gemfile.lock"
-  
+
 
 collections:
   projects:
@@ -38,13 +37,14 @@ defaults:
       layout: "default"
   -
     scope:
-      type: "projects" 
+      type: "projects"
     values:
-      layout: "projects" 
+      layout: "projects"
       body: "projects"
   -
     scope:
-      type: "archived" 
+      type: "archived"
     values:
-      layout: "projects" 
-      body: "projects"    
+      layout: "projects"
+      body: "projects"
+      hidden: true

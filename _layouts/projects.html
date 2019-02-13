@@ -15,7 +15,7 @@ layout: default
 </header>
 
 <main>
-  <div class="row">
+  <header class="row row--small">
     {% if page.link %}
     <h1 class="projects__heading">
       <a class="projects__heading-link" href="{{ page.link }}"
@@ -27,24 +27,21 @@ layout: default
     {% else %}
     <h1 class="projects__heading">{{ page.title }}</h1>
     {% endif %}
-  </div>
 
-  <div class="row">
-    <section class="text-block tags__wrapper">
+    <ul class="tags__wrapper">
       {% for technology in page.technology %}
-      <span class="tags__tag">{{ technology }}</span> {% endfor %}
-    </section>
-  </div>
+        <li class="tags__tag">{{ technology }}</li>
+      {% endfor %}
+    </ul>
+  </header>
 
-  <div class="row">
-    <section class="text-block">
-      {% if page.brief %}
-      <h2 class="subheading">The Brief</h2>
-      {{ page.brief }} {% endif %}
-      <h2 class="subheading">The Solution</h2>
-      {{ page.solution }}
-    </section>
-  </div>
+  <section class="row row--small">
+    {% if page.brief %}
+    <h2 class="subheading">The Brief</h2>
+    {{ page.brief }} {% endif %}
+    <h2 class="subheading">The Solution</h2>
+    {{ page.solution }}
+  </section>
 
   {{ content }}
 
@@ -56,12 +53,10 @@ layout: default
   next = document[forloop.index] %} {% assign nexturl = next.url %} {% assign
   nexttitle = next.title %} {% endif%} {% endif %} {% assign prev = links %} {%
   endfor %} {% if nexturl %}
-  <div class="row">
-    <section class="text-block pagination">
-      {% if nexturl %}Next Project:
-      <a href="{{ nexturl }}" class="next"> {{ nexttitle }}&nbsp;&rarr;</a>{%
-      endif %}
-    </section>
+  <div class="row row--small pagination">
+    {% if nexturl %}Next Project:
+    <a href="{{ nexturl }}" class="next"> {{ nexttitle }}&nbsp;&rarr;</a>{%
+    endif %}
   </div>
   {% endif %}
 </main>
