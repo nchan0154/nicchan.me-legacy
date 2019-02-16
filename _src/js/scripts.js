@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  console.log(location.pathname);
 
   $('.topbar__link[href^="' + location.pathname + '"]:first')
     .addClass("topbar__link--active")

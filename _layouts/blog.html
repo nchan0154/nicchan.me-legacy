@@ -3,25 +3,23 @@ layout: default
 body: blog
 ---
 <main class="no-hero" id="main" tabindex="-1">
-  <div class="row">
-    <div class="text-block">
-      {% assign postCount = '0' %}
-      {% capture totalPost %}{{ site.posts.size | plus: '0' }}{% endcapture %}
-      {% for post in site.posts %}
-        {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
-        <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
-          <h2 class="post__title" itemprop="name headline">
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </h2>
-          <span class="post__date subheading"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%-d %b %Y" }}</time></span>
-          <div class="post__content">{{ post.excerpt }}</div>
+  <div class="row row--small">
+    {% assign postCount = '0' %}
+    {% capture totalPost %}{{ site.posts.size | plus: '0' }}{% endcapture %}
+    {% for post in site.posts %}
+      {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
+      <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <h2 class="post__title" itemprop="name headline">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <span class="post__date subheading"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%-d %b %Y" }}</time></span>
+        <div class="post__content">{{ post.excerpt }}</div>
 
-          <a class="post__permalink" href="{{ post.url }}">Permalink &rarr;</a>
-        </article>
-        {% if postCount != totalPost %}
-          <hr>
-        {% endif %}
-      {% endfor %}
-    </div>
+        <a class="post__permalink" href="{{ post.url }}">Permalink &rarr;</a>
+      </article>
+      {% if postCount != totalPost %}
+        <hr>
+      {% endif %}
+    {% endfor %}
   </div>
 </main>

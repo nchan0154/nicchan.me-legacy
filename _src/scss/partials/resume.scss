@@ -7,6 +7,11 @@
   margin-top: 0;
 }
 
+.resume__point {
+  font-size: 1rem;
+  margin: 0;
+}
+
 
 .resume__institution, .resume__date, .resume__title {
   display: block;
@@ -32,23 +37,23 @@
   width: 3rem;
   fill: $secondary-color;
   margin-right: $medium-margin;
-  
+
   &:hover, &:active {
     fill: $primary-color;
   }
 }
 
 @media #{$small} {
-  
-  
+
+
   .resume__institution, .resume__date, .resume__title {
     font-size: 0.875rem;
   }
-  
+
   .resume__date, .resume__title, .resume__bullet {
     display: inline;
   }
-  
+
   .resume__bullet {
     font-size: 0.75rem;
     vertical-align: middle;
