@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $('.topbar__link[href^="' + location.pathname + '"]:first')
     .addClass("topbar__link--active")
     .attr("aria-current", "page");
@@ -34,9 +33,4 @@ $(document).ready(function() {
   });
 
   $(".showcase__image-wrapper").addClass("showcase__image-wrapper--js-enabled");
-});
-
-lightbox.option({
-  showImageNumberLabel: false,
-  resizeDuration: 400
 });

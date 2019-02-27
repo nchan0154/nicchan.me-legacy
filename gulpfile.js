@@ -29,7 +29,7 @@ gulp.task("sass", function() {
 // Concatenate & Minify JS
 gulp.task("scripts", function() {
   return gulp
-    .src("_src/js/*.js")
+    .src(["_src/js/lib/*.js", "_src/js/*.js"])
     .pipe(concat("all.js"))
     .pipe(rename("all.min.js"))
     .pipe(uglify())
@@ -53,7 +53,7 @@ gulp.task("img", function() {
 
 // Watch Files For Changes
 gulp.task("watch", function() {
-  gulp.watch("_src/js/*.js", ["scripts"]);
+  gulp.watch("_src/js/**/*.js", ["scripts"]);
   gulp.watch("_src/scss/**/*.scss", ["sass"]);
 });
 

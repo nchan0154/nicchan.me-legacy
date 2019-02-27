@@ -4,35 +4,57 @@ permalink: /illustration/
 img:
   - link: /illustration/thesisfull-l.png
     thumb:
-    desc: History Repeats Itself
+    title: History Repeats Itself
   - link: /illustration/donnakoryy-l.png
     thumb:
-    desc:
+    title:
   - link: /illustration/jubess-l.png
-    desc:
+    title:
   - link: /illustration/solange-l.png
-    desc: Cranes in the Sky
+    title: Cranes in the Sky
   - link: /illustration/storm-l.png
-    desc:
+    title:
   - link: /illustration/x23-l.png
-    desc:
+    title:
   - link: /illustration/thesis4-l.png
     thumb: /illustration/thesis4-s.png
-    desc: Ge Ming Xing
+    title: Ge Ming Xing
 ---
 
 <main class="gallery no-hero" id="main" tabindex="-1">
   {% for img in page.img %}
   <a
-    data-lightbox="illustration"
+    data-dialog-trigger
     href="{{ img.link }}"
-    data-title="{{ img.desc }}"
+    data-title="{{ img.title }}"
+    data-alt="{{ img.alt }}"
   >
     <img
       src="{% if img.thumb != null %}{{ img.thumb }}{% else %}{{
         img.link
       }}{% endif %}"
+      alt="{{ img.alt }}"
     />
   </a>
   {% endfor %}
 </main>
+
+<div class="dialog" id="image-modal">
+  <dialog class="dialog__window" aria-labelledby="dialog-title">
+    <button
+      class="dialog__close"
+      type="button"
+      data-a11y-dialog-hide
+      aria-label="Close image viewer"
+    >
+      &times;
+    </button>
+
+    <div class="dialog__content">
+      <h1 class="dialog__title" id="dialog-title">Dialog Title</h1>
+      <div class="dialog__image-wrapper">
+        <img class="dialog__image" />
+      </div>
+    </div>
+  </dialog>
+</div>
