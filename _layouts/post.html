@@ -5,9 +5,9 @@ body: post
 <main class="no-hero" id="main" tabindex="-1">
   <div class="row row--small">
     <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
-      <h2 class="post__title" itemprop="name headline">
+      <h1 class="post__title" itemprop="name headline">
         {{ page.title }}
-      </h2>
+      </h1>
       <span class="post__date subheading"><time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time></span>
       <div class="post__content">{{ content }}</div>
     </article>

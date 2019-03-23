@@ -4,6 +4,7 @@ body: blog
 ---
 <main class="no-hero" id="main" tabindex="-1">
   <div class="row row--small">
+    <h1 class="screenreader">All Blog Posts</h1>
     {% assign postCount = '0' %}
     {% capture totalPost %}{{ site.posts.size | plus: '0' }}{% endcapture %}
     {% for post in site.posts %}

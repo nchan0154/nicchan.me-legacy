@@ -1,0 +1,33 @@
+.social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social__item {
+  margin-bottom: 1rem;
+
+  &::before {
+    content: "\200B";
+    position: absolute;
+  }
+}
+
+.social__link {
+  &:hover,
+  &:active,
+  &:focus {
+    .social__icon {
+      fill: $primary-color;
+    }
+  }
+}
+
+.social__icon {
+  height: 2rem;
+  width: 2rem;
+  fill: $secondary-color;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}

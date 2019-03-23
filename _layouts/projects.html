@@ -9,7 +9,11 @@ layout: default
   style="background-color: #{{ page.color }}"
 >
   <div class="row">
-    <img class="projects-hero__img" src="/img/{{ page.img }}" />
+    <img
+      class="projects-hero__img"
+      src="/img/{{ page.img }}"
+      alt="{{ page.title }} Homepage"
+    />
   </div>
   <div class="projects-hero__overlay"></div>
 </header>
@@ -30,7 +34,7 @@ layout: default
 
     <ul class="tags__wrapper">
       {% for technology in page.technology %}
-        <li class="tags__tag">{{ technology }}</li>
+      <li class="tags__tag">{{ technology }}</li>
       {% endfor %}
     </ul>
   </header>

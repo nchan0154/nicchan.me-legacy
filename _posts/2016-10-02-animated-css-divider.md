@@ -5,9 +5,9 @@ title: Animated CSS Dividers
 
 Having grown up in the age of blinkies, I have a special fondness for animated elements. However, there is undoubtedly a certain level of restraint required when implementing animation today, too much and the page feels overwhelming very quickly. I'm particularly fond of this simple divider animation that I implemented for the <a href="/projects/hexxel">Hexxel landing page</a>.
 
-##### The Details
+## The Details
 
-Since we are unable to transition between gradients using CSS, some trickery was required. For the animated bar part, I set the background to a linear gradient between 3 colors, then sizing up the background to 200% in width, but 100% in height. To achieve the effect of a gradient transitioning, I transformed the background position back and forth. 
+Since we are unable to transition between gradients using CSS, some trickery was required. For the animated bar part, I set the background to a linear gradient between 3 colors, then sizing up the background to 200% in width, but 100% in height. To achieve the effect of a gradient transitioning, I transformed the background position back and forth.
 
 The little nodes on the end of the divider are nothing special, simple pseudo-elements, but they certainly add to the network theme of the site, don't you think?
 

@@ -8,24 +8,24 @@ Recently, I was tasked with replacing a background video, created in Apple Motio
 <p data-height="600" data-theme-id="0" data-slug-hash="OmjvZJ" data-default-tab="result" data-user="nchan0154" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/nchan0154/pen/OmjvZJ/">Animated Dividers</a> by Nic Chan (<a href="http://codepen.io/nchan0154">@nchan0154</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-##### Canvas Basics
+## Canvas Basics
 
 The canvas API is fairly primitive in that once you draw a shape, you can't really go back and edit it. This is the exact opposite of CSS or Javascript animation frameworks like GSAP, where you can reach in and grab a particular element with the targeted use of selectors. Because of this, the typical animation flow goes something like this:
 
-1. Clear the canvas 
-2. Draw the canvas elements 
+1. Clear the canvas
+2. Draw the canvas elements
 3. Modify the elements that are to be animated
 4. Grab the next frame, typically with requestAnimationFrame
 
 It's pretty amazing to think that with every frame of this animation, we're drawing the same lines over again, eh? <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations">MDN</a> was an invaluable source for me when I was trying to understand this process.
 
-##### On Algorithmic Perfection
+## On Algorithmic Perfection
 
 I spent a lot of time trying to come up with the perfect formulas for calculating things like opacity, speed, and scaling. If we were modelling a real life situation, getting an accurate algorithm would be top priority, but since we are merely using these functions to generate a visual representation, there is a lot more freedom! Getting something that just 'feels right' is perfectly acceptable, and in some cases, preferred, over trying to manually calculate that perfect bezier curve.
 
-##### On Persistence
+## On Persistence
 
-![Canvas Lines]({{site.imgurl}}canvas-lines.PNG "Canvas Lines")
+![Canvas Lines]({{site.imgurl}}canvas-lines.PNG)
 
 I admit I'm a little ashamed to post this, but above is my first attempt at trying to generate a pattern of network lines with Javascript. It wasn't even in the same ballpark as what we needed, and I used exactly none of the code in the final product. Regardless, it's an important reminder that experimentation is neccessary - you will probably fail your first few attempts when attempting a new thing, and that's perfectly normal.
 

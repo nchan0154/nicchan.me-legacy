@@ -12,8 +12,9 @@
   margin: 0;
 }
 
-
-.resume__institution, .resume__date, .resume__title {
+.resume__institution,
+.resume__date,
+.resume__title {
   display: block;
   @include uppercase;
 }
@@ -28,29 +29,20 @@
   display: block;
 }
 
-.resume__date,  {
+.resume__date {
   opacity: 0.7;
 }
 
-.resume__social {
-  height: 3rem;
-  width: 3rem;
-  fill: $secondary-color;
-  margin-right: $medium-margin;
-
-  &:hover, &:active {
-    fill: $primary-color;
-  }
-}
-
 @media #{$small} {
-
-
-  .resume__institution, .resume__date, .resume__title {
+  .resume__institution,
+  .resume__date,
+  .resume__title {
     font-size: 0.875rem;
   }
 
-  .resume__date, .resume__title, .resume__bullet {
+  .resume__date,
+  .resume__title,
+  .resume__bullet {
     display: inline;
   }
 

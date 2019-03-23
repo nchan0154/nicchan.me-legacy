@@ -12,11 +12,15 @@
   margin-top: $medium-margin;
 }
 
-.post h5 {
+.post__content h2 {
+  font-family: $body-copy;
+  font-size: 1.25rem;
+  text-align: left;
   margin-top: 1.67em;
   margin-bottom: 0;
 }
 
-.blog main, .post main {
+.blog main,
+.post main {
   margin-bottom: $large-margin * 2;
 }
