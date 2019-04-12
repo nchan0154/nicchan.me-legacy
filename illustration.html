@@ -51,8 +51,8 @@ img:
   {% endfor %}
 </main>
 
-<div class="dialog" id="image-modal">
-  <dialog class="dialog__window" aria-labelledby="dialog-title">
+<div class="dialog" id="image-modal" aria-hidden="true">
+  <div class="dialog__window" aria-labelledby="dialog-title" role="dialog">
     <button
       class="dialog__close"
       type="button"
@@ -68,5 +68,5 @@ img:
         <img class="dialog__image" />
       </div>
     </div>
-  </dialog>
+  </div>
 </div>
