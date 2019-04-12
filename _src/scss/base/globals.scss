@@ -1,6 +1,6 @@
 * {
-  box-sizing: border-box; 
-} 
+  box-sizing: border-box;
+}
 
 html {
   overflow-x: hidden;
@@ -28,13 +28,13 @@ hr {
 }
 
 ::selection {
-  background-color: $secondary-color;
+  background-color: $dark-color;
   color: #fff;
 }
 
 
 @media #{$medium} {
-  
+
   html, body {
     font-size: 1.125rem;
   }

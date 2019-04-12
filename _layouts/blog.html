@@ -14,9 +14,7 @@ body: blog
           <a href="{{ post.url }}">{{ post.title }}</a>
         </h2>
         <span class="post__date subheading"><time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%-d %b %Y" }}</time></span>
-        <div class="post__content">{{ post.excerpt }}</div>
-
-        <a class="post__permalink" href="{{ post.url }}">Permalink &rarr;</a>
+        <p class="post__content">{{ post.content | strip_html | truncatewords: 60 }}</p>
       </article>
       {% if postCount != totalPost %}
         <hr>

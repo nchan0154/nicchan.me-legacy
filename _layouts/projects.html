@@ -42,9 +42,12 @@ layout: default
   <section class="row row--small">
     {% if page.brief %}
     <h2 class="subheading">The Brief</h2>
-    {{ page.brief }} {% endif %}
+    <p>{{ page.brief }}</p>
+    {% endif %}
     <h2 class="subheading">The Solution</h2>
-    {{ page.solution }}
+    <p>
+      {{ page.solution }}
+    </p>
   </section>
 
   {{ content }}

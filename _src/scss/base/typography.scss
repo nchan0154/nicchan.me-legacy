@@ -1,21 +1,21 @@
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: $heading-copy;
   font-weight: 700;
   text-align: center;
   line-height: 1.3;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-size: 1.5rem;
 }
 
-h5 { font-size: 1.25rem; }
-
-@media (min-width: 34em){
-  h1 { font-size: 2.5rem; }
-  h2 { font-size: 2.5rem; }
-  h3 { font-size: 2rem; }
-  h4 { font-size: 1.75rem; }
+h5 {
+  font-size: 1.25rem;
 }
 
 .subheading {
@@ -37,9 +37,20 @@ a {
   font-weight: 700;
   color: $dark-color;
   transition: 0.3s all ease;
-  
-  &:hover, &:focus{
+
+  &:hover,
+  &:focus {
     color: $primary-color;
+  }
+}
+
+p a {
+  position: relative;
+  &::before {
+    content: "";
+    width: 100%;
+    height: 0.75rem;
+    background-color: $secondary-color;
   }
 }
 
@@ -47,6 +58,22 @@ blockquote {
   margin: 0;
 }
 
-code, pre {
+code,
+pre {
   background-color: lighten(#d0a6cc, 20%);
+}
+
+@media (min-width: 34em) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.75rem;
+  }
 }

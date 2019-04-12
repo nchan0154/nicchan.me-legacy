@@ -19,6 +19,7 @@ brief: |
 solution: |
   Using a prebuilt theme was not an option for Studio RYTE, who wanted to show off their own design chops with their new portfolio. We had to find other ways to save time in order to make the tight deadline. I ended up using a Jekyll, Forestry and Netlify based-stack to continually build and deploy new parts of the site, while they worked on importing content as they completed the designs. The choice of technologies allowed enough flexibility during the build out to change and extend the site in a short period of time.
 ---
+
 <figure class="projects__image-wrapper row row--full" style="background-color: #{{ page.color }}">
   <div class="projects__col--half">
     <img class="projects__image projects__image--full" src="{{ site.imgurl }}studio-ryte-case-study.jpg" alt="Menu from Wonderkiln.com">
@@ -42,7 +43,6 @@ solution: |
     Menu
   </figcaption>
 </figure>
-
 
 <section class="row row--small">
   <h3 class="subheading">Menu</h3>
