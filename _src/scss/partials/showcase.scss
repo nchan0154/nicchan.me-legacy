@@ -29,6 +29,11 @@
   margin: 0 auto $medium-margin;
 }
 
+.showcase__blurb {
+  line-height: 1.5;
+  margin-bottom: $medium-margin;
+}
+
 @media (min-width: 34em) {
   .showcase__intro {
     font-size: 2rem;
