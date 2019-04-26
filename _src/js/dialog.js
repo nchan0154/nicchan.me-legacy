@@ -12,6 +12,7 @@ elements.forEach(function(item, index) {
     var target = event.currentTarget;
 
     var image = el.querySelector(".dialog__image");
+    image.src = "";
     image.src = target.getAttribute("href");
     image.setAttribute("alt", target.getAttribute("data-alt"));
 

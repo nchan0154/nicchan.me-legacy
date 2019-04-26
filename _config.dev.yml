@@ -15,6 +15,9 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 
+plugins:
+  - jekyll-feed
+
 collections:
   projects:
     output: true
