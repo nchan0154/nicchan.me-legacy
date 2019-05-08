@@ -6,12 +6,13 @@ html {
   overflow-x: hidden;
 }
 
-html, body {
+html,
+body {
   font-size: 100%;
   font-family: $body-copy;
   line-height: 2;
   color: $dark-color;
-  background-color: #fafafa;
+  background-color: $page-background-color;
 }
 
 img {
@@ -24,7 +25,7 @@ hr {
   height: 1px;
   width: 80%;
   max-width: 700px;
-  margin: $large-margin*1.5 auto;
+  margin: $large-margin * 1.5 auto;
 }
 
 ::selection {
@@ -32,11 +33,9 @@ hr {
   color: #fff;
 }
 
-
 @media #{$medium} {
-
-  html, body {
+  html,
+  body {
     font-size: 1.125rem;
   }
-
 }
