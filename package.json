@@ -17,8 +17,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.1",
-    "lost": "^8.3.0"
+    "gulp-uglify": "^3.0.1"
   },
   "dependencies": {
     "gulp-util": "^3.0.8"

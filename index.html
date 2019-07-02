@@ -5,21 +5,33 @@ permalink: /
 
 <main id="main" class="showcase no-margin" tabindex="-1">
   <section class="showcase__section">
+    <div class="showcase__text-wrapper">
+      <h1 class="showcase__intro">
+        Nic Chan is a Hong Kong-based web developer.
+      </h1>
+    </div>
     <div
       class="showcase__image-wrapper showcase__image-wrapper--intro"
       style="background-image: url('{{ site.imgurl }}main.png')"
     ></div>
-    <div class="showcase__text-wrapper">
-      <div class="row">
-        <h1 class="showcase__intro">
-          Nic Chan is a Hong Kong-based web developer.
-        </h1>
-      </div>
-    </div>
   </section>
   {% assign projects = site.projects | sort: 'date' | reverse %} {% for project
   in projects %}
   <section class="showcase__section">
+    <div class="showcase__text-wrapper">
+      <a class="showcase__link" href="{{ project.permalink }}">
+        <h2 class="showcase__title">{{ project.title }}</h2>
+      </a>
+      <p class="showcase__blurb">{{ project.blurb }}</p>
+      <ul class="tags__wrapper">
+        {% for technology in project.technology %}
+          <li class="tags__tag">{{ technology }}</li>
+        {% endfor %}
+      </ul>
+      <a class="button button--small" href="{{ project.permalink }}">
+        Read <span class="screenreader">{{ project.title }}</span> Case Study &rarr;
+      </a>
+    </div>
     <div
       class="showcase__image-wrapper"
       style="background-color: #{{ project.color }}"
@@ -29,22 +41,6 @@ permalink: /
         src="{{ site.imgurl }}{{ project.img }}"
         alt="{{ project.title }} website"
       />
-    </div>
-    <div class="showcase__text-wrapper">
-      <div class="row">
-        <a href="{{ project.permalink }}">
-          <h2 class="showcase__title">{{ project.title }}</h2>
-        </a>
-        <p class="showcase__blurb">{{ project.blurb }}</p>
-        <ul class="tags__wrapper">
-          {% for technology in project.technology %}
-            <li class="tags__tag">{{ technology }}</li>
-          {% endfor %}
-        </ul>
-        <a class="button button--small" href="{{ project.permalink }}">
-          Read <span class="screenreader">{{ project.title }}</span> Case Study &rarr;
-        </a>
-      </div>
     </div>
   </section>
   {% endfor %}
