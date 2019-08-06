@@ -81,8 +81,8 @@
   .projects__image-wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: $medium-margin;
-    gap: $medium-margin;
+    grid-gap: $large-margin;
+    gap: $large-margin;
 
     & > img {
       grid-column: span 6;

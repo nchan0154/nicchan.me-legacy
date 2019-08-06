@@ -21,10 +21,9 @@ img {
 
 hr {
   border: none;
-  background-color: #ccc;
-  height: 1px;
+  border-top: 1px solid #ccc;
   width: 80%;
-  max-width: 700px;
+  max-width: 40rem;
   margin: $large-margin * 1.5 auto;
 }
 
