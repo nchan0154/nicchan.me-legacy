@@ -1,0 +1,44 @@
+---
+"/blog/ramping-up-with-shopify/":
+  https://www.shopify.com/partners: false
+  https://github.com/Shopify/shopify_theme: false
+  https://apps.shopify.com/desktop-theme-editor: false
+  http://shopify.github.io/skeleton-theme/: false
+  http://shopify.github.io/Timber/: false
+"/blog/animated-css-divider/":
+  http://codepen.io/nchan0154/pen/PGJErg/: false
+  http://codepen.io/nchan0154: false
+  http://codepen.io: false
+  "//assets.codepen.io/assets/embed/ei.js": false
+"/blog/dual-booting-ubuntu-with-windows-10-on-a-dell-xps-15/":
+  https://www.ubuntu.com/download/desktop: false
+  https://rufus.akeo.ie/: false
+  https://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows: false
+  https://www.tenforums.com/drivers-hardware/15006-attn-ssd-owners-enabling-ahci-mode-after-windows-10-installation.html: false
+  https://www.ubuntu.com/download/desktop/install-ubuntu-desktop: false
+  https://help.ubuntu.com/community/UbuntuTime: false
+"/blog/adventures-in-html5-canvas/":
+  http://codepen.io/nchan0154/pen/OmjvZJ/: false
+  http://codepen.io/nchan0154: false
+  http://codepen.io: false
+  "//assets.codepen.io/assets/embed/ei.js": false
+  https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations: false
+  http://darkshore.website/: false
+"/blog/auditing-my-own-site-for-accessibility/":
+  http://www.aremycoloursaccessible.com/: false
+  https://www.a11ywithlindsey.com/blog: false
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Columns/Using_multi-column_layouts: false
+  https://www.lokeshdhakar.com/projects/lightbox2/: false
+  https://github.com/lokesh/lightbox2/issues/138: false
+  https://inclusive-components.design/: false
+  https://github.com/scottaohara/accessible_components: false
+  https://github.com/edenspiekermann/a11y-dialog: false
+  https://inclusive-components.design/cards/: false
+  https://github.com/nchan0154/nchan0154.github.io/commit/42a26afd17dd736a46e25b04dc72f0d45e56cc91: false
+  https://www.scottohara.me/blog/2019/03/05/open-dialog.html: false
+  https://www.scottohara.me/code/: false
+  http://adrianroselli.com/tag/accessibility: false
+  https://www.smashingmagazine.com/2019/02/accessibility-webinar/: false
+"/blog/features-i-want-for-shopify/":
+  https://www.altanddot.com/: false
+  https://shopify.github.io/liquid-code-examples/: false

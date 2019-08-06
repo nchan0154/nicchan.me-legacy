@@ -45,3 +45,7 @@ defaults:
       layout: "projects"
       body: "projects"
       hidden: true
+
+webmentions:
+  username: www.nicchan.me
+  cache_folder: .jekyll-cache

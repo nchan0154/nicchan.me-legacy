@@ -8,7 +8,6 @@ environment: production
 # ==================
 title: Nic Chan – Hong Kong Web Developer
 description: The personal website and portfolio of Hong Kong based Web Developer Nic Chan.
-source: https://github.com/nchan0154/nchan0154.github.io
 exclude:
   - "node_modules"
   - "package.json"
@@ -46,3 +45,7 @@ defaults:
       layout: "projects"
       body: "projects"
       hidden: true
+
+webmentions:
+  username: www.nicchan.me
+  cache_folder: .jekyll-cache
