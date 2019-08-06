@@ -10,10 +10,37 @@ permalink: /
         Nic Chan is a Hong Kong-based web developer.
       </h1>
     </div>
-    <div
-      class="showcase__image-wrapper showcase__image-wrapper--intro"
-      style="background-image: url('{{ site.imgurl }}main.png')"
-    ></div>
+    <div class="showcase__image-wrapper showcase__image-wrapper--intro">
+      <div class="showcase__animation">
+        <img
+          class="showcase__me"
+          src="{{ site.imgurl }}/home-me.png"
+          alt="Nic loves"
+        />
+        <div class="showcase__loves">
+          <img
+            class="showcase__love"
+            src="{{ site.imgurl }}/home-mew.png"
+            alt="Mew the Cat"
+          />
+          <img
+            class="showcase__love"
+            src="{{ site.imgurl }}/home-bey.png"
+            alt="Beyonce"
+          />
+          <img
+            class="showcase__love"
+            src="{{ site.imgurl }}/home-sushi.png"
+            alt="Sushi"
+          />
+          <img
+            class="showcase__love"
+            src="{{ site.imgurl }}/home-paint.png"
+            alt="Painting"
+          />
+        </div>
+      </div>
+    </div>
   </section>
   {% assign projects = site.projects | sort: 'date' | reverse %} {% for project
   in projects %}
@@ -25,11 +52,12 @@ permalink: /
       <p class="showcase__blurb">{{ project.blurb }}</p>
       <ul class="tags__wrapper">
         {% for technology in project.technology %}
-          <li class="tags__tag">{{ technology }}</li>
+        <li class="tags__tag">{{ technology }}</li>
         {% endfor %}
       </ul>
       <a class="button button--small" href="{{ project.permalink }}">
-        Read <span class="screenreader">{{ project.title }}</span> Case Study &rarr;
+        Read <span class="screenreader">{{ project.title }}</span> Case Study
+        &rarr;
       </a>
     </div>
     <div

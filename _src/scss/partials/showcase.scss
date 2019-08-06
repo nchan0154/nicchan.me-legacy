@@ -10,8 +10,66 @@
   height: 30rem;
 
   &--intro {
-    background-size: cover;
-    background-position: center;
+    height: auto;
+    background-color: #b9a1b9;
+  }
+}
+
+.showcase__animation {
+  display: flex;
+  margin: 3rem auto;
+  flex-direction: column;
+  width: 70%;
+  max-width: 15rem;
+}
+
+.showcase__me {
+  width: 100%;
+  order: 1;
+}
+
+.showcase__loves {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.showcase__love {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  opacity: 0;
+}
+
+@for $i from 1 through 4 {
+  .showcase__love:nth-child(#{$i}) {
+    animation: bubbleFade-#{$i} 12s infinite linear;
+  }
+
+  @keyframes bubbleFade-#{$i} {
+    $percentage: ($i - 1) * 100;
+    from {
+      opacity: 0;
+    }
+
+    #{(($percentage + 20) / 4) - 3}% {
+      opacity: 0;
+    }
+    #{($percentage + 20) / 4}% {
+      opacity: 1;
+    }
+    #{($percentage + 80) / 4}% {
+      opacity: 1;
+    }
+    #{(($percentage + 80) / 4) + 3}% {
+      opacity: 0;
+    }
+    to {
+      opacity: 0;
+    }
   }
 }
 
@@ -82,7 +140,6 @@
       z-index: -1;
 
       &--intro {
-        background-color: $dark-color;
         z-index: 1000;
       }
 
@@ -93,7 +150,7 @@
 
       &--active {
         opacity: 1;
-        z-index: 0;
+        z-index: 2;
       }
 
       &--stuck {
@@ -102,8 +159,8 @@
       }
     }
 
-    .showcase__intro {
-      margin-top: -3.5rem;
+    .showcase__animation {
+      max-width: 20rem;
     }
 
     .showcase__image {
