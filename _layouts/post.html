@@ -11,8 +11,13 @@ body: post
       <span class="post__date subheading"><time datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time></span>
       <div class="post__content">{{ content }}</div>
     </article>
-      <hr>
-      {% webmentions %}
+      <hr class="hr--wide">
+      <ul class="webmention-counts">
+        <li class="webmention-counts__item">{% webmention_count page.url likes %} Likes</li>
+        <li class="webmention-counts__item">{% webmention_count page.url reposts %} Shares</li>
+      </ul>
+      {% webmentions page.url replies %}
       {% webmentions_js %}
+
   </div>
 </main>

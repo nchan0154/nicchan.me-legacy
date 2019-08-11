@@ -8,6 +8,7 @@ environment: development
 # ==================
 title: Nic Chan – Hong Kong Web Developer
 description: The personal website and portfolio of Hong Kong based Web Developer Nic Chan.
+url: https://www.nicchan.me
 exclude:
   - "node_modules"
   - "package.json"

@@ -1,0 +1,39 @@
+.webmentions__list {
+  margin: 0;
+  padding: 0;
+}
+
+.webmentions__item {
+  padding: 1rem 0;
+  list-style: none;
+  border-top: 1px solid $gray;
+}
+
+.webmention__author__photo {
+  width: 2rem;
+  height: 2rem;
+  margin-right: .875rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.webmention__content, .webmention__meta {
+  margin-left: 3rem;
+}
+
+.webmention__content {
+  margin-top: 1rem;
+
+  p {
+    margin: 0;
+  }
+
+  p + p {
+    margin-top: 1rem;
+  }
+}
+
+.webmention__meta {
+  font-size: 0.875rem;
+  margin-top: 1.25rem;
+}

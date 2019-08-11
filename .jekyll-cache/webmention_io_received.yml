@@ -3,5 +3,1389 @@
 "/blog/animated-css-divider/": {}
 "/blog/dual-booting-ubuntu-with-windows-10-on-a-dell-xps-15/": {}
 "/blog/adventures-in-html5-canvas/": {}
-"/blog/auditing-my-own-site-for-accessibility/": {}
-"/blog/features-i-want-for-shopify/": {}
+"/blog/auditing-my-own-site-for-accessibility/":
+  '662289':
+    id: '662289'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-143383271
+    source: twitter
+    pubdate: 2019-08-06 15:01:22.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/143383271
+      verified: true
+      verified_date: '2019-08-06T15:01:22+00:00'
+      id: 662289
+      private: false
+      data:
+        author: &1
+          name: "Markus Gebka \U0001F3D5️"
+          url: https://twitter.com/marekIsOkay
+          photo: https://webmention.io/avatar/pbs.twimg.com/4fe79f05ec72984282394a2e4ca63cb03dd8849a2dce8b268ebd580503b17942.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-143383271
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "Markus Gebka \U0001F3D5️ favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/"
+        sentence_html: "<a href=\"https://twitter.com/marekIsOkay\">Markus Gebka \U0001F3D5️</a>
+          favorited a tweet <a href=\"https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/\">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>"
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *1
+    type: like
+    content: "<p><a href=\"https://twitter.com/marekIsOkay\">Markus Gebka \U0001F3D5️</a>
+      favorited a tweet <a href=\"https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/\">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>"
+  '662293':
+    id: '662293'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-1082056504763592704
+    source: twitter
+    pubdate: 2019-08-06 15:01:25.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/1082056504763592704
+      verified: true
+      verified_date: '2019-08-06T15:01:25+00:00'
+      id: 662293
+      private: false
+      data:
+        author: &2
+          name: "jason \U0001F31B"
+          url: https://twitter.com/wreathedinrose
+          photo: https://webmention.io/avatar/pbs.twimg.com/9b484b85120df37f5447ae247f8b396443d75862250f4b040322f80fbd167a75.png
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-1082056504763592704
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "jason \U0001F31B favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/"
+        sentence_html: "<a href=\"https://twitter.com/wreathedinrose\">jason \U0001F31B</a>
+          favorited a tweet <a href=\"https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/\">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>"
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *2
+    type: like
+    content: "<p><a href=\"https://twitter.com/wreathedinrose\">jason \U0001F31B</a>
+      favorited a tweet <a href=\"https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/\">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>"
+  '662294':
+    id: '662294'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-988668008473202688
+    source: twitter
+    pubdate: 2019-08-06 15:01:25.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/988668008473202688
+      verified: true
+      verified_date: '2019-08-06T15:01:25+00:00'
+      id: 662294
+      private: false
+      data:
+        author: &3
+          name: Bobby Duff
+          url: https://twitter.com/blobduff
+          photo: https://webmention.io/avatar/pbs.twimg.com/202c058429b4e2054f72f961cca7bb1e96393fdb3ea299990ef4be15c50e24ca.png
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-988668008473202688
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Bobby Duff favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/blobduff">Bobby Duff</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *3
+    type: like
+    content: <p><a href="https://twitter.com/blobduff">Bobby Duff</a> favorited a
+      tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662296':
+    id: '662296'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-779884398283862016
+    source: twitter
+    pubdate: 2019-08-06 15:01:27.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/779884398283862016
+      verified: true
+      verified_date: '2019-08-06T15:01:27+00:00'
+      id: 662296
+      private: false
+      data:
+        author: &4
+          name: minophisch@still hxh loving hours
+          url: https://twitter.com/minophisch
+          photo: https://webmention.io/avatar/pbs.twimg.com/27137340e13f696a618a5172ba5c0b6002c3c3f6208f8bb6c71e2bc250447984.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-779884398283862016
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: minophisch@still hxh loving hours favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/minophisch">minophisch@still hxh
+          loving hours</a> favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *4
+    type: like
+    content: <p><a href="https://twitter.com/minophisch">minophisch@still hxh loving
+      hours</a> favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662297':
+    id: '662297'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-16473778
+    source: twitter
+    pubdate: 2019-08-06 15:01:27.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/16473778
+      verified: true
+      verified_date: '2019-08-06T15:01:27+00:00'
+      id: 662297
+      private: false
+      data:
+        author: &5
+          name: Erica ☠️ ✨
+          url: https://twitter.com/_erica
+          photo: https://webmention.io/avatar/pbs.twimg.com/079249fa4944a27a03d6e02a9f2d57a1080101de3ba95cee047f5ca16df67c56.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-16473778
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Erica ☠️ ✨ favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/_erica">Erica ☠️ ✨</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *5
+    type: like
+    content: <p><a href="https://twitter.com/_erica">Erica ☠️ ✨</a> favorited a tweet
+      <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662298':
+    id: '662298'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-2636442205
+    source: twitter
+    pubdate: 2019-08-06 15:01:28.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/2636442205
+      verified: true
+      verified_date: '2019-08-06T15:01:28+00:00'
+      id: 662298
+      private: false
+      data:
+        author: &6
+          name: Adam Norris
+          url: https://twitter.com/acnorrisuk
+          photo: https://webmention.io/avatar/pbs.twimg.com/205284dc2ae6387e65cd43a55ef2c337953ae17b008bafa14dfb5e540cf324b9.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-2636442205
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Adam Norris favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/acnorrisuk">Adam Norris</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *6
+    type: like
+    content: <p><a href="https://twitter.com/acnorrisuk">Adam Norris</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662300':
+    id: '662300'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-14287774
+    source: twitter
+    pubdate: 2019-08-06 15:01:30.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/14287774
+      verified: true
+      verified_date: '2019-08-06T15:01:30+00:00'
+      id: 662300
+      private: false
+      data:
+        author: &7
+          name: Emily Lewis
+          url: https://twitter.com/emilylewis
+          photo: https://webmention.io/avatar/pbs.twimg.com/d62ff21fc1cf343dea9679b665e0c2f82135166fe0e994c9b85800bcbb4b12de.png
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-14287774
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Emily Lewis favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/emilylewis">Emily Lewis</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *7
+    type: like
+    content: <p><a href="https://twitter.com/emilylewis">Emily Lewis</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662303':
+    id: '662303'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-1344744181
+    source: twitter
+    pubdate: 2019-08-06 15:01:32.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/1344744181
+      verified: true
+      verified_date: '2019-08-06T15:01:32+00:00'
+      id: 662303
+      private: false
+      data:
+        author: &8
+          name: Benjamin Boldt
+          url: https://twitter.com/bpeab
+          photo: https://webmention.io/avatar/pbs.twimg.com/f1539a712791e9c42d6748740e9b7236c0cc8304f5c5057f6220249f231480ec.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-1344744181
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Benjamin Boldt favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/bpeab">Benjamin Boldt</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *8
+    type: like
+    content: <p><a href="https://twitter.com/bpeab">Benjamin Boldt</a> favorited a
+      tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662305':
+    id: '662305'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-19376410
+    source: twitter
+    pubdate: 2019-08-06 15:01:34.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/19376410
+      verified: true
+      verified_date: '2019-08-06T15:01:34+00:00'
+      id: 662305
+      private: false
+      data:
+        author: &9
+          name: João Figueiredo
+          url: https://twitter.com/lucalanca
+          photo: https://webmention.io/avatar/pbs.twimg.com/0cc5398c7c8a1fe359c32f42a7ada6243ed153cf498817d809362147e88f921f.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-19376410
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: João Figueiredo favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/lucalanca">João Figueiredo</a>
+          favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *9
+    type: like
+    content: <p><a href="https://twitter.com/lucalanca">João Figueiredo</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662304':
+    id: '662304'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-114934877
+    source: twitter
+    pubdate: 2019-08-06 15:01:33.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/114934877
+      verified: true
+      verified_date: '2019-08-06T15:01:33+00:00'
+      id: 662304
+      private: false
+      data:
+        author: &10
+          name: Jared Clayton
+          url: https://twitter.com/a11yjc
+          photo: https://webmention.io/avatar/pbs.twimg.com/4c067c90e813f353d424c476a4144799da7d7c917cf979bc5ffcaa8ad68d7af5.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-114934877
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Jared Clayton favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/a11yjc">Jared Clayton</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *10
+    type: like
+    content: <p><a href="https://twitter.com/a11yjc">Jared Clayton</a> favorited a
+      tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662306':
+    id: '662306'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-127326970
+    source: twitter
+    pubdate: 2019-08-06 15:01:35.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/127326970
+      verified: true
+      verified_date: '2019-08-06T15:01:35+00:00'
+      id: 662306
+      private: false
+      data:
+        author: &11
+          name: Mike Harrison Design
+          url: https://twitter.com/mharrisondesign
+          photo: https://webmention.io/avatar/pbs.twimg.com/c3870ed1b945ab5f5a86a64034753f2f4f206026a1e6a8b98173f9b74fe2ca7c.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-127326970
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Mike Harrison Design favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/mharrisondesign">Mike Harrison
+          Design</a> favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *11
+    type: like
+    content: <p><a href="https://twitter.com/mharrisondesign">Mike Harrison Design</a>
+      favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662307':
+    id: '662307'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-4068354514
+    source: twitter
+    pubdate: 2019-08-06 15:01:35.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/4068354514
+      verified: true
+      verified_date: '2019-08-06T15:01:35+00:00'
+      id: 662307
+      private: false
+      data:
+        author: &12
+          name: thomas×banks
+          url: https://twitter.com/thomasxbanks
+          photo: https://webmention.io/avatar/pbs.twimg.com/d1474cad489b186be376326b6cfb308557fbf320ebb7e313f0c434483d24bb83.png
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-4068354514
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: thomas×banks favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/thomasxbanks">thomas×banks</a>
+          favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *12
+    type: like
+    content: <p><a href="https://twitter.com/thomasxbanks">thomas×banks</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662309':
+    id: '662309'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-228252336
+    source: twitter
+    pubdate: 2019-08-06 15:01:37.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/228252336
+      verified: true
+      verified_date: '2019-08-06T15:01:37+00:00'
+      id: 662309
+      private: false
+      data:
+        author: &13
+          name: Jason Houston
+          url: https://twitter.com/CompleteWebco
+          photo: https://webmention.io/avatar/pbs.twimg.com/3c06dbac49702922d64b476b77bfc0a7f9e2e6aea7cac63f09c2a6ea3ec2022e.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-228252336
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Jason Houston favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/CompleteWebco">Jason Houston</a>
+          favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *13
+    type: like
+    content: <p><a href="https://twitter.com/CompleteWebco">Jason Houston</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662311':
+    id: '662311'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-765467
+    source: twitter
+    pubdate: 2019-08-06 15:01:38.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/765467
+      verified: true
+      verified_date: '2019-08-06T15:01:38+00:00'
+      id: 662311
+      private: false
+      data:
+        author: &14
+          name: "Evan \U0001F1FA\U0001F1F8 Plaice"
+          url: https://twitter.com/evanplaice
+          photo: https://webmention.io/avatar/pbs.twimg.com/6f833c3fa4b6c847be6a82ebb30a5863c33d9174df5de88a902681c1acf4fc7b.png
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-765467
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "Evan \U0001F1FA\U0001F1F8 Plaice favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/"
+        sentence_html: "<a href=\"https://twitter.com/evanplaice\">Evan \U0001F1FA\U0001F1F8
+          Plaice</a> favorited a tweet <a href=\"https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/\">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>"
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *14
+    type: like
+    content: "<p><a href=\"https://twitter.com/evanplaice\">Evan \U0001F1FA\U0001F1F8
+      Plaice</a> favorited a tweet <a href=\"https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/\">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>"
+  '662312':
+    id: '662312'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-13887862
+    source: twitter
+    pubdate: 2019-08-06 15:01:39.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/13887862
+      verified: true
+      verified_date: '2019-08-06T15:01:39+00:00'
+      id: 662312
+      private: false
+      data:
+        author: &15
+          name: Dan Blake
+          url: https://twitter.com/designbyblake
+          photo: https://webmention.io/avatar/pbs.twimg.com/0617f27d1b03fcf5c3fcd7972a43415066c28a5edf511e02779d7d633553db09.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-13887862
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Dan Blake favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/designbyblake">Dan Blake</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *15
+    type: like
+    content: <p><a href="https://twitter.com/designbyblake">Dan Blake</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662313':
+    id: '662313'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-132282117
+    source: twitter
+    pubdate: 2019-08-06 15:01:41.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/132282117
+      verified: true
+      verified_date: '2019-08-06T15:01:41+00:00'
+      id: 662313
+      private: false
+      data:
+        author: &16
+          name: Michael Spellacy (Spell)
+          url: https://twitter.com/Spellacy
+          photo: https://webmention.io/avatar/pbs.twimg.com/5fbf524821ae83985517889d9a63ee4ca5bf40bc9cc9ed49b0421373f2911a01.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-132282117
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Michael Spellacy (Spell) favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/Spellacy">Michael Spellacy (Spell)</a>
+          favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *16
+    type: like
+    content: <p><a href="https://twitter.com/Spellacy">Michael Spellacy (Spell)</a>
+      favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662315':
+    id: '662315'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-365766383
+    source: twitter
+    pubdate: 2019-08-06 15:01:41.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/365766383
+      verified: true
+      verified_date: '2019-08-06T15:01:41+00:00'
+      id: 662315
+      private: false
+      data:
+        author: &17
+          name: Alex
+          url: https://twitter.com/bigmoodenergy
+          photo: https://webmention.io/avatar/pbs.twimg.com/e1564e1d90428ef09e6829b633b41e6296bf7616f58edaad50513d575123e841.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-365766383
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Alex favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/bigmoodenergy">Alex</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *17
+    type: like
+    content: <p><a href="https://twitter.com/bigmoodenergy">Alex</a> favorited a tweet
+      <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662318':
+    id: '662318'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-3053941648
+    source: twitter
+    pubdate: 2019-08-06 15:01:44.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/3053941648
+      verified: true
+      verified_date: '2019-08-06T15:01:44+00:00'
+      id: 662318
+      private: false
+      data:
+        author: &18
+          name: Tyler Williams
+          url: https://twitter.com/tylerwilliamsct
+          photo: https://webmention.io/avatar/pbs.twimg.com/b4baa5e95a71a2ed0841a5f750fbbef0b3d0150c6b319bfc1be1831a42e7ccb2.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-3053941648
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Tyler Williams favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/tylerwilliamsct">Tyler Williams</a>
+          favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *18
+    type: like
+    content: <p><a href="https://twitter.com/tylerwilliamsct">Tyler Williams</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662320':
+    id: '662320'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-1274251
+    source: twitter
+    pubdate: 2019-08-06 15:01:46.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/1274251
+      verified: true
+      verified_date: '2019-08-06T15:01:46+00:00'
+      id: 662320
+      private: false
+      data:
+        author: &19
+          name: "@wnas"
+          url: https://twitter.com/wnas
+          photo: https://webmention.io/avatar/pbs.twimg.com/afa12ab0ce2dca7d4c53cdb2f3a2ced3e1b1022ab142c137f5354bd6f97d8a0a.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-1274251
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "@wnas favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/"
+        sentence_html: <a href="https://twitter.com/wnas">@wnas</a> favorited a tweet
+          <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *19
+    type: like
+    content: <p><a href="https://twitter.com/wnas">@wnas</a> favorited a tweet <a
+      href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662321':
+    id: '662321'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-328067147
+    source: twitter
+    pubdate: 2019-08-06 15:01:47.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/328067147
+      verified: true
+      verified_date: '2019-08-06T15:01:47+00:00'
+      id: 662321
+      private: false
+      data:
+        author: &20
+          name: Lila Conlee
+          url: https://twitter.com/LilaConlee
+          photo: https://webmention.io/avatar/pbs.twimg.com/fadfc5b4e082cb975e98f268ba32395f463e551d831e87d71547a80bde4bd7ff.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-328067147
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Lila Conlee favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/LilaConlee">Lila Conlee</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *20
+    type: like
+    content: <p><a href="https://twitter.com/LilaConlee">Lila Conlee</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662322':
+    id: '662322'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-7801382
+    source: twitter
+    pubdate: 2019-08-06 15:01:48.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/7801382
+      verified: true
+      verified_date: '2019-08-06T15:01:48+00:00'
+      id: 662322
+      private: false
+      data:
+        author: &21
+          name: John F Croston III
+          url: https://twitter.com/jfc3
+          photo: https://webmention.io/avatar/pbs.twimg.com/f1fc1ef20ea276a620f675238078672f57d00e9fe48dfb815e286c55737c153f.jpeg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-7801382
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: John F Croston III favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/jfc3">John F Croston III</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *21
+    type: like
+    content: <p><a href="https://twitter.com/jfc3">John F Croston III</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662323':
+    id: '662323'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-899435016186417152
+    source: twitter
+    pubdate: 2019-08-06 15:01:50.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/899435016186417152
+      verified: true
+      verified_date: '2019-08-06T15:01:50+00:00'
+      id: 662323
+      private: false
+      data:
+        author: &22
+          name: jennyffer_lynz
+          url: https://twitter.com/jennyffer_lynz
+          photo: https://webmention.io/avatar/pbs.twimg.com/35245895e8b86e298ca073e7afc73212c627f4fe5492da8cdf6129ef95478f52.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-899435016186417152
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: jennyffer_lynz favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/jennyffer_lynz">jennyffer_lynz</a>
+          favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *22
+    type: like
+    content: <p><a href="https://twitter.com/jennyffer_lynz">jennyffer_lynz</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662324':
+    id: '662324'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-708859047651385344
+    source: twitter
+    pubdate: 2019-08-06 15:01:51.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/708859047651385344
+      verified: true
+      verified_date: '2019-08-06T15:01:51+00:00'
+      id: 662324
+      private: false
+      data:
+        author: &23
+          name: Citron Odysseus
+          url: https://twitter.com/Citron_Odysseus
+          photo: https://webmention.io/avatar/pbs.twimg.com/73c93a1f599b3876aaef0ac4635f080bb18ee6e7f00c9d1fb526627d4437bf48.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-708859047651385344
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Citron Odysseus favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/Citron_Odysseus">Citron Odysseus</a>
+          favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *23
+    type: like
+    content: <p><a href="https://twitter.com/Citron_Odysseus">Citron Odysseus</a>
+      favorited a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662325':
+    id: '662325'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-1101027864051253248
+    source: twitter
+    pubdate: 2019-08-06 15:01:53.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/1101027864051253248
+      verified: true
+      verified_date: '2019-08-06T15:01:53+00:00'
+      id: 662325
+      private: false
+      data:
+        author: &24
+          name: saggy
+          url: https://twitter.com/divineNowhere
+          photo: https://webmention.io/avatar/pbs.twimg.com/3f6fde8f4e814aebab42b6a673750bc24a401437e41f296fa0f40b79350ca985.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-1101027864051253248
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: saggy favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/divineNowhere">saggy</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *24
+    type: like
+    content: <p><a href="https://twitter.com/divineNowhere">saggy</a> favorited a
+      tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '1116688530481266688':
+    id: '1116688530481266688'
+    uri: https://twitter.com/scottohara/status/1116688530481266688
+    source: twitter
+    pubdate: 2019-04-12 21:04:27.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1116688530481266688
+      verified: true
+      verified_date: '2019-08-06T15:01:43+00:00'
+      id: 662317
+      private: false
+      data:
+        author: &25
+          name: Scott O'Hi!
+          url: https://twitter.com/scottohara
+          photo: https://webmention.io/avatar/pbs.twimg.com/e76998576e1fab7a748454135ad71e0957e8340d91ccc2e59609d8804c4f4ae9.png
+        url: https://twitter.com/scottohara/status/1116688530481266688
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-12T13:04:27+00:00'
+        published_ts: 1555074267
+      activity:
+        type: repost
+        sentence: Scott O'Hi! retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/scottohara">Scott O'Hi!</a> retweeted
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *25
+    type: repost
+    content: <p><a href="https://twitter.com/scottohara">Scott O’Hi!</a> retweeted
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '1116722232334667778':
+    id: '1116722232334667778'
+    uri: https://twitter.com/queenofzan/status/1116722232334667778
+    source: twitter
+    pubdate: 2019-04-12 23:18:22.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1116722232334667778
+      verified: true
+      verified_date: '2019-08-06T15:01:22+00:00'
+      id: 662290
+      private: false
+      data:
+        author: &26
+          name: ani mosity
+          url: https://twitter.com/queenofzan
+          photo: https://webmention.io/avatar/pbs.twimg.com/5a36a687dce52f45d6a1a4874a0eb6240f2617a79900b2c367902d00caf84984.jpg
+        url: https://twitter.com/queenofzan/status/1116722232334667778
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-12T15:18:22+00:00'
+        published_ts: 1555082302
+      activity:
+        type: repost
+        sentence: ani mosity retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/queenofzan">ani mosity</a> retweeted
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *26
+    type: repost
+    content: <p><a href="https://twitter.com/queenofzan">ani mosity</a> retweeted
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '1116736998675337216':
+    id: '1116736998675337216'
+    uri: https://twitter.com/minophisch/status/1116736998675337216
+    source: twitter
+    pubdate: 2019-04-13 00:17:03.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1116736998675337216
+      verified: true
+      verified_date: '2019-08-06T15:01:30+00:00'
+      id: 662301
+      private: false
+      data:
+        author: &27
+          name: minophisch@still hxh loving hours
+          url: https://twitter.com/minophisch
+          photo: https://webmention.io/avatar/pbs.twimg.com/27137340e13f696a618a5172ba5c0b6002c3c3f6208f8bb6c71e2bc250447984.jpg
+        url: https://twitter.com/minophisch/status/1116736998675337216
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-12T16:17:03+00:00'
+        published_ts: 1555085823
+      activity:
+        type: repost
+        sentence: minophisch@still hxh loving hours retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/minophisch">minophisch@still hxh
+          loving hours</a> retweeted a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *27
+    type: repost
+    content: <p><a href="https://twitter.com/minophisch">minophisch@still hxh loving
+      hours</a> retweeted a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '1116776582658625538':
+    id: '1116776582658625538'
+    uri: https://twitter.com/Comandeer2/status/1116776582658625538
+    source: twitter
+    pubdate: 2019-04-13 02:54:20.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1116776582658625538
+      verified: true
+      verified_date: '2019-08-06T15:01:45+00:00'
+      id: 662319
+      private: false
+      data:
+        author: &28
+          name: Comandeer
+          url: https://twitter.com/Comandeer2
+          photo: https://webmention.io/avatar/pbs.twimg.com/3be1deb7961ebc6664ad5c5ea870666f6ca139cfb6583f38c4a285ec432a9bc5.jpg
+        url: https://twitter.com/Comandeer2/status/1116776582658625538
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-12T18:54:20+00:00'
+        published_ts: 1555095260
+      activity:
+        type: repost
+        sentence: Comandeer retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/Comandeer2">Comandeer</a> retweeted
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *28
+    type: repost
+    content: <p><a href="https://twitter.com/Comandeer2">Comandeer</a> retweeted a
+      tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '1116780291463364609':
+    id: '1116780291463364609'
+    uri: https://twitter.com/divineNowhere/status/1116780291463364609
+    source: twitter
+    pubdate: 2019-04-13 03:09:04.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1116780291463364609
+      verified: true
+      verified_date: '2019-08-06T15:01:29+00:00'
+      id: 662299
+      private: false
+      data:
+        author: &29
+          name: saggy
+          url: https://twitter.com/divineNowhere
+          photo: https://webmention.io/avatar/pbs.twimg.com/3f6fde8f4e814aebab42b6a673750bc24a401437e41f296fa0f40b79350ca985.jpg
+        url: https://twitter.com/divineNowhere/status/1116780291463364609
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-12T19:09:04+00:00'
+        published_ts: 1555096144
+      activity:
+        type: repost
+        sentence: saggy retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/divineNowhere">saggy</a> retweeted
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *29
+    type: repost
+    content: <p><a href="https://twitter.com/divineNowhere">saggy</a> retweeted a
+      tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '1116867223673434112':
+    id: '1116867223673434112'
+    uri: https://twitter.com/wreathedinrose/status/1116867223673434112
+    source: twitter
+    pubdate: 2019-04-13 08:54:31.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1116867223673434112
+      verified: true
+      verified_date: '2019-08-06T15:01:23+00:00'
+      id: 662291
+      private: false
+      data:
+        author: &30
+          name: "jason \U0001F31B"
+          url: https://twitter.com/wreathedinrose
+          photo: https://webmention.io/avatar/pbs.twimg.com/9b484b85120df37f5447ae247f8b396443d75862250f4b040322f80fbd167a75.png
+        url: https://twitter.com/wreathedinrose/status/1116867223673434112
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-13T00:54:31+00:00'
+        published_ts: 1555116871
+      activity:
+        type: repost
+        sentence: "jason \U0001F31B retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/"
+        sentence_html: "<a href=\"https://twitter.com/wreathedinrose\">jason \U0001F31B</a>
+          retweeted a tweet <a href=\"https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/\">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>"
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *30
+    type: repost
+    content: "<p><a href=\"https://twitter.com/wreathedinrose\">jason \U0001F31B</a>
+      retweeted a tweet <a href=\"https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/\">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>"
+  '1116868396266729472':
+    id: '1116868396266729472'
+    uri: https://twitter.com/bardafree/status/1116868396266729472
+    source: twitter
+    pubdate: 2019-04-13 08:59:10.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1116868396266729472
+      verified: true
+      verified_date: '2019-08-06T15:01:26+00:00'
+      id: 662295
+      private: false
+      data:
+        author: &31
+          name: "lex \U0001F3B7\U0001F40B"
+          url: https://twitter.com/bardafree
+          photo: https://webmention.io/avatar/pbs.twimg.com/c0029c229b4481148f9afd7200d091f70d4434de60ec694fb7a32b73d52b9da7.jpg
+        url: https://twitter.com/bardafree/status/1116868396266729472
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-13T00:59:10+00:00'
+        published_ts: 1555117150
+      activity:
+        type: repost
+        sentence: "lex \U0001F3B7\U0001F40B retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/"
+        sentence_html: "<a href=\"https://twitter.com/bardafree\">lex \U0001F3B7\U0001F40B</a>
+          retweeted a tweet <a href=\"https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/\">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>"
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *31
+    type: repost
+    content: "<p><a href=\"https://twitter.com/bardafree\">lex \U0001F3B7\U0001F40B</a>
+      retweeted a tweet <a href=\"https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/\">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>"
+  '1116964877829115904':
+    id: '1116964877829115904'
+    uri: https://twitter.com/heydonworks/status/1116964877829115904
+    source: twitter
+    pubdate: 2019-04-13 15:22:33.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1116964877829115904
+      verified: true
+      verified_date: '2019-08-06T15:01:42+00:00'
+      id: 662316
+      private: false
+      data:
+        author: &32
+          name: "@heydon@mastodon.social"
+          url: https://twitter.com/heydonworks
+          photo: https://webmention.io/avatar/pbs.twimg.com/6587a515e54550a053858789ed99ec653d3af8f5b5f33c671abc7ae965bbdac9.jpg
+        url: https://twitter.com/heydonworks/status/1116964877829115904
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-13T07:22:33+00:00'
+        published_ts: 1555140153
+      activity:
+        type: repost
+        sentence: "@heydon@mastodon.social retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/"
+        sentence_html: <a href="https://twitter.com/heydonworks">@heydon@mastodon.social</a>
+          retweeted a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *32
+    type: repost
+    content: <p><a href="https://twitter.com/heydonworks">@heydon@mastodon.social</a>
+      retweeted a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '1116971444355915776':
+    id: '1116971444355915776'
+    uri: https://twitter.com/agggka/status/1116971444355915776
+    source: twitter
+    pubdate: 2019-04-13 15:48:39.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1116971444355915776
+      verified: true
+      verified_date: '2019-08-06T15:01:23+00:00'
+      id: 662292
+      private: false
+      data:
+        author: &33
+          name: kogut benoit
+          url: https://twitter.com/agggka
+          photo: https://webmention.io/avatar/pbs.twimg.com/9b954fd1951cd811691cc51c8a20f0630280c00174c6caeb2f1c539ba944be0c.png
+        url: https://twitter.com/agggka/status/1116971444355915776
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-13T07:48:39+00:00'
+        published_ts: 1555141719
+      activity:
+        type: repost
+        sentence: kogut benoit retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/agggka">kogut benoit</a> retweeted
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *33
+    type: repost
+    content: <p><a href="https://twitter.com/agggka">kogut benoit</a> retweeted a
+      tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '1117427890080108550':
+    id: '1117427890080108550'
+    uri: https://twitter.com/IAmAdamTaylor/status/1117427890080108550
+    source: twitter
+    pubdate: 2019-04-14 22:02:24.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1117427890080108550
+      verified: true
+      verified_date: '2019-08-06T15:01:37+00:00'
+      id: 662310
+      private: false
+      data:
+        author: &34
+          name: Adam Taylor
+          url: https://twitter.com/IAmAdamTaylor
+          photo: https://webmention.io/avatar/pbs.twimg.com/06a2775e395b5dc9d75d31c3ed5ca48d261e09bb8a32ac79ffb797ddc8bfac46.jpg
+        url: https://twitter.com/IAmAdamTaylor/status/1117427890080108550
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-14T14:02:24+00:00'
+        published_ts: 1555250544
+      activity:
+        type: repost
+        sentence: Adam Taylor retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/IAmAdamTaylor">Adam Taylor</a>
+          retweeted a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *34
+    type: repost
+    content: <p><a href="https://twitter.com/IAmAdamTaylor">Adam Taylor</a> retweeted
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '1117517969179971584':
+    id: '1117517969179971584'
+    uri: https://twitter.com/Spellacy/status/1117517969179971584
+    source: twitter
+    pubdate: 2019-04-15 04:00:20.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1117517969179971584
+      verified: true
+      verified_date: '2019-08-06T15:01:36+00:00'
+      id: 662308
+      private: false
+      data:
+        author: &35
+          name: Michael Spellacy (Spell)
+          url: https://twitter.com/Spellacy
+          photo: https://webmention.io/avatar/pbs.twimg.com/5fbf524821ae83985517889d9a63ee4ca5bf40bc9cc9ed49b0421373f2911a01.jpg
+        url: https://twitter.com/Spellacy/status/1117517969179971584
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-14T20:00:20+00:00'
+        published_ts: 1555272020
+      activity:
+        type: repost
+        sentence: Michael Spellacy (Spell) retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/Spellacy">Michael Spellacy (Spell)</a>
+          retweeted a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *35
+    type: repost
+    content: <p><a href="https://twitter.com/Spellacy">Michael Spellacy (Spell)</a>
+      retweeted a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '1117605669564080128':
+    id: '1117605669564080128'
+    uri: https://twitter.com/tylerwilliamsct/status/1117605669564080128
+    source: twitter
+    pubdate: 2019-04-15 09:48:50.000000000 +08:00
+    raw:
+      source: https://brid-gy.appspot.com/repost/twitter/nicmakesstuff/1116678341434564608/1117605669564080128
+      verified: true
+      verified_date: '2019-08-06T15:01:32+00:00'
+      id: 662302
+      private: false
+      data:
+        author: &36
+          name: Tyler Williams
+          url: https://twitter.com/tylerwilliamsct
+          photo: https://webmention.io/avatar/pbs.twimg.com/b4baa5e95a71a2ed0841a5f750fbbef0b3d0150c6b319bfc1be1831a42e7ccb2.jpg
+        url: https://twitter.com/tylerwilliamsct/status/1117605669564080128
+        name: 
+        content: I finally published my blog post on auditing my own website for accessibility!
+          let us all strive to make a better web for -all- users  https
+        published: '2019-04-15T01:48:50+00:00'
+        published_ts: 1555292930
+      activity:
+        type: repost
+        sentence: Tyler Williams retweeted a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/tylerwilliamsct">Tyler Williams</a>
+          retweeted a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *36
+    type: repost
+    content: <p><a href="https://twitter.com/tylerwilliamsct">Tyler Williams</a> retweeted
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '662337':
+    id: '662337'
+    uri: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-30257040
+    source: twitter
+    pubdate: 2019-08-06 15:24:14.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1116678341434564608/30257040
+      verified: true
+      verified_date: '2019-08-06T15:24:14+00:00'
+      id: 662337
+      private: false
+      data:
+        author: &37
+          name: Adrian D. Alvarez
+          url: https://twitter.com/06b
+          photo: https://webmention.io/avatar/pbs.twimg.com/55e1328db304a28858247c4bcb3a3f10d30839cab10354ac4672277893973c97.jpg
+        url: https://twitter.com/nicmakesstuff/status/1116678341434564608#favorited-by-30257040
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Adrian D. Alvarez favorited a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/06b">Adrian D. Alvarez</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *37
+    type: like
+    content: <p><a href="https://twitter.com/06b">Adrian D. Alvarez</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a></p>
+  '1116681753660465152':
+    id: '1116681753660465152'
+    uri: https://twitter.com/andybelldesign/status/1116681753660465152
+    source: twitter
+    pubdate: 2019-04-12 20:37:31.000000000 +08:00
+    raw:
+      source: https://brid.gy/comment/twitter/andybelldesign/1116678341434564608/1116681753660465152
+      verified: true
+      verified_date: '2019-08-06T15:35:53+00:00'
+      id: 662340
+      private: false
+      data:
+        author: &38
+          name: Andy Bell
+          url: https://twitter.com/andybelldesign
+          photo: https://webmention.io/avatar/pbs.twimg.com/abb2f43f7f0e12427a5f0f8d60475bf9a9436f363beaa6b9bebae0f419440b7b.jpg
+        url: https://twitter.com/andybelldesign/status/1116681753660465152
+        name: 
+        content: |-
+          I really enjoyed reading this!
+          <a class="u-mention" href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/"></a>
+        published: '2019-04-12T12:37:31+00:00'
+        published_ts: 1555072651
+      activity:
+        type: reply
+        sentence: Andy Bell replied 'I really enjoyed reading this!' to a tweet that
+          linked to https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/andybelldesign">Andy Bell</a>
+          replied 'I really enjoyed reading this!' to a tweet that linked to <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *38
+    type: reply
+    content: |-
+      <p>I really enjoyed reading this!
+      <a class="u-mention" href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/"></a></p>
+  '1116699593167777792':
+    id: '1116699593167777792'
+    uri: https://twitter.com/maxray/status/1116699593167777792
+    source: twitter
+    pubdate: 2019-04-12 21:48:24.000000000 +08:00
+    raw:
+      source: https://brid.gy/comment/twitter/nicmakesstuff/1116678341434564608/1116699593167777792
+      verified: true
+      verified_date: '2019-08-08T02:45:36+00:00'
+      id: 663337
+      private: false
+      data:
+        author: &39
+          name: Sush Kelly
+          url: https://twitter.com/maxray
+          photo: https://webmention.io/avatar/pbs.twimg.com/bc316cb66f72f87810cef92a6bb35625a6dc62978724c5df1012c85ffd04445a.jpg
+        url: https://twitter.com/maxray/status/1116699593167777792
+        name: 
+        content: "Ooh will have a read, I spent Tuesday afternoon trying mine with
+          voice assistant and just a keyboard. \U0001F44D"
+        published: '2019-04-12T13:48:24+00:00'
+        published_ts: 1555076904
+      activity:
+        type: reply
+        sentence: Sush Kelly replied 'Ooh will have a read, I spent Tuesday afternoon
+          trying mine with voice assistant...' to a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/maxray">Sush Kelly</a> replied
+          'Ooh will have a read, I spent Tuesday afternoon trying mine with voice
+          assistant...' to a tweet <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *39
+    type: reply
+    content: "<p>Ooh will have a read, I spent Tuesday afternoon trying mine with
+      voice assistant and just a keyboard. \U0001F44D</p>"
+  '1117517812388564992':
+    id: '1117517812388564992'
+    uri: https://twitter.com/Spellacy/status/1117517812388564992
+    source: twitter
+    pubdate: 2019-04-15 03:59:43.000000000 +08:00
+    raw:
+      source: https://brid.gy/comment/twitter/nicmakesstuff/1116678341434564608/1117517812388564992
+      verified: true
+      verified_date: '2019-08-08T02:42:32+00:00'
+      id: 663329
+      private: false
+      data:
+        author: &40
+          name: Michael Spellacy (Spell)
+          url: https://twitter.com/Spellacy
+          photo: https://webmention.io/avatar/pbs.twimg.com/5fbf524821ae83985517889d9a63ee4ca5bf40bc9cc9ed49b0421373f2911a01.jpg
+        url: https://twitter.com/Spellacy/status/1117517812388564992
+        name: 
+        content: I enjoyed this piece. I hope you do it more often.
+        published: '2019-04-14T19:59:43+00:00'
+        published_ts: 1555271983
+      activity:
+        type: reply
+        sentence: Michael Spellacy (Spell) replied 'I enjoyed this piece. I hope you
+          do it more often.' to a tweet https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+        sentence_html: <a href="https://twitter.com/Spellacy">Michael Spellacy (Spell)</a>
+          replied 'I enjoyed this piece. I hope you do it more often.' to a tweet
+          <a href="https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/">https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/</a>
+      target: https://www.nicchan.me/blog/auditing-my-own-site-for-accessibility/
+    author: *40
+    type: reply
+    content: "<p>I enjoyed this piece. I hope you do it more often.</p>"
+"/blog/features-i-want-for-shopify/":
+  '663339':
+    id: '663339'
+    uri: https://twitter.com/nicmakesstuff/status/1126089895116660736#favorited-by-1056606139205513217
+    source: twitter
+    pubdate: 2019-08-08 02:57:58.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1126089895116660736/1056606139205513217
+      verified: true
+      verified_date: '2019-08-08T02:57:58+00:00'
+      id: 663339
+      private: false
+      data:
+        author: &41
+          name: Jonathan Wright
+          url: https://twitter.com/J_wright990
+          photo: https://webmention.io/avatar/pbs.twimg.com/b6d10c4b34b5599c7a4eb19ab89d4acf1524622ad23ef6b68371d2149582ec3a.jpg
+        url: https://twitter.com/nicmakesstuff/status/1126089895116660736#favorited-by-1056606139205513217
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Jonathan Wright favorited a tweet https://www.nicchan.me/blog/features-i-want-for-shopify/
+        sentence_html: <a href="https://twitter.com/J_wright990">Jonathan Wright</a>
+          favorited a tweet <a href="https://www.nicchan.me/blog/features-i-want-for-shopify/">https://www.nicchan.me/blog/features-i-want-for-shopify/</a>
+      target: https://www.nicchan.me/blog/features-i-want-for-shopify/
+    author: *41
+    type: like
+    content: <p><a href="https://twitter.com/J_wright990">Jonathan Wright</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/features-i-want-for-shopify/">https://www.nicchan.me/blog/features-i-want-for-shopify/</a></p>
+  '663338':
+    id: '663338'
+    uri: https://twitter.com/nicmakesstuff/status/1126089895116660736#favorited-by-1239382106
+    source: twitter
+    pubdate: 2019-08-08 02:57:58.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1126089895116660736/1239382106
+      verified: true
+      verified_date: '2019-08-08T02:57:58+00:00'
+      id: 663338
+      private: false
+      data:
+        author: &42
+          name: "Janice Liu \U0001F319"
+          url: https://twitter.com/flutterdoodle
+          photo: https://webmention.io/avatar/pbs.twimg.com/5f56b5b09c7452007c4b2dd2cca603b6c9977b68003b53e8fbf7d40817958bb5.png
+        url: https://twitter.com/nicmakesstuff/status/1126089895116660736#favorited-by-1239382106
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: "Janice Liu \U0001F319 favorited a tweet https://www.nicchan.me/blog/features-i-want-for-shopify/"
+        sentence_html: "<a href=\"https://twitter.com/flutterdoodle\">Janice Liu \U0001F319</a>
+          favorited a tweet <a href=\"https://www.nicchan.me/blog/features-i-want-for-shopify/\">https://www.nicchan.me/blog/features-i-want-for-shopify/</a>"
+      target: https://www.nicchan.me/blog/features-i-want-for-shopify/
+    author: *42
+    type: like
+    content: "<p><a href=\"https://twitter.com/flutterdoodle\">Janice Liu \U0001F319</a>
+      favorited a tweet <a href=\"https://www.nicchan.me/blog/features-i-want-for-shopify/\">https://www.nicchan.me/blog/features-i-want-for-shopify/</a></p>"
+  '663340':
+    id: '663340'
+    uri: https://twitter.com/nicmakesstuff/status/1126089895116660736#favorited-by-1101027864051253248
+    source: twitter
+    pubdate: 2019-08-08 02:57:59.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1126089895116660736/1101027864051253248
+      verified: true
+      verified_date: '2019-08-08T02:57:59+00:00'
+      id: 663340
+      private: false
+      data:
+        author: &43
+          name: saggy
+          url: https://twitter.com/divineNowhere
+          photo: https://webmention.io/avatar/pbs.twimg.com/3f6fde8f4e814aebab42b6a673750bc24a401437e41f296fa0f40b79350ca985.jpg
+        url: https://twitter.com/nicmakesstuff/status/1126089895116660736#favorited-by-1101027864051253248
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: saggy favorited a tweet https://www.nicchan.me/blog/features-i-want-for-shopify/
+        sentence_html: <a href="https://twitter.com/divineNowhere">saggy</a> favorited
+          a tweet <a href="https://www.nicchan.me/blog/features-i-want-for-shopify/">https://www.nicchan.me/blog/features-i-want-for-shopify/</a>
+      target: https://www.nicchan.me/blog/features-i-want-for-shopify/
+    author: *43
+    type: like
+    content: <p><a href="https://twitter.com/divineNowhere">saggy</a> favorited a
+      tweet <a href="https://www.nicchan.me/blog/features-i-want-for-shopify/">https://www.nicchan.me/blog/features-i-want-for-shopify/</a></p>
+  '663341':
+    id: '663341'
+    uri: https://twitter.com/nicmakesstuff/status/1126089895116660736#favorited-by-2584148048
+    source: twitter
+    pubdate: 2019-08-08 02:57:59.000000000 +00:00
+    raw:
+      source: https://brid-gy.appspot.com/like/twitter/nicmakesstuff/1126089895116660736/2584148048
+      verified: true
+      verified_date: '2019-08-08T02:57:59+00:00'
+      id: 663341
+      private: false
+      data:
+        author: &44
+          name: Electra Chong
+          url: https://twitter.com/electra_chong
+          photo: https://webmention.io/avatar/pbs.twimg.com/b2dc1054846ff9361935e50e782c102a7b42297506e495de30d2c2e0b40de188.jpg
+        url: https://twitter.com/nicmakesstuff/status/1126089895116660736#favorited-by-2584148048
+        name: 
+        content: 
+        published: 
+        published_ts: 
+      activity:
+        type: like
+        sentence: Electra Chong favorited a tweet https://www.nicchan.me/blog/features-i-want-for-shopify/
+        sentence_html: <a href="https://twitter.com/electra_chong">Electra Chong</a>
+          favorited a tweet <a href="https://www.nicchan.me/blog/features-i-want-for-shopify/">https://www.nicchan.me/blog/features-i-want-for-shopify/</a>
+      target: https://www.nicchan.me/blog/features-i-want-for-shopify/
+    author: *44
+    type: like
+    content: <p><a href="https://twitter.com/electra_chong">Electra Chong</a> favorited
+      a tweet <a href="https://www.nicchan.me/blog/features-i-want-for-shopify/">https://www.nicchan.me/blog/features-i-want-for-shopify/</a></p>

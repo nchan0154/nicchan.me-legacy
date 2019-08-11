@@ -1,0 +1,16 @@
+.webmention-counts {
+  margin: 0 auto $large-margin;
+  padding: 0;
+  text-align: left;
+}
+
+.webmention-counts__item {
+  display: inline;
+
+  &:not(:last-child) {
+    &::after {
+      content: '•';
+      margin: 0 0.5rem;
+    }
+  }
+}
