@@ -29,7 +29,7 @@ solution: |
   </figcaption>
 </figure>
 
-<section class="row row--smal">
+<section class="row row--small">
   <h2>Highlights</h2>
   <h3 class="subheading">China: June 4 Exhibition</h3>
   <p>The old June 4 exhibition microsite was a single large page, linked to on the old homepage with a banner graphic. The visual similarity to an ad graphic meant that very few people ever clicked on the page - it averaged 30 hits a month. Even worse, despite the density of content, people only spent an average of 40 seconds on the whole page. I restructured the content to create a more interactive online exhibition, designed to engage viewers more meaningfully. As a result, viewers now spend about 5 minutes on average browsing the the exhibition pages.</p>
