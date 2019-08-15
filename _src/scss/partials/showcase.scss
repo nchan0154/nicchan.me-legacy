@@ -168,3 +168,19 @@
     }
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .showcase__love {
+    animation: none !important;
+
+    &:first-child {
+      opacity: 1;
+    }
+  }
+
+  .showcase__image-wrapper--js-enabled {
+    position: static;
+    width: 100%;
+    opacity: 1;
+  }
+}
