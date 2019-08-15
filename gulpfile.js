@@ -10,7 +10,6 @@ var uglify = require("gulp-uglify");
 var rename = require("gulp-rename");
 var autoprefixer = require("autoprefixer");
 var imagemin = require("gulp-imagemin");
-var lost = require("lost");
 var cssnano = require("gulp-cssnano");
 
 // Compile Our Sass
@@ -19,9 +18,7 @@ gulp.task("sass", function() {
     .src("_src/scss/*.scss")
     .pipe(sass())
     .pipe(cssnano())
-    .pipe(
-      postcss([lost(), autoprefixer({ browsers: ["> 1%", "last 2 versions"] })])
-    )
+    .pipe(postcss([autoprefixer({ browsers: ["> 1%", "last 2 versions"] })]))
     .pipe(concat("all.min.css"))
     .pipe(gulp.dest("css"));
 });

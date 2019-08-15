@@ -49,16 +49,23 @@
   }
 }
 
-@media (min-width: 66em) {
+@media (min-width: 68em) {
   .topbar {
     display: flex;
     align-items: center;
     height: 3.5rem;
+
+    .home & {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
   }
 
   .topbar__list {
-    text-align: right;
+    text-align: left;
     font-size: 1rem;
-    padding-right: calc(2.5% - 1rem);
+    padding-left: calc(2.5% - 1rem);
   }
 }

@@ -76,7 +76,7 @@
   }
 }
 
-@media (min-width: 62em) {
+@media ($large) {
   .dialog__window {
     padding: 2rem;
   }

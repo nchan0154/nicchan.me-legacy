@@ -78,16 +78,27 @@
 }
 
 @media #{$medium} {
+  .projects__image-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: $large-margin;
+    gap: $large-margin;
+
+    & > img {
+      grid-column: span 6;
+    }
+  }
+
   .projects__col--half {
-    lost-column: 1/2;
+    grid-column: span 3;
   }
 
   .projects__col--two-thirds {
-    lost-column: 2/3;
+    grid-column: span 4;
   }
 
   .projects__col--one-third {
-    lost-column: 1/3;
+    grid-column: span 2;
   }
 
   [class^="projects__col"] + [class^="projects__col"] {
