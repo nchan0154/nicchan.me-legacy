@@ -16,7 +16,7 @@ body: post
         <li class="webmention-counts__item">{% webmention_count page.url likes %} Likes</li>
         <li class="webmention-counts__item">{% webmention_count page.url reposts %} Shares</li>
       </ul>
-      {% webmentions page.url replies %}
+      {% webmentions page.url %}
   </div>
 </main>
 {% webmentions_js %}
