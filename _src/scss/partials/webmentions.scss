@@ -12,7 +12,8 @@
   border-top: 1px solid $gray;
 }
 
-.webmention--repost, .webmention--like {
+// Hide these as I don't want these to be displayed
+.webmention--repost, .webmention--like, .u-mention {
   display: none;
 }
 
