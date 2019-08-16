@@ -20,11 +20,10 @@ img {
 }
 
 hr {
+  width: 100%;
   border: none;
   border-top: 1px solid #ccc;
-  width: 80%;
-  max-width: 40rem;
-  margin: $large-margin * 1.5 auto;
+  margin: $large-margin auto;
 }
 
 ::selection {
