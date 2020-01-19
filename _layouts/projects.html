@@ -62,7 +62,7 @@ layout: default
   endfor %} {% if nexturl %}
   <div class="row row--small pagination">
     {% if nexturl %}Next Project:
-    <a href="{{ nexturl }}" class="next"> {{ nexttitle }}&nbsp;&rarr;</a>{%
+    <a href="{{ nexturl }}" class="next"> {{ nexttitle }} <span aria-hidden="true">&nbsp;&rarr;</span></a>{%
     endif %}
   </div>
   {% endif %}
