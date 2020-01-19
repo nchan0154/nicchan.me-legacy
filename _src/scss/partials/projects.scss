@@ -84,7 +84,7 @@
     grid-gap: $large-margin;
     gap: $large-margin;
 
-    & > img {
+    & > img, & > video {
       grid-column: span 6;
     }
   }
