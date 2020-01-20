@@ -31,6 +31,31 @@ hr {
   color: #fff;
 }
 
+table {
+  margin-top: $medium-margin;
+  width: 100%;
+
+  th {
+    background-color: transparentize($color: $primary-color, $amount: 0.9)
+  }
+
+
+  th, td {
+    line-height: 1.2;
+    text-align: left;
+    padding: 0.5rem;
+
+  }
+
+  .row--success td {
+    background-color: transparentize($color: $secondary-color, $amount: 0.6);
+  }
+}
+
+dt {
+  font-weight: 700;
+}
+
 @media #{$medium} {
   html,
   body {
