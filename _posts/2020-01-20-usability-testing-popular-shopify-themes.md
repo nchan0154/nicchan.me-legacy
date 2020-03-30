@@ -26,7 +26,6 @@ Where a theme had more than one color preset, I opted to test the first one. Mos
 
 If at any point, I lost track of focus for more than a few tab stops, I would consider the keyboard test a fail. Your users will not have enough patience to debug your website's problems, even if I personally continued trying in order to determine further issues with the theme.
 
-
 ## Testing Steps
 
 1. Land on the homepage
@@ -42,23 +41,30 @@ If at any point, I lost track of focus for more than a few tab stops, I would co
 When asked why they do not bother to make accessible websites, developers often complain that it is too difficult to make things accessible because of the many niche bugs that occur with particular screen reader and browser combinations. In my experience, this couldn’t be further from the truth. Of all the failures I encountered, not one was due to an edge case scenario with my browser/screen reader combination, and the vast majority of errors came from ‘low-hanging fruit’. These kinds of errors are not difficult to fix. Semantic HTML and appropriate use of CSS can resolve most of these issues without complicated hacks or dependencies. Below is a summary of the most common reason why themes failed, with some resources that can help you learn how to resolve these common issues.
 
 ### No Focus Styles
+
 The vast majority of navigation failures for the keyboard only test were due to the fact I lost track of where the keyboard focus was immediately. The solution to this is as simple as **not** adding `*:focus { outline: none; }` to your code in order to display the default focus outline, but a nicely designed one can often be an easier sell in terms of clients wanting to retain a certain brand aesthetic, and be more visible than default browser options.
 
 ### Inaccessible Dropdown Menus
+
 Many e-commerce sites contain menus that are displayed when the parent link is hovered. Not only do many themes neglect to show the menu on keyboard focus, they also neglect to consider the usability of this pattern for tablet users. Developers should consider whether or not a [disclosure widget style navigation](https://w3c.github.io/aria-practices/examples/disclosure/disclosure-navigation.html) is more appropriate in this situation. If other stakeholders insist on showing the menu on hover as opposed to click, consider using the [:focus-within](https://www.scottohara.me/blog/2017/05/14/focus-within.html) selector in order to allow keyboard-only users to at least be able to navigate the menus. (Disclaimer: if you have more than a few links in your dropdowns, definitely consider the disclosure widget pattern, as it may constitute a failure of [2.4.1 Bypass Blocks.](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html)
 
 ### Not Hiding Off-screen Content Properly
+
 A lot of themes rely on content that may be hidden initially to the user, and displayed upon interaction, such as dropdown menus, quickshop modals, and etc. These UI patterns are frequently animated in from their initial hidden state, with developers utilizing properties like opacity and transforms. Although changing these properties may hide content from a sighted user, it is important to also also ensure that this hidden content is also hidden for screen reader users and keyboard only users. [This is a great summary of various approaches](https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html), but the gist is that `visibility: hidden` respects CSS transitions, and can be used in conjunction with the animateable CSS properties in order to hide content for all users.
 
 During my testing there were many times where my keyboard focus got stuck in an off-screen hamburger menu, and I was forced to give up.
 
 ### Unlabelled Icons and Interactable Elements
+
 Icons in interfaces are becoming increasingly popular, but unless they are clearly labelled for screen reader users, they can be extremely confusing to navigate. Many times, icon buttons came in groups (eg. social media links), so I was left trying to make sense of what “Clickable Clickable Clickable” meant. If you are implementing icon buttons or links, you can [label them for screen reader users](https://www.sarasoueidan.com/blog/accessible-icon-buttons/) without changing the design, but bear in mind that [icons are likely not as clear as you think they are.](https://twitter.com/mattcutts/status/1099901408965525504)
 
 ### ARIA mysteries
-There were several themes where the well-meaning developer had attempted to use ARIA roles to supplement their markup. Unfortunately, ARIA is often not well-understood by developers, and incorrect use of ARIA can lead to mismatched user expectations. One theme had a mega menu where every link was marked up as a `role=``"``menuitem``"` within several levels of `role="menu"`s, resulting in every link being announced as ‘menu item submenu menu menu item submenu link [LINK NAME]’. This is extremely verbose, and an [incorrect use of the ‘menu’ and ‘menuitem’ roles.](https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html) If you aren’t 100% sure what ARIA is doing for your markup, it’s best to leave it out completely rather than botching what would have been an accessible experience. [The HTML spec](https://www.24a11y.com/2019/pouring-aria-into-the-html-element-specs/) has recently been updated to include a new ‘Accessibility Considerations’ section that can help you determine whether or not a certain role is applicable in your situation.
+
+There were several themes where the well-meaning developer had attempted to use ARIA roles to supplement their markup. Unfortunately, ARIA is often not well-understood by developers, and incorrect use of ARIA can lead to mismatched user expectations. One theme had a mega menu where every link was marked up as a ` role=``"``menuitem``" ` within several levels of `role="menu"`s, resulting in every link being announced as ‘menu item submenu menu menu item submenu link [LINK NAME]’. This is extremely verbose, and an [incorrect use of the ‘menu’ and ‘menuitem’ roles.](https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html) If you aren’t 100% sure what ARIA is doing for your markup, it’s best to leave it out completely rather than botching what would have been an accessible experience. [The HTML spec](https://www.24a11y.com/2019/pouring-aria-into-the-html-element-specs/) has recently been updated to include a new ‘Accessibility Considerations’ section that can help you determine whether or not a certain role is applicable in your situation.
 [](https://www.24a11y.com/2019/pouring-aria-into-the-html-element-specs/)
-**Inaccessible Custom Form Controls**
+
+### Inaccessible Custom Form Controls
+
 Many merchants sell products that have multiple ‘variants’. Different options like sizes or colors are presented as form options that a customer can toggle between. Developers often try to implement custom controls for these form options in order to maintain complete control over the way these form options look, but these attempts can cause accessibility issues in several ways. Below is a list of some of the ways in which these form controls failed:
 
 - Options were not keyboard accessible due to use of unsemantic elements, rendering a user completely unable to select any options at all
@@ -70,6 +76,7 @@ By implementing custom controls, developers lose a ton of value offered by using
 Styling form controls have come a long way; a lot more is possible now, with strong consistency across browsers. Instead of potentially botching your own attempt at a custom form control, consider referencing examples of [styled form components](https://scottaohara.github.io/a11y_styled_form_controls/) and incorporating them into your work. For Shopify product variants in particular, a lot of common UI patterns like color swatches can be represented by [radio buttons](https://scottaohara.github.io/a11y_styled_form_controls/src/radio-button/) because of their ability to select a single option among a group.
 
 ### Bad Focus Management and Dead-end AJAX
+
 AJAX cart interactions are extremely common in e-commerce these days, as they allow the customer to complete actions without having to wait for the page to reload. Unfortunately, far too many sites do nothing to manage the keyboard states. In the rare instance where I was able to reach the Add to Cart button, I would often hit the button excitedly only to find that nothing at all would appear to happen. What an anticlimactic experience! Sighted users would be able to see either a notification window or an AJAX cart modal/drawer pop up, but if the focus is not moved, screen readers experience no indication that anything has happened.
 
 AJAX interactions aren’t the only place where we encounter issues like these. Many modern user interfaces tend to include complex interaction patterns such as modals, but many implementations will just toggle the visibility of the modal and fail to follow any of the guidelines for [keyboard interaction](https://www.w3.org/TR/wai-aria-practices/#keyboard-interaction-7). If they’re lucky, a keyboard only or screen reader user may eventually be able to tab their way into the target component, but you would be lucky to hold their patience for that long.
@@ -77,7 +84,6 @@ AJAX interactions aren’t the only place where we encounter issues like these. 
 ## Results Tables
 
 Horizontal headers represent the developer of the theme, and vertical headers represent where in the testing process the first accessibility failure took place. The later on in the process, the “better” a theme is, but given that the process of purchasing an item is integral to an e-commerce store, anything below a “pass” should be unacceptable.
-
 
 <dl>
   <dt>Navigational failures</dt>
@@ -124,7 +130,6 @@ Horizontal headers represent the developer of the theme, and vertical headers re
   </tr>
 </table>
 
-
 ### Screen Reader results
 
 <table>
@@ -165,4 +170,4 @@ It’s vital for Shopify to continue to model best practices. When reviewing the
 
 Theme developers should not regard Shopify’s relative successes in accessibility as a case of ‘let’s bring on a single person to do all of the accessibility for us!” It should never be the burden of a single individual to ensure accessibility. Company-wide buy-in is necessary not only because it takes only one small error to render a site unusable, but more importantly, the people who do work that falls under the umbrella of ‘Diversity and Inclusion’ should not be placed in a position where they are seen as constantly rejecting and critiquing the work of other people in the company. When we move beyond this idea of just ‘compliance’ and integrate accessibility holistically into the entire process of building things, we might finally be able to move the field forward.
 
-Finally, let’s revisit the initial question. What sort of options are out there for a merchant who is looking for an accessible theme? Scott tells me that so far, [Debut](https://themes.shopify.com/themes/debut/styles/default), the theme that all stores start with, has undergone rigorous user testing and is updated to meet WCAG 2.1. Other themes by Shopify will undergo the same process eventually, but I’ve already noticed improvements in the time it’s taken me to write this article. Sometime in the future, [baseline accessibility requirements](https://www.shopify.com/accessibility/plan) may be imposed on all themes and apps within the ecosystem, so it’s wise to start thinking about accessibility now. Until this day comes, the options are fairly limited if a merchant wants to pick a WCAG 2.1 compliant theme  - either use Debut out of the box, have a developer experienced with accessibility customize it to your needs, or opt for a custom theme. I hope that more developers in this space will see the need for options, and rise up to the challenge.
+Finally, let’s revisit the initial question. What sort of options are out there for a merchant who is looking for an accessible theme? Scott tells me that so far, [Debut](https://themes.shopify.com/themes/debut/styles/default), the theme that all stores start with, has undergone rigorous user testing and is updated to meet WCAG 2.1. Other themes by Shopify will undergo the same process eventually, but I’ve already noticed improvements in the time it’s taken me to write this article. Sometime in the future, [baseline accessibility requirements](https://www.shopify.com/accessibility/plan) may be imposed on all themes and apps within the ecosystem, so it’s wise to start thinking about accessibility now. Until this day comes, the options are fairly limited if a merchant wants to pick a WCAG 2.1 compliant theme - either use Debut out of the box, have a developer experienced with accessibility customize it to your needs, or opt for a custom theme. I hope that more developers in this space will see the need for options, and rise up to the challenge.
