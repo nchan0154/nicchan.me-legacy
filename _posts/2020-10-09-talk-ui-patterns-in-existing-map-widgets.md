@@ -7,6 +7,8 @@ title: "Talk: UI patterns in existing web map widgets"
   <div class="video__embed" id="player"></div>
 </div>
 
+[Standalone Slides](https://wcag-maps.nicchan.me/)
+
 ## Introduction [(0:00)](#player)
 
 Hello everyone! My name is Nic Chan and I have been contributing to the Maps 4 HTML Community Group over the past year, with a particular focus on the Uses Cases and Requirements report. Today I will be presenting on the accessibility of existing map widgets and tools.
