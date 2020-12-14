@@ -11,7 +11,7 @@ technology:
   - SCSS
   - Javascript
 
-blurb: A facelist for the best mechanical keyboard shop in the game.
+blurb: A facelift for the best mechanical keyboard shop in the game.
 
 brief: |
   The Key.Company had some ambitious plans for the next few months, but their old website was confusing and preventing customers from finding what they wanted.
